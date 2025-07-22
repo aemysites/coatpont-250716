@@ -45,3 +45,190 @@
     padding: 40px 32px;
   }
 }
+
+.hero.hero7 {
+  margin-top: 0;
+  padding-top: 0;
+  border: none;
+  position: relative;
+  width: 100vw;
+  min-height: 100vh;
+  background: linear-gradient(180deg, #0893A7 0%, #7BE3C9 60%, #E6F8F6 100%);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  box-sizing: border-box;
+}
+
+/* Make the wave visible, dramatic, and overlap the screenshot */
+.hero.hero7::before {
+  position: absolute;
+  left: 0;
+  right: 0;
+
+  /* Raise the wave up so it's more dramatic and covers the bottom area */
+  bottom: 180px;
+  width: 100vw;
+  height: 420px;
+  background: url("data:image/svg+xml,%3Csvg width='100%25' height='420' viewBox='0 0 1280 420' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0 240 Q 640 60 1280 240 L 1280 420 L 0 420 Z' fill='%23fff'/%3E%3C/svg%3E") no-repeat bottom center;
+  background-size: cover;
+  z-index: 2;
+  display: block;
+  pointer-events: none;
+}
+
+/* Align content higher up in the block (not vertical center) */
+.hero.hero7 > div:nth-child(2) {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding-top: 8vh;
+  padding-bottom: 6vh;
+  min-height: 48vh;
+  z-index: 3;
+}
+
+/* UI Screenshot preview peeking above the wave */
+.hero.hero7 > div:first-child {
+  position: absolute;
+  left: 50%;
+
+  /* The screenshot should peek through and be partially covered by the wave */
+  bottom: 120px;
+  transform: translateX(-50%);
+  width: 420px;
+  height: 120px;
+  z-index: 3;
+  display: block;
+  pointer-events: none;
+}
+
+.hero.hero7 > div:first-child > div {
+  width: 100%;
+  height: 100%;
+  border-radius: 18px;
+  box-shadow: 0 8px 32px rgb(16 78 92 / 15%);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-color: #e6f8f6; /* fallback */
+}
+
+/* Content max width for readability */
+.hero.hero7 > div:nth-child(2) > div {
+  max-width: 720px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Tighter vertical stacking */
+.hero.hero7 h1 {
+  color: #fff;
+  font-size: 3rem;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 12px;
+  margin-top: 0;
+  letter-spacing: 0;
+}
+
+.hero.hero7 h2 {
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 28px;
+  margin-top: 0;
+  line-height: 1.3;
+  max-width: 720px;
+}
+
+/* Button: thinner, tighter, consistent with original */
+.hero.hero7 .button-container {
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.hero.hero7 .button {
+  background: transparent;
+  border: 1px solid #fff;
+  color: #fff;
+  border-radius: 4px;
+  padding: 12px 36px;
+  font-size: 1.05rem;
+  font-weight: 500;
+  text-decoration: none;
+  transition: background 0.2s, color 0.2s;
+  margin: 0;
+  box-shadow: none;
+  line-height: 1.2;
+  min-width: 180px;
+}
+
+.hero.hero7 .button:hover,
+.hero.hero7 .button:focus {
+  background: rgb(255 255 255 / 10%);
+  color: #fff;
+}
+
+/* Remove excess spacing between elements for tighter group */
+.hero.hero7 h1 + h2 {
+  margin-top: 0;
+}
+
+.hero.hero7 h2 + .button-container {
+  margin-top: 0;
+}
+
+/* Responsive tuning */
+@media (width <= 900px) {
+  .hero.hero7 > div:first-child {
+    width: 90vw;
+    height: 70px;
+    bottom: 100px;
+  }
+
+  .hero.hero7::before {
+    height: 220px;
+    bottom: 77px;
+  }
+
+  .hero.hero7 > div:nth-child(2) > div {
+    max-width: 96vw;
+  }
+
+  .hero.hero7 h1 {
+    font-size: 2rem;
+  }
+
+  .hero.hero7 h2 {
+    font-size: 1.1rem;
+    margin-bottom: 18px;
+  }
+}
+
+@media (width <= 600px) {
+  .hero.hero7 > div:first-child {
+    width: 99vw;
+    height: 38px;
+    bottom: 70px;
+  }
+
+  .hero.hero7::before {
+    height: 110px;
+    bottom: 32px;
+  }
+
+  .hero.hero7 h1 {
+    font-size: 1.3rem;
+  }
+
+  .hero.hero7 h2 {
+    font-size: 0.97rem;
+    margin-bottom: 13px;
+  }
+}
