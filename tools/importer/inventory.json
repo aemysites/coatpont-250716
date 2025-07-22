@@ -1,0 +1,1387 @@
+{
+  "fragments": [
+    {
+      "name": "nav",
+      "path": "/nav",
+      "totalBoxes": 1,
+      "instances": [
+        {
+          "url": "https://association-enoria.org/accueil-english/",
+          "urlHash": "0107bc690c8cad26b5e180d8c19dce04f6a23bfa",
+          "uuid": "0107bc69-00-3dad6f17c5ac52449dfbc495c4fa129caa1ae780",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/header[1]"
+        },
+        {
+          "url": "https://association-enoria.org/benevolat-et-emplois/",
+          "urlHash": "19e852ea2e2c1c40de1f536acaa863d6518607cc",
+          "uuid": "19e852ea-00-3dad6f17c5ac52449dfbc495c4fa129caa1ae780",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/header[1]"
+        },
+        {
+          "url": "https://association-enoria.org/category/non-classe-fr/",
+          "urlHash": "2ed319832a2c4eb42f91c07f6ae35408c860004e",
+          "uuid": "2ed31983-00-3dad6f17c5ac52449dfbc495c4fa129caa1ae780",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/header[1]"
+        },
+        {
+          "url": "https://association-enoria.org/",
+          "urlHash": "318634b70485437e63e6421e701484afbcce00c5",
+          "uuid": "318634b7-00-3dad6f17c5ac52449dfbc495c4fa129caa1ae780",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/header[1]"
+        },
+        {
+          "url": "https://association-enoria.org/les-soirees-enoria/",
+          "urlHash": "46aa7885ddd06fa7d7ed68acba6e377158357f59",
+          "uuid": "46aa7885-00-3dad6f17c5ac52449dfbc495c4fa129caa1ae780",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/header[1]"
+        },
+        {
+          "url": "https://association-enoria.org/author/elodie/",
+          "urlHash": "676066ab33d1bbff9943546ba1619537c5f26c72",
+          "uuid": "676066ab-00-3dad6f17c5ac52449dfbc495c4fa129caa1ae780",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/header[1]"
+        },
+        {
+          "url": "https://association-enoria.org/presentation/",
+          "urlHash": "8d5a4bbac138f24348bd9573ad01af6c25979415",
+          "uuid": "8d5a4bba-00-3dad6f17c5ac52449dfbc495c4fa129caa1ae780",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/header[1]"
+        },
+        {
+          "url": "https://association-enoria.org/a-propos/",
+          "urlHash": "902f874fe010509da76668561738cc3e2ce9d034",
+          "uuid": "902f874f-00-3dad6f17c5ac52449dfbc495c4fa129caa1ae780",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/header[1]"
+        },
+        {
+          "url": "https://association-enoria.org/mentions-legales/",
+          "urlHash": "a900a1ac39117f6ecf32b36358c6537ef2266351",
+          "uuid": "a900a1ac-00-3dad6f17c5ac52449dfbc495c4fa129caa1ae780",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/header[1]"
+        },
+        {
+          "url": "https://association-enoria.org/contact/",
+          "urlHash": "adfc9cd8ea06480f8bcd85da63ecc644d48f24cb",
+          "uuid": "adfc9cd8-00-3dad6f17c5ac52449dfbc495c4fa129caa1ae780",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/header[1]"
+        },
+        {
+          "url": "https://association-enoria.org/nous-aider/",
+          "urlHash": "bf46646784c8021cca8d45b7220063c111ab90d1",
+          "uuid": "bf466467-00-3dad6f17c5ac52449dfbc495c4fa129caa1ae780",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/header[1]"
+        },
+        {
+          "url": "https://association-enoria.org/enoria-rencontre-liot/",
+          "urlHash": "c23b0e74fc3b872e662c181fae01dc07dd09c8dc",
+          "uuid": "c23b0e74-00-3dad6f17c5ac52449dfbc495c4fa129caa1ae780",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/header[1]"
+        },
+        {
+          "url": "https://association-enoria.org/formations/",
+          "urlHash": "c2fe73c3406cb8f90f80bf5538391d1320f5f25e",
+          "uuid": "c2fe73c3-00-3dad6f17c5ac52449dfbc495c4fa129caa1ae780",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/header[1]"
+        },
+        {
+          "url": "https://association-enoria.org/pourquoi-choisir-enoria/",
+          "urlHash": "e5c45f96a0a000583404838077b3dee0c7e03fe8",
+          "uuid": "e5c45f96-00-3dad6f17c5ac52449dfbc495c4fa129caa1ae780",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/header[1]"
+        },
+        {
+          "url": "https://association-enoria.org/newsletter/",
+          "urlHash": "eaa5ff18a7d15397e152379f0da0280198db4ce4",
+          "uuid": "eaa5ff18-00-3dad6f17c5ac52449dfbc495c4fa129caa1ae780",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/header[1]"
+        },
+        {
+          "url": "https://association-enoria.org/lamesse-app/",
+          "urlHash": "fbfe1309e1d536a29491bf005a90f66b6a4c1c73",
+          "uuid": "fbfe1309-00-3dad6f17c5ac52449dfbc495c4fa129caa1ae780",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/header[1]"
+        }
+      ],
+      "styles": {
+        "height": 106
+      }
+    },
+    {
+      "name": "footer",
+      "path": "/footer",
+      "totalBoxes": 1,
+      "instances": [
+        {
+          "url": "https://association-enoria.org/accueil-english/",
+          "urlHash": "0107bc690c8cad26b5e180d8c19dce04f6a23bfa",
+          "uuid": "0107bc69-15-43d6b197520051945d433b3004e909ea4e3accb3",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/footer[1]"
+        },
+        {
+          "url": "https://association-enoria.org/benevolat-et-emplois/",
+          "urlHash": "19e852ea2e2c1c40de1f536acaa863d6518607cc",
+          "uuid": "19e852ea-04-43d6b197520051945d433b3004e909ea4e3accb3",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/footer[1]"
+        },
+        {
+          "url": "https://association-enoria.org/category/non-classe-fr/",
+          "urlHash": "2ed319832a2c4eb42f91c07f6ae35408c860004e",
+          "uuid": "2ed31983-01-ec260e70fd0d109a7b00561467202bbb97cfb965",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]"
+        },
+        {
+          "url": "https://association-enoria.org/",
+          "urlHash": "318634b70485437e63e6421e701484afbcce00c5",
+          "uuid": "318634b7-16-43d6b197520051945d433b3004e909ea4e3accb3",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/footer[1]"
+        },
+        {
+          "url": "https://association-enoria.org/les-soirees-enoria/",
+          "urlHash": "46aa7885ddd06fa7d7ed68acba6e377158357f59",
+          "uuid": "46aa7885-08-43d6b197520051945d433b3004e909ea4e3accb3",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/footer[1]"
+        },
+        {
+          "url": "https://association-enoria.org/author/elodie/",
+          "urlHash": "676066ab33d1bbff9943546ba1619537c5f26c72",
+          "uuid": "676066ab-01-ec260e70fd0d109a7b00561467202bbb97cfb965",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]"
+        },
+        {
+          "url": "https://association-enoria.org/presentation/",
+          "urlHash": "8d5a4bbac138f24348bd9573ad01af6c25979415",
+          "uuid": "8d5a4bba-04-43d6b197520051945d433b3004e909ea4e3accb3",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/footer[1]"
+        },
+        {
+          "url": "https://association-enoria.org/a-propos/",
+          "urlHash": "902f874fe010509da76668561738cc3e2ce9d034",
+          "uuid": "902f874f-11-43d6b197520051945d433b3004e909ea4e3accb3",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/footer[1]"
+        },
+        {
+          "url": "https://association-enoria.org/mentions-legales/",
+          "urlHash": "a900a1ac39117f6ecf32b36358c6537ef2266351",
+          "uuid": "a900a1ac-01-ec260e70fd0d109a7b00561467202bbb97cfb965",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]"
+        },
+        {
+          "url": "https://association-enoria.org/contact/",
+          "urlHash": "adfc9cd8ea06480f8bcd85da63ecc644d48f24cb",
+          "uuid": "adfc9cd8-07-43d6b197520051945d433b3004e909ea4e3accb3",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/footer[1]"
+        },
+        {
+          "url": "https://association-enoria.org/nous-aider/",
+          "urlHash": "bf46646784c8021cca8d45b7220063c111ab90d1",
+          "uuid": "bf466467-04-43d6b197520051945d433b3004e909ea4e3accb3",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/footer[1]"
+        },
+        {
+          "url": "https://association-enoria.org/enoria-rencontre-liot/",
+          "urlHash": "c23b0e74fc3b872e662c181fae01dc07dd09c8dc",
+          "uuid": "c23b0e74-08-43d6b197520051945d433b3004e909ea4e3accb3",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/footer[1]"
+        },
+        {
+          "url": "https://association-enoria.org/formations/",
+          "urlHash": "c2fe73c3406cb8f90f80bf5538391d1320f5f25e",
+          "uuid": "c2fe73c3-08-43d6b197520051945d433b3004e909ea4e3accb3",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/footer[1]"
+        },
+        {
+          "url": "https://association-enoria.org/pourquoi-choisir-enoria/",
+          "urlHash": "e5c45f96a0a000583404838077b3dee0c7e03fe8",
+          "uuid": "e5c45f96-09-43d6b197520051945d433b3004e909ea4e3accb3",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/footer[1]"
+        },
+        {
+          "url": "https://association-enoria.org/newsletter/",
+          "urlHash": "eaa5ff18a7d15397e152379f0da0280198db4ce4",
+          "uuid": "eaa5ff18-01-ec260e70fd0d109a7b00561467202bbb97cfb965",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]"
+        },
+        {
+          "url": "https://association-enoria.org/lamesse-app/",
+          "urlHash": "fbfe1309e1d536a29491bf005a90f66b6a4c1c73",
+          "uuid": "fbfe1309-03-43d6b197520051945d433b3004e909ea4e3accb3",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/footer[1]"
+        }
+      ],
+      "styles": {
+        "background": "rgb(255, 255, 255) none no-repeat scroll 50% 50% / cover padding-box border-box"
+      }
+    }
+  ],
+  "blocks": [
+    {
+      "name": "Cards (no images)",
+      "cluster": 1,
+      "source": "Cards",
+      "target": "Cards (cardsNoImages1)",
+      "key": "cardsNoImages1",
+      "instances": [
+        {
+          "url": "https://association-enoria.org/les-soirees-enoria/",
+          "urlHash": "46aa7885ddd06fa7d7ed68acba6e377158357f59",
+          "uuid": "46aa7885-03-c6d478bde89a22355c74ef951f6b0d8b14711829",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/article[1]/div[1]/div[1]/div[1]/div[3]/div[1]",
+          "section": "section-2"
+        },
+        {
+          "url": "https://association-enoria.org/les-soirees-enoria/",
+          "urlHash": "46aa7885ddd06fa7d7ed68acba6e377158357f59",
+          "uuid": "46aa7885-04-4e379031c366e5e1871f85c7da535453244a3f68",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/article[1]/div[1]/div[1]/div[1]/div[3]/div[2]",
+          "section": "section-2"
+        },
+        {
+          "url": "https://association-enoria.org/les-soirees-enoria/",
+          "urlHash": "46aa7885ddd06fa7d7ed68acba6e377158357f59",
+          "uuid": "46aa7885-05-13930e37528fcd806b9235f838bbc5445150ca78",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/article[1]/div[1]/div[1]/div[1]/div[3]/div[3]",
+          "section": "section-2"
+        }
+      ]
+    },
+    {
+      "name": "Hero",
+      "cluster": 2,
+      "source": "Hero",
+      "target": "Hero (hero2)",
+      "key": "hero2",
+      "instances": [
+        {
+          "url": "https://association-enoria.org/benevolat-et-emplois/",
+          "urlHash": "19e852ea2e2c1c40de1f536acaa863d6518607cc",
+          "uuid": "19e852ea-03-00b97bc8b6b72e1100e2e06681fbd4e0064e41e9",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/article[1]/div[1]/div[1]/div[1]/div[3]",
+          "section": "section-9"
+        },
+        {
+          "url": "https://association-enoria.org/a-propos/",
+          "urlHash": "902f874fe010509da76668561738cc3e2ce9d034",
+          "uuid": "902f874f-10-8de53b6c848b8388a259598669ea99a76a1ecac0",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/article[1]/div[1]/div[1]/div[1]/div[6]",
+          "section": "section-9"
+        },
+        {
+          "url": "https://association-enoria.org/nous-aider/",
+          "urlHash": "bf46646784c8021cca8d45b7220063c111ab90d1",
+          "uuid": "bf466467-03-00b97bc8b6b72e1100e2e06681fbd4e0064e41e9",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/article[1]/div[1]/div[1]/div[1]/div[3]",
+          "section": "section-9"
+        },
+        {
+          "url": "https://association-enoria.org/formations/",
+          "urlHash": "c2fe73c3406cb8f90f80bf5538391d1320f5f25e",
+          "uuid": "c2fe73c3-07-496343044209ce3ea85464bb088049d3dabaa33c",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/article[1]/div[1]/div[1]/div[1]/div[5]",
+          "section": "section-9"
+        },
+        {
+          "url": "https://association-enoria.org/pourquoi-choisir-enoria/",
+          "urlHash": "e5c45f96a0a000583404838077b3dee0c7e03fe8",
+          "uuid": "e5c45f96-08-5bdbf54d0784a512fb82b95eaeec85eca26078aa",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/article[1]/div[1]/div[1]/div[1]/div[4]",
+          "section": "section-15"
+        }
+      ]
+    },
+    {
+      "name": "Hero",
+      "cluster": 3,
+      "source": "Hero",
+      "target": "Hero (hero3)",
+      "key": "hero3",
+      "instances": [
+        {
+          "url": "https://association-enoria.org/presentation/",
+          "urlHash": "8d5a4bbac138f24348bd9573ad01af6c25979415",
+          "uuid": "8d5a4bba-01-2563a1ca9b8841adbaca5263f6b061573e283dcd",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/article[1]/div[1]/div[1]/div[1]/div[1]",
+          "section": "section-9"
+        },
+        {
+          "url": "https://association-enoria.org/a-propos/",
+          "urlHash": "902f874fe010509da76668561738cc3e2ce9d034",
+          "uuid": "902f874f-01-2563a1ca9b8841adbaca5263f6b061573e283dcd",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/article[1]/div[1]/div[1]/div[1]/div[1]",
+          "section": "section-9"
+        },
+        {
+          "url": "https://association-enoria.org/contact/",
+          "urlHash": "adfc9cd8ea06480f8bcd85da63ecc644d48f24cb",
+          "uuid": "adfc9cd8-01-2563a1ca9b8841adbaca5263f6b061573e283dcd",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/article[1]/div[1]/div[1]/div[1]/div[1]",
+          "section": "section-12"
+        },
+        {
+          "url": "https://association-enoria.org/formations/",
+          "urlHash": "c2fe73c3406cb8f90f80bf5538391d1320f5f25e",
+          "uuid": "c2fe73c3-01-2563a1ca9b8841adbaca5263f6b061573e283dcd",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/article[1]/div[1]/div[1]/div[1]/div[1]",
+          "section": "section-9"
+        },
+        {
+          "url": "https://association-enoria.org/pourquoi-choisir-enoria/",
+          "urlHash": "e5c45f96a0a000583404838077b3dee0c7e03fe8",
+          "uuid": "e5c45f96-01-2563a1ca9b8841adbaca5263f6b061573e283dcd",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/article[1]/div[1]/div[1]/div[1]/div[1]",
+          "section": "section-9"
+        }
+      ]
+    },
+    {
+      "name": "Cards",
+      "cluster": 4,
+      "source": "Cards",
+      "target": "Cards (cards4)",
+      "key": "cards4",
+      "instances": [
+        {
+          "url": "https://association-enoria.org/pourquoi-choisir-enoria/",
+          "urlHash": "e5c45f96a0a000583404838077b3dee0c7e03fe8",
+          "uuid": "e5c45f96-05-47fa24b163f8f032170d708d336d500abd858f05",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/article[1]/div[1]/div[1]/div[1]/div[2]/div[4]",
+          "section": "section-8"
+        },
+        {
+          "url": "https://association-enoria.org/pourquoi-choisir-enoria/",
+          "urlHash": "e5c45f96a0a000583404838077b3dee0c7e03fe8",
+          "uuid": "e5c45f96-06-5c9d0a2c33370d87eec850ae0a789f40cce64842",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/article[1]/div[1]/div[1]/div[1]/div[2]/div[5]",
+          "section": "section-8"
+        }
+      ]
+    },
+    {
+      "name": "Columns",
+      "cluster": 5,
+      "source": "Columns",
+      "target": "Columns (columns5)",
+      "key": "columns5",
+      "instances": [
+        {
+          "url": "https://association-enoria.org/accueil-english/",
+          "urlHash": "0107bc690c8cad26b5e180d8c19dce04f6a23bfa",
+          "uuid": "0107bc69-14-9d61b8cc9a50bbb0636911b75d01c40bced503a6",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/article[1]/div[1]/div[1]/div[1]/div[8]",
+          "section": "section-7"
+        },
+        {
+          "url": "https://association-enoria.org/",
+          "urlHash": "318634b70485437e63e6421e701484afbcce00c5",
+          "uuid": "318634b7-15-9d61b8cc9a50bbb0636911b75d01c40bced503a6",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/article[1]/div[1]/div[1]/div[1]/div[8]",
+          "section": "section-7"
+        }
+      ]
+    },
+    {
+      "name": "Hero",
+      "cluster": 6,
+      "source": "Hero",
+      "target": "Hero (hero6)",
+      "key": "hero6",
+      "instances": [
+        {
+          "url": "https://association-enoria.org/accueil-english/",
+          "urlHash": "0107bc690c8cad26b5e180d8c19dce04f6a23bfa",
+          "uuid": "0107bc69-08-496343044209ce3ea85464bb088049d3dabaa33c",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/article[1]/div[1]/div[1]/div[1]/div[5]",
+          "section": "section-4"
+        },
+        {
+          "url": "https://association-enoria.org/",
+          "urlHash": "318634b70485437e63e6421e701484afbcce00c5",
+          "uuid": "318634b7-08-496343044209ce3ea85464bb088049d3dabaa33c",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/article[1]/div[1]/div[1]/div[1]/div[5]",
+          "section": "section-4"
+        }
+      ]
+    },
+    {
+      "name": "Hero",
+      "cluster": 7,
+      "source": "Hero",
+      "target": "Hero (hero7)",
+      "key": "hero7",
+      "instances": [
+        {
+          "url": "https://association-enoria.org/accueil-english/",
+          "urlHash": "0107bc690c8cad26b5e180d8c19dce04f6a23bfa",
+          "uuid": "0107bc69-01-2563a1ca9b8841adbaca5263f6b061573e283dcd",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/article[1]/div[1]/div[1]/div[1]/div[1]",
+          "section": "section-1"
+        },
+        {
+          "url": "https://association-enoria.org/",
+          "urlHash": "318634b70485437e63e6421e701484afbcce00c5",
+          "uuid": "318634b7-01-2563a1ca9b8841adbaca5263f6b061573e283dcd",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/article[1]/div[1]/div[1]/div[1]/div[1]",
+          "section": "section-1"
+        }
+      ]
+    },
+    {
+      "name": "Hero",
+      "cluster": 8,
+      "source": "Hero",
+      "target": "Hero (hero8)",
+      "key": "hero8",
+      "instances": [
+        {
+          "url": "https://association-enoria.org/benevolat-et-emplois/",
+          "urlHash": "19e852ea2e2c1c40de1f536acaa863d6518607cc",
+          "uuid": "19e852ea-01-2563a1ca9b8841adbaca5263f6b061573e283dcd",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/article[1]/div[1]/div[1]/div[1]/div[1]",
+          "section": "section-1"
+        },
+        {
+          "url": "https://association-enoria.org/nous-aider/",
+          "urlHash": "bf46646784c8021cca8d45b7220063c111ab90d1",
+          "uuid": "bf466467-01-2563a1ca9b8841adbaca5263f6b061573e283dcd",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/article[1]/div[1]/div[1]/div[1]/div[1]",
+          "section": "section-1"
+        }
+      ]
+    },
+    {
+      "name": "header",
+      "cluster": 9,
+      "source": "Header",
+      "target": "Header",
+      "key": "header9",
+      "instances": [
+        {
+          "url": "https://association-enoria.org/accueil-english/",
+          "urlHash": "0107bc690c8cad26b5e180d8c19dce04f6a23bfa",
+          "uuid": "0107bc69-00-3dad6f17c5ac52449dfbc495c4fa129caa1ae780",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/header[1]"
+        },
+        {
+          "url": "https://association-enoria.org/benevolat-et-emplois/",
+          "urlHash": "19e852ea2e2c1c40de1f536acaa863d6518607cc",
+          "uuid": "19e852ea-00-3dad6f17c5ac52449dfbc495c4fa129caa1ae780",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/header[1]"
+        },
+        {
+          "url": "https://association-enoria.org/category/non-classe-fr/",
+          "urlHash": "2ed319832a2c4eb42f91c07f6ae35408c860004e",
+          "uuid": "2ed31983-00-3dad6f17c5ac52449dfbc495c4fa129caa1ae780",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/header[1]"
+        },
+        {
+          "url": "https://association-enoria.org/",
+          "urlHash": "318634b70485437e63e6421e701484afbcce00c5",
+          "uuid": "318634b7-00-3dad6f17c5ac52449dfbc495c4fa129caa1ae780",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/header[1]"
+        },
+        {
+          "url": "https://association-enoria.org/les-soirees-enoria/",
+          "urlHash": "46aa7885ddd06fa7d7ed68acba6e377158357f59",
+          "uuid": "46aa7885-00-3dad6f17c5ac52449dfbc495c4fa129caa1ae780",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/header[1]"
+        },
+        {
+          "url": "https://association-enoria.org/author/elodie/",
+          "urlHash": "676066ab33d1bbff9943546ba1619537c5f26c72",
+          "uuid": "676066ab-00-3dad6f17c5ac52449dfbc495c4fa129caa1ae780",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/header[1]"
+        },
+        {
+          "url": "https://association-enoria.org/presentation/",
+          "urlHash": "8d5a4bbac138f24348bd9573ad01af6c25979415",
+          "uuid": "8d5a4bba-00-3dad6f17c5ac52449dfbc495c4fa129caa1ae780",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/header[1]"
+        },
+        {
+          "url": "https://association-enoria.org/a-propos/",
+          "urlHash": "902f874fe010509da76668561738cc3e2ce9d034",
+          "uuid": "902f874f-00-3dad6f17c5ac52449dfbc495c4fa129caa1ae780",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/header[1]"
+        },
+        {
+          "url": "https://association-enoria.org/mentions-legales/",
+          "urlHash": "a900a1ac39117f6ecf32b36358c6537ef2266351",
+          "uuid": "a900a1ac-00-3dad6f17c5ac52449dfbc495c4fa129caa1ae780",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/header[1]"
+        },
+        {
+          "url": "https://association-enoria.org/contact/",
+          "urlHash": "adfc9cd8ea06480f8bcd85da63ecc644d48f24cb",
+          "uuid": "adfc9cd8-00-3dad6f17c5ac52449dfbc495c4fa129caa1ae780",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/header[1]"
+        },
+        {
+          "url": "https://association-enoria.org/nous-aider/",
+          "urlHash": "bf46646784c8021cca8d45b7220063c111ab90d1",
+          "uuid": "bf466467-00-3dad6f17c5ac52449dfbc495c4fa129caa1ae780",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/header[1]"
+        },
+        {
+          "url": "https://association-enoria.org/enoria-rencontre-liot/",
+          "urlHash": "c23b0e74fc3b872e662c181fae01dc07dd09c8dc",
+          "uuid": "c23b0e74-00-3dad6f17c5ac52449dfbc495c4fa129caa1ae780",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/header[1]"
+        },
+        {
+          "url": "https://association-enoria.org/formations/",
+          "urlHash": "c2fe73c3406cb8f90f80bf5538391d1320f5f25e",
+          "uuid": "c2fe73c3-00-3dad6f17c5ac52449dfbc495c4fa129caa1ae780",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/header[1]"
+        },
+        {
+          "url": "https://association-enoria.org/pourquoi-choisir-enoria/",
+          "urlHash": "e5c45f96a0a000583404838077b3dee0c7e03fe8",
+          "uuid": "e5c45f96-00-3dad6f17c5ac52449dfbc495c4fa129caa1ae780",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/header[1]"
+        },
+        {
+          "url": "https://association-enoria.org/newsletter/",
+          "urlHash": "eaa5ff18a7d15397e152379f0da0280198db4ce4",
+          "uuid": "eaa5ff18-00-3dad6f17c5ac52449dfbc495c4fa129caa1ae780",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/header[1]"
+        },
+        {
+          "url": "https://association-enoria.org/lamesse-app/",
+          "urlHash": "fbfe1309e1d536a29491bf005a90f66b6a4c1c73",
+          "uuid": "fbfe1309-00-3dad6f17c5ac52449dfbc495c4fa129caa1ae780",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/header[1]"
+        }
+      ]
+    },
+    {
+      "name": "Cards (no images)",
+      "cluster": 10,
+      "source": "Cards",
+      "target": "Cards (cardsNoImages10)",
+      "key": "cardsNoImages10",
+      "instances": [
+        {
+          "url": "https://association-enoria.org/accueil-english/",
+          "urlHash": "0107bc690c8cad26b5e180d8c19dce04f6a23bfa",
+          "uuid": "0107bc69-11-14d4380cb71512a19e908fed3d0c2317cda8badb",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/article[1]/div[1]/div[1]/div[1]/div[7]/div[2]",
+          "section": "section-6"
+        },
+        {
+          "url": "https://association-enoria.org/",
+          "urlHash": "318634b70485437e63e6421e701484afbcce00c5",
+          "uuid": "318634b7-11-14d4380cb71512a19e908fed3d0c2317cda8badb",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/article[1]/div[1]/div[1]/div[1]/div[7]/div[2]",
+          "section": "section-6"
+        }
+      ]
+    },
+    {
+      "name": "Columns",
+      "cluster": 11,
+      "source": "Columns",
+      "target": "Columns (columns11)",
+      "key": "columns11",
+      "instances": [
+        {
+          "url": "https://association-enoria.org/pourquoi-choisir-enoria/",
+          "urlHash": "e5c45f96a0a000583404838077b3dee0c7e03fe8",
+          "uuid": "e5c45f96-04-777e343a80b3828e62e51fa054ed1a4ceeb5a496",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/article[1]/div[1]/div[1]/div[1]/div[2]/div[3]",
+          "section": "section-8"
+        }
+      ]
+    },
+    {
+      "name": "Hero",
+      "cluster": 12,
+      "source": "Hero",
+      "target": "Hero (hero12)",
+      "key": "hero12",
+      "instances": [
+        {
+          "url": "https://association-enoria.org/pourquoi-choisir-enoria/",
+          "urlHash": "e5c45f96a0a000583404838077b3dee0c7e03fe8",
+          "uuid": "e5c45f96-03-b6ac27cb73c934141a720fab5e1ef0a1a89f4c22",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/article[1]/div[1]/div[1]/div[1]/div[2]/div[2]",
+          "section": "section-8"
+        }
+      ]
+    },
+    {
+      "name": "Columns",
+      "cluster": 13,
+      "source": "Columns",
+      "target": "Columns (columns13)",
+      "key": "columns13",
+      "instances": [
+        {
+          "url": "https://association-enoria.org/accueil-english/",
+          "urlHash": "0107bc690c8cad26b5e180d8c19dce04f6a23bfa",
+          "uuid": "0107bc69-09-8de53b6c848b8388a259598669ea99a76a1ecac0",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/article[1]/div[1]/div[1]/div[1]/div[6]",
+          "section": "section-5"
+        },
+        {
+          "url": "https://association-enoria.org/",
+          "urlHash": "318634b70485437e63e6421e701484afbcce00c5",
+          "uuid": "318634b7-09-8de53b6c848b8388a259598669ea99a76a1ecac0",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/article[1]/div[1]/div[1]/div[1]/div[6]",
+          "section": "section-5"
+        }
+      ]
+    },
+    {
+      "name": "Cards (no images)",
+      "cluster": 14,
+      "source": "Cards",
+      "target": "Cards (cardsNoImages14)",
+      "key": "cardsNoImages14",
+      "instances": [
+        {
+          "url": "https://association-enoria.org/les-soirees-enoria/",
+          "urlHash": "46aa7885ddd06fa7d7ed68acba6e377158357f59",
+          "uuid": "46aa7885-06-af5829835c378f8c89990cd175ff71f04daff74e",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/article[1]/div[1]/div[1]/div[1]/div[3]/div[4]",
+          "section": "section-2"
+        }
+      ]
+    },
+    {
+      "name": "Cards",
+      "cluster": 15,
+      "source": "Cards",
+      "target": "Cards (cards15)",
+      "key": "cards15",
+      "instances": [
+        {
+          "url": "https://association-enoria.org/a-propos/",
+          "urlHash": "902f874fe010509da76668561738cc3e2ce9d034",
+          "uuid": "902f874f-05-13930e37528fcd806b9235f838bbc5445150ca78",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/article[1]/div[1]/div[1]/div[1]/div[3]/div[3]",
+          "section": "section-10"
+        },
+        {
+          "url": "https://association-enoria.org/a-propos/",
+          "urlHash": "902f874fe010509da76668561738cc3e2ce9d034",
+          "uuid": "902f874f-09-2ae0d54e04ac63e77f97d9e95ccb341e7a3b6a3a",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/article[1]/div[1]/div[1]/div[1]/div[5]/div[3]",
+          "section": "section-11"
+        },
+        {
+          "url": "https://association-enoria.org/formations/",
+          "urlHash": "c2fe73c3406cb8f90f80bf5538391d1320f5f25e",
+          "uuid": "c2fe73c3-03-c6d478bde89a22355c74ef951f6b0d8b14711829",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/article[1]/div[1]/div[1]/div[1]/div[3]/div[1]",
+          "section": "section-10"
+        }
+      ]
+    },
+    {
+      "name": "Cards",
+      "cluster": 16,
+      "source": "Cards",
+      "target": "Cards (cards16)",
+      "key": "cards16",
+      "instances": [
+        {
+          "url": "https://association-enoria.org/accueil-english/",
+          "urlHash": "0107bc690c8cad26b5e180d8c19dce04f6a23bfa",
+          "uuid": "0107bc69-04-4e379031c366e5e1871f85c7da535453244a3f68",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/article[1]/div[1]/div[1]/div[1]/div[3]/div[2]",
+          "section": "section-3"
+        },
+        {
+          "url": "https://association-enoria.org/",
+          "urlHash": "318634b70485437e63e6421e701484afbcce00c5",
+          "uuid": "318634b7-04-4e379031c366e5e1871f85c7da535453244a3f68",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/article[1]/div[1]/div[1]/div[1]/div[3]/div[2]",
+          "section": "section-3"
+        }
+      ]
+    },
+    {
+      "name": "Columns",
+      "cluster": 17,
+      "source": "Columns",
+      "target": "Columns (columns17)",
+      "key": "columns17",
+      "instances": [
+        {
+          "url": "https://association-enoria.org/accueil-english/",
+          "urlHash": "0107bc690c8cad26b5e180d8c19dce04f6a23bfa",
+          "uuid": "0107bc69-13-befa902daae4c740437e858efb3ef260eea9269a",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/article[1]/div[1]/div[1]/div[1]/div[7]/div[4]",
+          "section": "section-6"
+        }
+      ]
+    },
+    {
+      "name": "Columns",
+      "cluster": 18,
+      "source": "Columns",
+      "target": "Columns (columns18)",
+      "key": "columns18",
+      "instances": [
+        {
+          "url": "https://association-enoria.org/enoria-rencontre-liot/",
+          "urlHash": "c23b0e74fc3b872e662c181fae01dc07dd09c8dc",
+          "uuid": "c23b0e74-03-05aa4552987424b077586615c335f531aaf89270",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/article[1]/div[2]/div[1]/div[1]/div[1]/div[2]",
+          "section": "section-2"
+        }
+      ]
+    },
+    {
+      "name": "Cards",
+      "cluster": 19,
+      "source": "Cards",
+      "target": "Cards (cards19)",
+      "key": "cards19",
+      "instances": [
+        {
+          "url": "https://association-enoria.org/accueil-english/",
+          "urlHash": "0107bc690c8cad26b5e180d8c19dce04f6a23bfa",
+          "uuid": "0107bc69-05-13930e37528fcd806b9235f838bbc5445150ca78",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/article[1]/div[1]/div[1]/div[1]/div[3]/div[3]",
+          "section": "section-3"
+        },
+        {
+          "url": "https://association-enoria.org/",
+          "urlHash": "318634b70485437e63e6421e701484afbcce00c5",
+          "uuid": "318634b7-05-13930e37528fcd806b9235f838bbc5445150ca78",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/article[1]/div[1]/div[1]/div[1]/div[3]/div[3]",
+          "section": "section-3"
+        }
+      ]
+    },
+    {
+      "name": "Hero",
+      "cluster": 20,
+      "source": "Hero",
+      "target": "Hero (hero20)",
+      "key": "hero20",
+      "instances": [
+        {
+          "url": "https://association-enoria.org/presentation/",
+          "urlHash": "8d5a4bbac138f24348bd9573ad01af6c25979415",
+          "uuid": "8d5a4bba-03-00b97bc8b6b72e1100e2e06681fbd4e0064e41e9",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/article[1]/div[1]/div[1]/div[1]/div[3]",
+          "section": "section-9"
+        }
+      ]
+    },
+    {
+      "name": "Cards (no images)",
+      "cluster": 21,
+      "source": "Cards",
+      "target": "Cards (cardsNoImages21)",
+      "key": "cardsNoImages21",
+      "instances": [
+        {
+          "url": "https://association-enoria.org/enoria-rencontre-liot/",
+          "urlHash": "c23b0e74fc3b872e662c181fae01dc07dd09c8dc",
+          "uuid": "c23b0e74-04-7cf11900918ea7033ba72f91a34cee528a764e9d",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/article[1]/div[2]/div[1]/div[1]/div[1]/div[3]",
+          "section": "section-2"
+        }
+      ]
+    },
+    {
+      "name": "Columns",
+      "cluster": 22,
+      "source": "Columns",
+      "target": "Columns (columns22)",
+      "key": "columns22",
+      "instances": [
+        {
+          "url": "https://association-enoria.org/contact/",
+          "urlHash": "adfc9cd8ea06480f8bcd85da63ecc644d48f24cb",
+          "uuid": "adfc9cd8-02-8fcad9ec392f9fde1499fb09e04017807cd395ef",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/article[1]/div[1]/div[1]/div[1]/div[2]/div[1]",
+          "section": "section-2"
+        }
+      ]
+    },
+    {
+      "name": "unknown",
+      "cluster": 23,
+      "instances": [
+        {
+          "url": "https://association-enoria.org/contact/",
+          "urlHash": "adfc9cd8ea06480f8bcd85da63ecc644d48f24cb",
+          "uuid": "adfc9cd8-06-3328f6117479542953ae15ac785373c82d6a6a00",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/article[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[4]",
+          "section": "section-2"
+        }
+      ]
+    },
+    {
+      "name": "Cards",
+      "cluster": 24,
+      "source": "Cards",
+      "target": "Cards (cards24)",
+      "key": "cards24",
+      "instances": [
+        {
+          "url": "https://association-enoria.org/a-propos/",
+          "urlHash": "902f874fe010509da76668561738cc3e2ce9d034",
+          "uuid": "902f874f-04-4e379031c366e5e1871f85c7da535453244a3f68",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/article[1]/div[1]/div[1]/div[1]/div[3]/div[2]",
+          "section": "section-2"
+        }
+      ]
+    },
+    {
+      "name": "Hero",
+      "cluster": 25,
+      "source": "Hero",
+      "target": "Hero (hero25)",
+      "key": "hero25",
+      "instances": [
+        {
+          "url": "https://association-enoria.org/les-soirees-enoria/",
+          "urlHash": "46aa7885ddd06fa7d7ed68acba6e377158357f59",
+          "uuid": "46aa7885-01-2563a1ca9b8841adbaca5263f6b061573e283dcd",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/article[1]/div[1]/div[1]/div[1]/div[1]",
+          "section": "section-1"
+        }
+      ]
+    },
+    {
+      "name": "Cards (no images)",
+      "cluster": 26,
+      "source": "Cards",
+      "target": "Cards (cardsNoImages26)",
+      "key": "cardsNoImages26",
+      "instances": [
+        {
+          "url": "https://association-enoria.org/nous-aider/",
+          "urlHash": "bf46646784c8021cca8d45b7220063c111ab90d1",
+          "uuid": "bf466467-02-42c54ad5d96ae6e6856b62e589aca93bec1fc876",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/article[1]/div[1]/div[1]/div[1]/div[2]",
+          "section": "section-8"
+        }
+      ]
+    },
+    {
+      "name": "Columns",
+      "cluster": 27,
+      "source": "Columns",
+      "target": "Columns (columns27)",
+      "key": "columns27",
+      "instances": [
+        {
+          "url": "https://association-enoria.org/",
+          "urlHash": "318634b70485437e63e6421e701484afbcce00c5",
+          "uuid": "318634b7-14-c5c735e481e275970c08b550426abbc20fa7b1d9",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/article[1]/div[1]/div[1]/div[1]/div[7]/div[5]",
+          "section": "section-6"
+        }
+      ]
+    },
+    {
+      "name": "Columns",
+      "cluster": 28,
+      "source": "Columns",
+      "target": "Columns (columns28)",
+      "key": "columns28",
+      "instances": [
+        {
+          "url": "https://association-enoria.org/a-propos/",
+          "urlHash": "902f874fe010509da76668561738cc3e2ce9d034",
+          "uuid": "902f874f-08-bb744bc722330ac8dfe4985734d285d0758e296e",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/article[1]/div[1]/div[1]/div[1]/div[5]/div[2]",
+          "section": "section-2"
+        }
+      ]
+    },
+    {
+      "name": "Columns",
+      "cluster": 29,
+      "source": "Columns",
+      "target": "Columns (columns29)",
+      "key": "columns29",
+      "instances": [
+        {
+          "url": "https://association-enoria.org/lamesse-app/",
+          "urlHash": "fbfe1309e1d536a29491bf005a90f66b6a4c1c73",
+          "uuid": "fbfe1309-02-eaeea9b511bfeef29dd78e8d995884779e3f9dff",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/article[1]/div[1]/div[1]/div[1]/div[1]/div[2]",
+          "section": "section-2"
+        }
+      ]
+    },
+    {
+      "name": "Cards (no images)",
+      "cluster": 30,
+      "source": "Cards",
+      "target": "Cards (cardsNoImages30)",
+      "key": "cardsNoImages30",
+      "instances": [
+        {
+          "url": "https://association-enoria.org/pourquoi-choisir-enoria/",
+          "urlHash": "e5c45f96a0a000583404838077b3dee0c7e03fe8",
+          "uuid": "e5c45f96-07-00b97bc8b6b72e1100e2e06681fbd4e0064e41e9",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/article[1]/div[1]/div[1]/div[1]/div[3]",
+          "section": "section-14"
+        }
+      ]
+    },
+    {
+      "name": "Columns",
+      "cluster": 31,
+      "source": "Columns",
+      "target": "Columns (columns31)",
+      "key": "columns31",
+      "instances": [
+        {
+          "url": "https://association-enoria.org/",
+          "urlHash": "318634b70485437e63e6421e701484afbcce00c5",
+          "uuid": "318634b7-13-befa902daae4c740437e858efb3ef260eea9269a",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/article[1]/div[1]/div[1]/div[1]/div[7]/div[4]",
+          "section": "section-6"
+        }
+      ]
+    },
+    {
+      "name": "Accordion",
+      "cluster": 32,
+      "source": "Accordion",
+      "target": "Accordion",
+      "key": "accordion32",
+      "instances": [
+        {
+          "url": "https://association-enoria.org/a-propos/",
+          "urlHash": "902f874fe010509da76668561738cc3e2ce9d034",
+          "uuid": "902f874f-06-5bdbf54d0784a512fb82b95eaeec85eca26078aa",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/article[1]/div[1]/div[1]/div[1]/div[4]",
+          "section": "section-5"
+        }
+      ]
+    },
+    {
+      "name": "unknown",
+      "cluster": 33,
+      "instances": [
+        {
+          "url": "https://association-enoria.org/enoria-rencontre-liot/",
+          "urlHash": "c23b0e74fc3b872e662c181fae01dc07dd09c8dc",
+          "uuid": "c23b0e74-07-d4cee69bd1b268f2c20c9193f40872d354ce4a0d",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/article[1]/div[2]/div[1]/div[1]/div[1]/div[5]/div[1]/div[2]",
+          "section": "section-2"
+        }
+      ]
+    }
+  ],
+  "outliers": [
+    {
+      "url": "https://association-enoria.org/accueil-english/",
+      "urlHash": "0107bc690c8cad26b5e180d8c19dce04f6a23bfa",
+      "uuid": "0107bc69-02-5d197d058c3996a70676b8b7ba3dba24194838b7",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/article[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]",
+      "section": "section-2"
+    },
+    {
+      "url": "https://association-enoria.org/accueil-english/",
+      "urlHash": "0107bc690c8cad26b5e180d8c19dce04f6a23bfa",
+      "uuid": "0107bc69-03-c6d478bde89a22355c74ef951f6b0d8b14711829",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/article[1]/div[1]/div[1]/div[1]/div[3]/div[1]",
+      "section": "section-2"
+    },
+    {
+      "url": "https://association-enoria.org/accueil-english/",
+      "urlHash": "0107bc690c8cad26b5e180d8c19dce04f6a23bfa",
+      "uuid": "0107bc69-06-af5829835c378f8c89990cd175ff71f04daff74e",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/article[1]/div[1]/div[1]/div[1]/div[3]/div[4]",
+      "section": "section-2"
+    },
+    {
+      "url": "https://association-enoria.org/accueil-english/",
+      "urlHash": "0107bc690c8cad26b5e180d8c19dce04f6a23bfa",
+      "uuid": "0107bc69-07-5bdbf54d0784a512fb82b95eaeec85eca26078aa",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/article[1]/div[1]/div[1]/div[1]/div[4]",
+      "section": "section-2"
+    },
+    {
+      "url": "https://association-enoria.org/accueil-english/",
+      "urlHash": "0107bc690c8cad26b5e180d8c19dce04f6a23bfa",
+      "uuid": "0107bc69-10-112844de3818146ed169f94af8d202281c2f764b",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/article[1]/div[1]/div[1]/div[1]/div[7]/div[1]",
+      "section": "section-6"
+    },
+    {
+      "url": "https://association-enoria.org/accueil-english/",
+      "urlHash": "0107bc690c8cad26b5e180d8c19dce04f6a23bfa",
+      "uuid": "0107bc69-12-07edf16dc91f160998a3a015eacca5d98d19daa1",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/article[1]/div[1]/div[1]/div[1]/div[7]/div[3]",
+      "section": "section-6"
+    },
+    {
+      "url": "https://association-enoria.org/accueil-english/",
+      "urlHash": "0107bc690c8cad26b5e180d8c19dce04f6a23bfa",
+      "uuid": "0107bc69-15-43d6b197520051945d433b3004e909ea4e3accb3",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/footer[1]",
+      "section": "section-3"
+    },
+    {
+      "url": "https://association-enoria.org/benevolat-et-emplois/",
+      "urlHash": "19e852ea2e2c1c40de1f536acaa863d6518607cc",
+      "uuid": "19e852ea-02-42c54ad5d96ae6e6856b62e589aca93bec1fc876",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/article[1]/div[1]/div[1]/div[1]/div[2]",
+      "section": "section-8"
+    },
+    {
+      "url": "https://association-enoria.org/benevolat-et-emplois/",
+      "urlHash": "19e852ea2e2c1c40de1f536acaa863d6518607cc",
+      "uuid": "19e852ea-04-43d6b197520051945d433b3004e909ea4e3accb3",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/footer[1]",
+      "section": "section-3"
+    },
+    {
+      "url": "https://association-enoria.org/category/non-classe-fr/",
+      "urlHash": "2ed319832a2c4eb42f91c07f6ae35408c860004e",
+      "uuid": "2ed31983-01-ec260e70fd0d109a7b00561467202bbb97cfb965",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]"
+    },
+    {
+      "url": "https://association-enoria.org/",
+      "urlHash": "318634b70485437e63e6421e701484afbcce00c5",
+      "uuid": "318634b7-02-5d197d058c3996a70676b8b7ba3dba24194838b7",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/article[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]",
+      "section": "section-2"
+    },
+    {
+      "url": "https://association-enoria.org/",
+      "urlHash": "318634b70485437e63e6421e701484afbcce00c5",
+      "uuid": "318634b7-03-c6d478bde89a22355c74ef951f6b0d8b14711829",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/article[1]/div[1]/div[1]/div[1]/div[3]/div[1]",
+      "section": "section-2"
+    },
+    {
+      "url": "https://association-enoria.org/",
+      "urlHash": "318634b70485437e63e6421e701484afbcce00c5",
+      "uuid": "318634b7-06-af5829835c378f8c89990cd175ff71f04daff74e",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/article[1]/div[1]/div[1]/div[1]/div[3]/div[4]",
+      "section": "section-2"
+    },
+    {
+      "url": "https://association-enoria.org/",
+      "urlHash": "318634b70485437e63e6421e701484afbcce00c5",
+      "uuid": "318634b7-07-5bdbf54d0784a512fb82b95eaeec85eca26078aa",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/article[1]/div[1]/div[1]/div[1]/div[4]",
+      "section": "section-2"
+    },
+    {
+      "url": "https://association-enoria.org/",
+      "urlHash": "318634b70485437e63e6421e701484afbcce00c5",
+      "uuid": "318634b7-10-112844de3818146ed169f94af8d202281c2f764b",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/article[1]/div[1]/div[1]/div[1]/div[7]/div[1]",
+      "section": "section-6"
+    },
+    {
+      "url": "https://association-enoria.org/",
+      "urlHash": "318634b70485437e63e6421e701484afbcce00c5",
+      "uuid": "318634b7-12-07edf16dc91f160998a3a015eacca5d98d19daa1",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/article[1]/div[1]/div[1]/div[1]/div[7]/div[3]",
+      "section": "section-6"
+    },
+    {
+      "url": "https://association-enoria.org/",
+      "urlHash": "318634b70485437e63e6421e701484afbcce00c5",
+      "uuid": "318634b7-16-43d6b197520051945d433b3004e909ea4e3accb3",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/footer[1]",
+      "section": "section-3"
+    },
+    {
+      "url": "https://association-enoria.org/les-soirees-enoria/",
+      "urlHash": "46aa7885ddd06fa7d7ed68acba6e377158357f59",
+      "uuid": "46aa7885-02-42c54ad5d96ae6e6856b62e589aca93bec1fc876",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/article[1]/div[1]/div[1]/div[1]/div[2]",
+      "section": "section-2"
+    },
+    {
+      "url": "https://association-enoria.org/les-soirees-enoria/",
+      "urlHash": "46aa7885ddd06fa7d7ed68acba6e377158357f59",
+      "uuid": "46aa7885-07-5bdbf54d0784a512fb82b95eaeec85eca26078aa",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/article[1]/div[1]/div[1]/div[1]/div[4]",
+      "section": "section-2"
+    },
+    {
+      "url": "https://association-enoria.org/les-soirees-enoria/",
+      "urlHash": "46aa7885ddd06fa7d7ed68acba6e377158357f59",
+      "uuid": "46aa7885-08-43d6b197520051945d433b3004e909ea4e3accb3",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/footer[1]",
+      "section": "section-3"
+    },
+    {
+      "url": "https://association-enoria.org/author/elodie/",
+      "urlHash": "676066ab33d1bbff9943546ba1619537c5f26c72",
+      "uuid": "676066ab-01-ec260e70fd0d109a7b00561467202bbb97cfb965",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]"
+    },
+    {
+      "url": "https://association-enoria.org/presentation/",
+      "urlHash": "8d5a4bbac138f24348bd9573ad01af6c25979415",
+      "uuid": "8d5a4bba-02-42c54ad5d96ae6e6856b62e589aca93bec1fc876",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/article[1]/div[1]/div[1]/div[1]/div[2]",
+      "section": "section-2"
+    },
+    {
+      "url": "https://association-enoria.org/presentation/",
+      "urlHash": "8d5a4bbac138f24348bd9573ad01af6c25979415",
+      "uuid": "8d5a4bba-04-43d6b197520051945d433b3004e909ea4e3accb3",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/footer[1]",
+      "section": "section-3"
+    },
+    {
+      "url": "https://association-enoria.org/a-propos/",
+      "urlHash": "902f874fe010509da76668561738cc3e2ce9d034",
+      "uuid": "902f874f-02-42c54ad5d96ae6e6856b62e589aca93bec1fc876",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/article[1]/div[1]/div[1]/div[1]/div[2]",
+      "section": "section-2"
+    },
+    {
+      "url": "https://association-enoria.org/a-propos/",
+      "urlHash": "902f874fe010509da76668561738cc3e2ce9d034",
+      "uuid": "902f874f-03-c6d478bde89a22355c74ef951f6b0d8b14711829",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/article[1]/div[1]/div[1]/div[1]/div[3]/div[1]",
+      "section": "section-2"
+    },
+    {
+      "url": "https://association-enoria.org/a-propos/",
+      "urlHash": "902f874fe010509da76668561738cc3e2ce9d034",
+      "uuid": "902f874f-07-a3f2d6a1dfa8f3dad9fb7cf769008bf5e744b27a",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/article[1]/div[1]/div[1]/div[1]/div[5]/div[1]",
+      "section": "section-2"
+    },
+    {
+      "url": "https://association-enoria.org/a-propos/",
+      "urlHash": "902f874fe010509da76668561738cc3e2ce9d034",
+      "uuid": "902f874f-11-43d6b197520051945d433b3004e909ea4e3accb3",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/footer[1]",
+      "section": "section-3"
+    },
+    {
+      "url": "https://association-enoria.org/mentions-legales/",
+      "urlHash": "a900a1ac39117f6ecf32b36358c6537ef2266351",
+      "uuid": "a900a1ac-01-ec260e70fd0d109a7b00561467202bbb97cfb965",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]"
+    },
+    {
+      "url": "https://association-enoria.org/contact/",
+      "urlHash": "adfc9cd8ea06480f8bcd85da63ecc644d48f24cb",
+      "uuid": "adfc9cd8-03-dcfe721bfc2aecbc60b4feb0bbccec0b946851a9",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/article[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]",
+      "section": "section-2"
+    },
+    {
+      "url": "https://association-enoria.org/contact/",
+      "urlHash": "adfc9cd8ea06480f8bcd85da63ecc644d48f24cb",
+      "uuid": "adfc9cd8-04-c1f903c4bd6f20ae47111e2ffad1a34b022906fa",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/article[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[2]",
+      "section": "section-2"
+    },
+    {
+      "url": "https://association-enoria.org/contact/",
+      "urlHash": "adfc9cd8ea06480f8bcd85da63ecc644d48f24cb",
+      "uuid": "adfc9cd8-05-1b5f8a2ed080a21f896bd41aef6388a08ea870cf",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/article[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[3]",
+      "section": "section-2"
+    },
+    {
+      "url": "https://association-enoria.org/contact/",
+      "urlHash": "adfc9cd8ea06480f8bcd85da63ecc644d48f24cb",
+      "uuid": "adfc9cd8-07-43d6b197520051945d433b3004e909ea4e3accb3",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/footer[1]",
+      "section": "section-3"
+    },
+    {
+      "url": "https://association-enoria.org/nous-aider/",
+      "urlHash": "bf46646784c8021cca8d45b7220063c111ab90d1",
+      "uuid": "bf466467-04-43d6b197520051945d433b3004e909ea4e3accb3",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/footer[1]",
+      "section": "section-3"
+    },
+    {
+      "url": "https://association-enoria.org/enoria-rencontre-liot/",
+      "urlHash": "c23b0e74fc3b872e662c181fae01dc07dd09c8dc",
+      "uuid": "c23b0e74-01-4c20d78f97391625ce1a3c844759b59a0e5ee195",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/article[1]/div[1]",
+      "section": "section-13"
+    },
+    {
+      "url": "https://association-enoria.org/enoria-rencontre-liot/",
+      "urlHash": "c23b0e74fc3b872e662c181fae01dc07dd09c8dc",
+      "uuid": "c23b0e74-02-a1526d735a92ac5f00e98f2c2c84d7fbbddcd600",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/article[1]/div[2]/div[1]/div[1]/div[1]/div[1]",
+      "section": "section-2"
+    },
+    {
+      "url": "https://association-enoria.org/enoria-rencontre-liot/",
+      "urlHash": "c23b0e74fc3b872e662c181fae01dc07dd09c8dc",
+      "uuid": "c23b0e74-05-5b2c41704ef8ac06e25e7409826e7db2ac107c17",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/article[1]/div[2]/div[1]/div[1]/div[1]/div[4]",
+      "section": "section-2"
+    },
+    {
+      "url": "https://association-enoria.org/enoria-rencontre-liot/",
+      "urlHash": "c23b0e74fc3b872e662c181fae01dc07dd09c8dc",
+      "uuid": "c23b0e74-06-fb1757cb7263b1e0dbb3e40fa700687605ea26d8",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/article[1]/div[2]/div[1]/div[1]/div[1]/div[5]/div[1]/div[1]",
+      "section": "section-2"
+    },
+    {
+      "url": "https://association-enoria.org/enoria-rencontre-liot/",
+      "urlHash": "c23b0e74fc3b872e662c181fae01dc07dd09c8dc",
+      "uuid": "c23b0e74-08-43d6b197520051945d433b3004e909ea4e3accb3",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/footer[1]",
+      "section": "section-3"
+    },
+    {
+      "url": "https://association-enoria.org/formations/",
+      "urlHash": "c2fe73c3406cb8f90f80bf5538391d1320f5f25e",
+      "uuid": "c2fe73c3-02-42c54ad5d96ae6e6856b62e589aca93bec1fc876",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/article[1]/div[1]/div[1]/div[1]/div[2]",
+      "section": "section-2"
+    },
+    {
+      "url": "https://association-enoria.org/formations/",
+      "urlHash": "c2fe73c3406cb8f90f80bf5538391d1320f5f25e",
+      "uuid": "c2fe73c3-04-77483ccb9edb12a275f54b5d8be869b03c6157a5",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/article[1]/div[1]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]",
+      "section": "section-2"
+    },
+    {
+      "url": "https://association-enoria.org/formations/",
+      "urlHash": "c2fe73c3406cb8f90f80bf5538391d1320f5f25e",
+      "uuid": "c2fe73c3-05-28f32627262787c3dee56f3811d69d8d7ca56de6",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/article[1]/div[1]/div[1]/div[1]/div[4]/div[1]/div[1]/div[2]",
+      "section": "section-2"
+    },
+    {
+      "url": "https://association-enoria.org/formations/",
+      "urlHash": "c2fe73c3406cb8f90f80bf5538391d1320f5f25e",
+      "uuid": "c2fe73c3-06-21f2c4eac89865c7e5afbf0b48fd9b2d0fa4dd3e",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/article[1]/div[1]/div[1]/div[1]/div[4]/div[1]/div[1]/div[3]",
+      "section": "section-2"
+    },
+    {
+      "url": "https://association-enoria.org/formations/",
+      "urlHash": "c2fe73c3406cb8f90f80bf5538391d1320f5f25e",
+      "uuid": "c2fe73c3-08-43d6b197520051945d433b3004e909ea4e3accb3",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/footer[1]",
+      "section": "section-3"
+    },
+    {
+      "url": "https://association-enoria.org/pourquoi-choisir-enoria/",
+      "urlHash": "e5c45f96a0a000583404838077b3dee0c7e03fe8",
+      "uuid": "e5c45f96-02-8fcad9ec392f9fde1499fb09e04017807cd395ef",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/article[1]/div[1]/div[1]/div[1]/div[2]/div[1]",
+      "section": "section-8"
+    },
+    {
+      "url": "https://association-enoria.org/pourquoi-choisir-enoria/",
+      "urlHash": "e5c45f96a0a000583404838077b3dee0c7e03fe8",
+      "uuid": "e5c45f96-09-43d6b197520051945d433b3004e909ea4e3accb3",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/footer[1]",
+      "section": "section-3"
+    },
+    {
+      "url": "https://association-enoria.org/newsletter/",
+      "urlHash": "eaa5ff18a7d15397e152379f0da0280198db4ce4",
+      "uuid": "eaa5ff18-01-ec260e70fd0d109a7b00561467202bbb97cfb965",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]"
+    },
+    {
+      "url": "https://association-enoria.org/lamesse-app/",
+      "urlHash": "fbfe1309e1d536a29491bf005a90f66b6a4c1c73",
+      "uuid": "fbfe1309-01-6e8573f57565be2743bf3cbe60b7a27b019eb769",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/article[1]/div[1]/div[1]/div[1]/div[1]/div[1]",
+      "section": "section-2"
+    },
+    {
+      "url": "https://association-enoria.org/lamesse-app/",
+      "urlHash": "fbfe1309e1d536a29491bf005a90f66b6a4c1c73",
+      "uuid": "fbfe1309-03-43d6b197520051945d433b3004e909ea4e3accb3",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/footer[1]",
+      "section": "section-3"
+    }
+  ],
+  "sections": [
+    {
+      "name": "section-1",
+      "background": "rgb(0, 132, 134) linear-gradient(rgb(0, 132, 134) 0%, rgb(143, 233, 210) 99%) no-repeat scroll 50% 50% / cover padding-box border-box",
+      "count": 5
+    },
+    {
+      "name": "section-2",
+      "background": "rgb(255, 255, 255) none repeat scroll 50% 50% / cover padding-box border-box",
+      "count": 37
+    },
+    {
+      "name": "section-3",
+      "background": "rgb(255, 255, 255) none no-repeat scroll 50% 50% / cover padding-box border-box",
+      "count": 16
+    },
+    {
+      "name": "section-4",
+      "background": "rgb(0, 132, 134) linear-gradient(130deg, rgb(143, 233, 210) 10%, rgb(0, 132, 134) 100%) no-repeat scroll 50% 50% / cover padding-box border-box",
+      "count": 2
+    },
+    {
+      "name": "section-5",
+      "background": "rgb(255, 255, 255) linear-gradient(rgb(255, 255, 255) 0%, rgb(242, 242, 250) 50%) repeat scroll 50% 50% / cover padding-box border-box",
+      "count": 3
+    },
+    {
+      "name": "section-6",
+      "background": "rgb(242, 242, 250) linear-gradient(rgb(255, 255, 255) 0%, rgb(242, 242, 250) 50%) no-repeat scroll 50% 50% / cover padding-box border-box",
+      "count": 9
+    },
+    {
+      "name": "section-7",
+      "background": "rgb(255, 255, 255) linear-gradient(130deg, rgb(74, 190, 192) 25%, rgb(0, 132, 134) 100%) repeat scroll 50% 50% / cover padding-box border-box",
+      "count": 2
+    },
+    {
+      "name": "section-8",
+      "background": "rgb(242, 242, 250) none no-repeat scroll 50% 50% / cover padding-box border-box",
+      "count": 7
+    },
+    {
+      "name": "section-9",
+      "background": "rgb(255, 255, 255) linear-gradient(130deg, rgb(0, 132, 134) 25%, rgb(143, 233, 210) 100%) repeat scroll 50% 50% / cover padding-box border-box",
+      "count": 9
+    },
+    {
+      "name": "section-10",
+      "background": "rgba(0, 0, 0, 0) url(\"data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIyNTBweCIgdmlld0JveD0iMCAwIDEyODAgMTQwIiBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJub25lIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxnIGZpbGw9IiNmZmZmZmYiPjxwYXRoIGQ9Ik0wIDE0MGgxMjgwQzU3My4wOCAxNDAgMCAwIDAgMHoiLz48L2c+PC9zdmc+\") repeat scroll 0% 0% / 100% 250px padding-box border-box",
+      "count": 2
+    },
+    {
+      "name": "section-11",
+      "background": "rgba(0, 0, 0, 0) url(\"data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIyMDBweCIgdmlld0JveD0iMCAwIDEyODAgMTQwIiBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJub25lIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxnIGZpbGw9IiNmZmZmZmYiPjxwYXRoIGQ9Ik0wIDE0MGgxMjgwQzU3My4wOCAxNDAgMCAwIDAgMHoiLz48L2c+PC9zdmc+\") repeat scroll 0% 0% / 100% 200px padding-box border-box",
+      "count": 1
+    },
+    {
+      "name": "section-12",
+      "background": "rgb(255, 255, 255) linear-gradient(130deg, rgb(0, 132, 134) 0%, rgb(143, 233, 210) 100%) repeat scroll 50% 50% / cover padding-box border-box",
+      "count": 1
+    },
+    {
+      "name": "section-13",
+      "background": "rgb(255, 255, 255) none repeat scroll 0% 0% / auto padding-box border-box",
+      "count": 1
+    },
+    {
+      "name": "section-14",
+      "background": "rgb(242, 242, 250) linear-gradient(rgb(242, 242, 250) 0%, rgb(255, 255, 255) 100%) no-repeat scroll 50% 50% / cover padding-box border-box",
+      "count": 1
+    },
+    {
+      "name": "section-15",
+      "background": "rgba(255, 255, 255, 0) linear-gradient(130deg, rgb(0, 132, 134) 25%, rgb(143, 233, 210) 100%) no-repeat scroll 50% 50% / cover padding-box border-box",
+      "count": 1
+    }
+  ]
+}
