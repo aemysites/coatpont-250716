@@ -1,0 +1,116 @@
+{
+  "originUrl": "https://association-enoria.org",
+  "lastCrawled": "https://association-enoria.org/",
+  "urls": [
+    {
+      "url": "https://association-enoria.org/",
+      "source": "SITEMAPS",
+      "targetPath": "/",
+      "id": "318634b70485437e63e6421e701484afbcce00c5"
+    },
+    {
+      "url": "https://association-enoria.org/a-propos/",
+      "source": "SITEMAPS",
+      "targetPath": "/a-propos",
+      "id": "902f874fe010509da76668561738cc3e2ce9d034"
+    },
+    {
+      "url": "https://association-enoria.org/accueil-english/",
+      "source": "SITEMAPS",
+      "targetPath": "/accueil-english",
+      "id": "0107bc690c8cad26b5e180d8c19dce04f6a23bfa"
+    },
+    {
+      "url": "https://association-enoria.org/author/elodie/",
+      "source": "SITEMAPS",
+      "targetPath": "/author/elodie",
+      "id": "676066ab33d1bbff9943546ba1619537c5f26c72"
+    },
+    {
+      "url": "https://association-enoria.org/benevolat-et-emplois/",
+      "source": "SITEMAPS",
+      "targetPath": "/benevolat-et-emplois",
+      "id": "19e852ea2e2c1c40de1f536acaa863d6518607cc"
+    },
+    {
+      "url": "https://association-enoria.org/category/non-classe-fr/",
+      "source": "SITEMAPS",
+      "targetPath": "/category/non-classe-fr",
+      "id": "2ed319832a2c4eb42f91c07f6ae35408c860004e"
+    },
+    {
+      "url": "https://association-enoria.org/contact/",
+      "source": "SITEMAPS",
+      "targetPath": "/contact",
+      "id": "adfc9cd8ea06480f8bcd85da63ecc644d48f24cb"
+    },
+    {
+      "url": "https://association-enoria.org/enoria-rencontre-liot/",
+      "source": "SITEMAPS",
+      "targetPath": "/enoria-rencontre-liot",
+      "id": "c23b0e74fc3b872e662c181fae01dc07dd09c8dc"
+    },
+    {
+      "url": "https://association-enoria.org/formations/",
+      "source": "SITEMAPS",
+      "targetPath": "/formations",
+      "id": "c2fe73c3406cb8f90f80bf5538391d1320f5f25e"
+    },
+    {
+      "url": "https://association-enoria.org/lamesse-app/",
+      "source": "SITEMAPS",
+      "targetPath": "/lamesse-app",
+      "id": "fbfe1309e1d536a29491bf005a90f66b6a4c1c73"
+    },
+    {
+      "url": "https://association-enoria.org/les-soirees-enoria/",
+      "source": "SITEMAPS",
+      "targetPath": "/les-soirees-enoria",
+      "id": "46aa7885ddd06fa7d7ed68acba6e377158357f59"
+    },
+    {
+      "url": "https://association-enoria.org/mentions-legales/",
+      "source": "SITEMAPS",
+      "targetPath": "/mentions-legales",
+      "id": "a900a1ac39117f6ecf32b36358c6537ef2266351"
+    },
+    {
+      "url": "https://association-enoria.org/newsletter/",
+      "source": "SITEMAPS",
+      "targetPath": "/newsletter",
+      "id": "eaa5ff18a7d15397e152379f0da0280198db4ce4"
+    },
+    {
+      "url": "https://association-enoria.org/nous-aider/",
+      "source": "SITEMAPS",
+      "targetPath": "/nous-aider",
+      "id": "bf46646784c8021cca8d45b7220063c111ab90d1"
+    },
+    {
+      "url": "https://association-enoria.org/pourquoi-choisir-enoria/",
+      "source": "SITEMAPS",
+      "targetPath": "/pourquoi-choisir-enoria",
+      "id": "e5c45f96a0a000583404838077b3dee0c7e03fe8"
+    },
+    {
+      "url": "https://association-enoria.org/presentation/",
+      "source": "SITEMAPS",
+      "targetPath": "/presentation",
+      "id": "8d5a4bbac138f24348bd9573ad01af6c25979415"
+    }
+  ],
+  "crawlOptions": {
+    "timeout": 64800000,
+    "inclusionPatterns": [],
+    "exclusionPatterns": [],
+    "limit": -1,
+    "sameDomain": true,
+    "keepHash": false,
+    "strategy": "sitemaps",
+    "logger": {},
+    "strategiesAttempted": [
+      "SITEMAPS"
+    ]
+  },
+  "extractionErrors": []
+}
