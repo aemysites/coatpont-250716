@@ -31,3 +31,163 @@
     order: unset;
   }
 }
+
+.columns.columns5 {
+  background: linear-gradient(120deg, #c7e7ec 0%, #1196a7 100%);
+  position: relative;
+  padding: 64px 0 54px;
+  overflow: hidden;
+}
+
+/* Curved overlay effect */
+.columns.columns5::before,
+.columns.columns5::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  pointer-events: none;
+  z-index: 1;
+}
+
+.columns.columns5::before {
+  top: 0;
+  height: 130px;
+  background: linear-gradient(140deg, #e1f4fa 40%, #c7e7ec 90%);
+  opacity: 0.45;
+  border-bottom-left-radius: 120px 80px;
+  border-bottom-right-radius: 320px 120px;
+}
+
+.columns.columns5::after {
+  top: 0;
+  height: 75px;
+  background: linear-gradient(120deg, #b2e2ea 60%, #c7e7ec 100%);
+  opacity: 0.33;
+  border-bottom-left-radius: 240px 100px;
+  border-bottom-right-radius: 390px 150px;
+}
+
+/* Main container: stack heading and stat row */
+.columns.columns5 > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+  position: relative;
+  z-index: 2;
+  gap: 0;
+}
+
+/* Heading row: only heading visible/centered */
+.columns.columns5 > div > div:first-child {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 38px;
+}
+
+.columns.columns5 > div > div:first-child > div {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.columns.columns5 > div > div:nth-child(2) {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: stretch;
+  width: 100%;
+  max-width: 1100px;
+  gap: 0 48px;
+}
+
+/* Stats cell: center everything, force equal widths */
+.columns.columns5 > div > div:nth-child(2) > div {
+  flex: 1 1 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  min-width: 0;
+  max-width: 250px;
+  margin: 0;
+  padding: 0 8px;
+}
+
+/* Hide empty divs in heading block */
+.columns.columns5 > div > div:first-child > div:not(:first-child) {
+  display: none;
+}
+
+.columns.columns5 > div > div:first-child h3 {
+  color: #fff;
+  font-family: var(--heading-font-family);
+  font-size: 1.15rem;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.13em;
+  font-weight: 600;
+  margin: 0;
+  padding-top: 10px;
+}
+
+/* Stat text: always white, centered, not bold -- override any base h3 styles */
+.columns.columns5 > div > div:nth-child(2) > div > h3 {
+  color: #fff;
+  font-family: var(--body-font-family);
+  font-size: 1.09rem;
+  font-weight: 400;
+  text-align: center;
+  margin: 0;
+  line-height: 1.45;
+  letter-spacing: 0.01em;
+  overflow-wrap: break-word;
+  white-space: normal;
+}
+
+/* Responsive: stack stats into 2 or 1 column as needed */
+@media (width <= 900px) {
+  .columns.columns5 {
+    padding: 40px 0 36px;
+  }
+
+  .columns.columns5 > div > div:nth-child(2) {
+    flex-wrap: wrap;
+    gap: 24px 18px;
+    max-width: 600px;
+    justify-content: center;
+  }
+
+  .columns.columns5 > div > div:nth-child(2) > div {
+    flex: 1 1 45%;
+    min-width: 180px;
+    max-width: unset;
+    padding: 0 2vw;
+    margin-bottom: 8px;
+  }
+
+  .columns.columns5 > div > div:first-child h3 {
+    font-size: 1rem;
+    margin-bottom: 28px;
+  }
+}
+
+@media (width <= 600px) {
+  .columns.columns5 > div > div:nth-child(2) {
+    flex-flow: column nowrap;
+    gap: 18px 0;
+    max-width: 360px;
+    align-items: center;
+  }
+
+  .columns.columns5 > div > div:nth-child(2) > div {
+    min-width: 0;
+    width: 100%;
+    margin-bottom: 0;
+  }
+}
