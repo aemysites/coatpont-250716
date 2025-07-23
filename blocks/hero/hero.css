@@ -1,6 +1,4 @@
-/* ===================
-   Base hero styles
-   =================== */
+/* Ensure order: all .hero.hero7 > div:nth-child(2) and child rules come before .hero.hero7 > div:first-child and child rules */
 .hero-container .hero-wrapper {
   max-width: unset;
   padding: 0;
@@ -49,11 +47,7 @@
   }
 }
 
-/* ================================
-   HERO 7: Full-bleed, gradient, wave
-   ================================ */
 .hero.hero7 {
-  /* Use flexbox to vertically center content and allow preview to be at the bottom */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -66,6 +60,29 @@
   background: linear-gradient(180deg, #0595a8 0%, #7be6d3 100%);
   position: relative;
   overflow: hidden;
+}
+
+.hero.hero7 > div:nth-child(2) {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  z-index: 3;
+  max-width: 720px;
+  width: 100%;
+  margin: 0 auto;
+  flex: 1 0 auto;
+  min-height: 360px;
+  padding: 0;
+}
+
+.hero.hero7 > div:nth-child(2) > div {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 18px;
 }
 
 .hero.hero7 > div:first-child {
@@ -92,30 +109,6 @@
   border: none;
 }
 
-.hero.hero7 > div:nth-child(2) {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  z-index: 3;
-  max-width: 720px;
-  width: 100%;
-  margin: 0 auto;
-  flex: 1 0 auto;
-  min-height: 360px;
-  padding: 0;
-}
-
-.hero.hero7 > div:nth-child(2) > div {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 18px;
-}
-
-/* White wave: ensure it sits just above the preview box and overlaps slightly */
 .hero.hero7::before {
   position: absolute;
   left: 0;
@@ -131,13 +124,11 @@
   display: block;
 }
 
-/* Make the content stack vertically but not crowd the preview box */
 .hero.hero7 .button-container {
   text-align: center;
   margin-bottom: 44px;
 }
 
-/* Headings */
 .hero.hero7 h1 {
   color: #fff;
   font-size: 2.5rem;
@@ -158,7 +149,6 @@
   max-width: 640px;
 }
 
-/* Button */
 .hero.hero7 .button {
   background: transparent;
   border: 1.5px solid #fff;
@@ -183,17 +173,11 @@
 }
 
 @media (width <= 900px) {
-  .hero.hero7 > div:first-child {
-    width: 95vw;
-    height: 70px;
-  }
-  .hero.hero7 > div:first-child > div {
-    border-radius: 12px;
-  }
   .hero.hero7 > div:nth-child(2) {
     max-width: 97vw;
     min-height: 150px;
   }
+
   .hero.hero7 > div:nth-child(2) > div {
     width: 100%;
     display: flex;
@@ -201,34 +185,41 @@
     align-items: center;
     gap: 18px;
   }
+
+  .hero.hero7 > div:first-child {
+    width: 95vw;
+    height: 70px;
+  }
+
+  .hero.hero7 > div:first-child > div {
+    border-radius: 12px;
+  }
+
   .hero.hero7::before {
     height: 70px;
     bottom: 38px;
   }
+
   .hero.hero7 h1 {
     font-size: 1.6rem;
   }
+
   .hero.hero7 h2 {
     font-size: 1.01rem;
     max-width: 92vw;
   }
+
   .hero.hero7 .button-container {
     margin-bottom: 22px;
   }
 }
 
 @media (width <= 600px) {
-  .hero.hero7 > div:first-child {
-    width: 99vw;
-    height: 38px;
-  }
-  .hero.hero7 > div:first-child > div {
-    border-radius: 8px;
-  }
   .hero.hero7 > div:nth-child(2) {
     max-width: 100vw;
     min-height: 60px;
   }
+
   .hero.hero7 > div:nth-child(2) > div {
     width: 100%;
     display: flex;
@@ -236,17 +227,239 @@
     align-items: center;
     gap: 18px;
   }
+
+  .hero.hero7 > div:first-child {
+    width: 99vw;
+    height: 38px;
+  }
+
+  .hero.hero7 > div:first-child > div {
+    border-radius: 8px;
+  }
+
   .hero.hero7::before {
     height: 28px;
     bottom: 7px;
   }
+
   .hero.hero7 h1 {
     font-size: 1.1rem;
   }
+
   .hero.hero7 h2 {
     font-size: 0.83rem;
   }
+
   .hero.hero7 .button-container {
     margin-bottom: 12px;
+  }
+}
+
+.hero.hero6 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  min-height: 540px;
+  background: linear-gradient(115deg, #31c3bd 0%, #15a9c7 60%, #a7f6ee 100%);
+  position: relative;
+  padding: 48px 0;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.hero.hero6::after {
+  position: absolute;
+  left: -20vw;
+  bottom: -20%;
+  width: 120vw;
+  height: 75%;
+  border-radius: 50% 40% 60% 50% / 55% 50% 30%;
+  background: radial-gradient(ellipse at 24% 92%, #7fd7c2 0%, transparent 74%);
+  opacity: 0.23;
+  z-index: 1;
+  pointer-events: none;
+  display: block;
+}
+
+.hero.hero6 > div {
+  position: relative;
+  z-index: 2;
+}
+
+/* Left: phone mockup block */
+.hero.hero6 > div:first-child {
+  flex: 0 0 34%;
+  min-width: 0;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding-left: 1vw;
+  padding-right: 0;
+  margin-right: 0;
+  box-sizing: border-box;
+}
+
+.hero.hero6 > div:first-child > div {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  min-width: 0;
+  width: 100%;
+  position: relative;
+  /* Lower the phone block a bit for better vertical centering */
+  top: 20px;
+}
+
+/* Simulate overlap by using a before pseudo-element for the back phone */
+.hero.hero6 picture {
+  display: block;
+  position: relative;
+  min-width: 0;
+  width: 210px;
+  height: 400px;
+  margin-right: 0;
+  margin-bottom: 0;
+}
+
+/* Back phone (pseudo-element) */
+.hero.hero6 picture::before {
+  display: block;
+  position: absolute;
+  left: 36px;
+  top: 38px;
+  width: 180px;
+  height: 340px;
+  background: #fff;
+  border-radius: 20px;
+  box-shadow: 0 12px 36px 0 rgb(0 0 0 / 10%);
+  transform: rotate(-12deg);
+  z-index: 0;
+  opacity: 0.88;
+  filter: blur(0.5px) brightness(0.97);
+  content: '';
+}
+
+/* Front phone (img) */
+.hero.hero6 img {
+  display: block;
+  width: 180px;
+  max-width: 100%;
+  height: 340px;
+  object-fit: cover;
+  border-radius: 20px;
+  box-shadow:
+    0 8px 36px 0 rgb(0 0 0 / 13%),
+    0 2px 8px 0 rgb(0 0 0 / 10%);
+  transform: rotate(9deg);
+  background: #fff;
+  position: relative;
+  z-index: 1;
+}
+
+/* Right: text block */
+.hero.hero6 > div:last-child {
+  flex: 1 1 66%;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding-left: 2vw;
+  padding-right: 4vw;
+  box-sizing: border-box;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.hero.hero6 > div:last-child > div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  max-width: 600px;
+}
+
+.hero.hero6 h2 {
+  color: #7fd7c2;
+  font-size: 2.8rem;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  line-height: 1.05;
+  margin: 0 0 1.2rem;
+  text-align: left;
+}
+
+.hero.hero6 p {
+  color: #e6f2ef;
+  font-size: 1.16rem;
+  line-height: 1.6;
+  margin: 0;
+  max-width: 420px;
+  text-align: left;
+  font-weight: 400;
+}
+
+/* Responsive: stack vertically on small screens */
+@media (width <= 900px) {
+  .hero.hero6 {
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 20px 0 16px;
+    min-height: 0;
+  }
+
+  .hero.hero6 > div:first-child,
+  .hero.hero6 > div:last-child {
+    width: 100%;
+    min-width: 0;
+    max-width: 100%;
+    padding: 0 4vw;
+    margin: 0;
+    justify-content: center;
+  }
+
+  .hero.hero6 > div:first-child {
+    justify-content: center;
+    margin-bottom: 24px;
+    padding-bottom: 0;
+  }
+
+  .hero.hero6 picture {
+    width: 112px;
+    height: 210px;
+  }
+
+  .hero.hero6 picture::before {
+    width: 98px;
+    height: 170px;
+    left: 18px;
+    top: 20px;
+  }
+
+  .hero.hero6 img {
+    width: 98px;
+    height: 170px;
+    border-radius: 10px;
+    transform: rotate(7deg);
+  }
+
+  .hero.hero6 > div:last-child {
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-top: 0;
+  }
+
+  .hero.hero6 h2 {
+    font-size: 1.35rem;
+    max-width: 100%;
+  }
+
+  .hero.hero6 p {
+    font-size: 0.96rem;
+    max-width: 100%;
   }
 }
