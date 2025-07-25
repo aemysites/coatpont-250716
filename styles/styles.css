@@ -15,8 +15,8 @@
   --light-color: #f8f8f8;
   --dark-color: #505050;
   --text-color: #131313;
-  --link-color: #3b63fb;
-  --link-hover-color: #1d3ecf;
+  --link-color: #008486;
+  --link-hover-color: #008486;
   --body-font-family: "poppins", "sans-serif";
   --heading-font-family: "poppins", "sans-serif";
   --body-font-size-m: 18px;
@@ -305,7 +305,8 @@ a.button:any-link, button {
   max-width: 100%;
   margin: 12px 0;
   border: 2px solid transparent;
-  border-radius: 2.4em;
+  border-width: 1px!important;
+  border-radius: 5px;
   padding: 0.5em 1.2em;
   font-family: var(--body-font-family);
   font-style: normal;
