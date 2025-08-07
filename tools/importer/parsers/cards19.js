@@ -1,53 +1,66 @@
 /* global WebImporter */
 export default function parse(element, { document }) {
-  // Table header row
-  const rows = [['Cards (cards19)']];
+  // Helper: Extract the icon span for the first cell
+  function extractIcon(blurbEl) {
+    const iconSpan = blurbEl.querySelector('.et_pb_main_blurb_image .et_pb_image_wrap span');
+    return iconSpan || null; // reference existing span
+  }
 
-  // Get all columns directly under the row (the cards)
-  const columns = element.querySelectorAll(':scope > div');
-  columns.forEach((col) => {
-    // Icon or image cell
-    let iconCell = null;
+  // Find all columns (cards)
+  const columns = Array.from(element.querySelectorAll(':scope > div'));
+  const rows = [];
+
+  for (const col of columns) {
     const blurb = col.querySelector('.et_pb_blurb');
-    if (blurb) {
-      const iconWrap = blurb.querySelector('.et_pb_main_blurb_image');
-      if (iconWrap) {
-        iconCell = iconWrap;
-      }
-      // Text cell
-      const textContainer = document.createElement('div');
-      // Title (make <strong> to match card style)
-      const header = blurb.querySelector('.et_pb_module_header');
-      if (header && header.textContent.trim()) {
+    if (!blurb) continue;
+
+    // First cell: the icon span (reference)
+    const iconEl = extractIcon(blurb);
+
+    // Second cell: Text content
+    const blurbContainer = blurb.querySelector('.et_pb_blurb_container');
+    const cellContent = [];
+    // Title
+    if (blurbContainer) {
+      const title = blurbContainer.querySelector('.et_pb_module_header');
+      if (title) {
         const strong = document.createElement('strong');
-        strong.textContent = header.textContent.trim();
-        textContainer.appendChild(strong);
+        strong.textContent = title.textContent.trim();
+        cellContent.push(strong);
+        cellContent.push(document.createElement('br'));
       }
-      // Add <br> if both title and description
-      const desc = blurb.querySelector('.et_pb_blurb_description');
-      if (desc && desc.textContent.trim()) {
-        if (textContainer.childNodes.length > 0) {
-          textContainer.appendChild(document.createElement('br'));
-        }
-        Array.from(desc.childNodes).forEach((node) => {
-          textContainer.appendChild(node.cloneNode(true));
+      // Description (may have <p>, <br>, etc)
+      const desc = blurbContainer.querySelector('.et_pb_blurb_description');
+      if (desc) {
+        // Reference all child nodes of desc
+        desc.childNodes.forEach(child => {
+          if (child.nodeType === Node.ELEMENT_NODE) {
+            cellContent.push(child);
+          } else if (child.nodeType === Node.TEXT_NODE && child.textContent.trim()) {
+            cellContent.push(document.createTextNode(child.textContent));
+          }
         });
       }
-      // CTA button
-      const buttonWrap = col.querySelector('.et_pb_button_module_wrapper');
-      if (buttonWrap) {
-        const btn = buttonWrap.querySelector('a');
-        if (btn) {
-          if (textContainer.childNodes.length > 0) {
-            textContainer.appendChild(document.createElement('br'));
-          }
-          textContainer.appendChild(btn);
-        }
-      }
-      rows.push([iconCell, textContainer]);
     }
-  });
+    // CTA (button)
+    const buttonWrapper = col.querySelector('.et_pb_button_module_wrapper');
+    if (buttonWrapper) {
+      const btn = buttonWrapper.querySelector('a');
+      if (btn) {
+        cellContent.push(document.createElement('br'));
+        cellContent.push(btn);
+      }
+    }
 
-  const table = WebImporter.DOMUtils.createTable(rows, document);
-  element.replaceWith(table);
+    rows.push([
+      iconEl, // icon
+      cellContent // referenced elements for text/call-to-action
+    ]);
+  }
+
+  // Header row as per block definition
+  const headerRow = ['Cards (cards19)'];
+  const tableArr = [headerRow, ...rows];
+  const block = WebImporter.DOMUtils.createTable(tableArr, document);
+  element.replaceWith(block);
 }

@@ -1,38 +1,42 @@
 /* global WebImporter */
 export default function parse(element, { document }) {
-  // Header row: exactly one cell
+  // 1. Header row matches exactly
   const headerRow = ['Columns (columns5)'];
 
-  // Extract the main heading element (if exists)
-  const headingEl = element.querySelector('.et_pb_text_inner');
-  const headingContent = headingEl ? headingEl.firstElementChild : '';
-
-  // Find the row containing the number columns
-  const numbersRow = element.querySelector('.et_pb_row_4col');
-  let columns = [];
-  if (numbersRow) {
-    columns = Array.from(numbersRow.querySelectorAll(':scope > .et_pb_column')).map(col => {
-      // Reference all direct children from this column
-      const contents = Array.from(col.children);
-      return contents.length === 1 ? contents[0] : contents;
-    });
+  // 2. Find the centered title h3 (first in the section)
+  let titleCell = null;
+  const titleH3 = element.querySelector('.et_pb_text_inner h3');
+  if (titleH3) {
+    // Reference the parent .et_pb_text to include all relevant content and context
+    titleCell = titleH3.closest('.et_pb_text');
   }
 
-  // Second row: as many cells as columns, heading in the first cell, rest blank
-  const headingRow = columns.length > 0 ? Array(columns.length).fill('') : [];
-  if (columns.length > 0 && headingContent) headingRow[0] = headingContent;
+  // 3. Find the stats/counter row, which contains 4 columns
+  let countersCells = [];
+  // Find the .et_pb_row with 4 columns, each with a .et_pb_number_counter
+  const rows = element.querySelectorAll('.et_pb_row');
+  for (const row of rows) {
+    const columns = row.querySelectorAll(':scope > .et_pb_column');
+    if (columns.length === 4 && Array.from(columns).every(col => col.querySelector('.et_pb_number_counter'))) {
+      countersCells = Array.from(columns).map(col => {
+        // Reference the module inside (the .et_pb_number_counter)
+        const counter = col.querySelector('.et_pb_number_counter');
+        return counter || '';
+      });
+      break;
+    }
+  }
 
-  // Third row: one cell per column, actual content
-  const contentRow = columns;
+  // Compose rows for the table (header, title cell, counters)
+  const rowsArr = [headerRow];
+  if (titleCell) {
+    rowsArr.push([titleCell]);
+  }
+  if (countersCells.length === 4) {
+    rowsArr.push(countersCells);
+  }
 
-  // Compose the table: first row is a single header cell,
-  // then rows with columns.length columns each (headingRow, contentRow)
-  const rows = [
-    headerRow
-  ];
-  if (headingRow.length) rows.push(headingRow);
-  if (contentRow.length) rows.push(contentRow);
-
-  const block = WebImporter.DOMUtils.createTable(rows, document);
-  element.replaceWith(block);
+  // Create the table and replace the original element
+  const table = WebImporter.DOMUtils.createTable(rowsArr, document);
+  element.replaceWith(table);
 }

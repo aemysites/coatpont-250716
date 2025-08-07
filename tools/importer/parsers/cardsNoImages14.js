@@ -1,29 +1,25 @@
 /* global WebImporter */
 export default function parse(element, { document }) {
-  // Block table header as in the example
+  // The block header must match exactly
   const headerRow = ['Cards (cardsNoImages14)'];
 
-  // Find all immediate child columns (cards)
-  const columns = Array.from(element.querySelectorAll(':scope > div'));
+  // Get all direct child columns in the row
+  const columns = element.querySelectorAll(':scope > div');
+  const cardRows = [];
 
-  // For each column, find the .et_pb_text_inner (may be missing for empty columns)
-  const rows = columns
-    .map(col => {
-      const textInner = col.querySelector('.et_pb_text_inner');
-      // Only include this card if it has content (matching the example behavior)
-      if (textInner) {
-        return [textInner];
+  columns.forEach((col) => {
+    // Only process columns that are not empty
+    if (!col.classList.contains('et_pb_column_empty')) {
+      // Try to find the inner content that represents the card body
+      const textModule = col.querySelector('.et_pb_text_inner');
+      if (textModule && textModule.textContent.trim() !== '') {
+        cardRows.push([textModule]);
       }
-      return null;
-    })
-    .filter(Boolean); // Remove nulls (empty columns)
+    }
+  });
 
-  // Compose the table data
-  const tableArray = [headerRow, ...rows];
-
-  // Create table block
-  const block = WebImporter.DOMUtils.createTable(tableArray, document);
-
-  // Replace the original element with the block
-  element.replaceWith(block);
+  // Compose table: header row first, then all cards (one per row)
+  const cells = [headerRow, ...cardRows];
+  const table = WebImporter.DOMUtils.createTable(cells, document);
+  element.replaceWith(table);
 }

@@ -1,31 +1,28 @@
 /* global WebImporter */
 export default function parse(element, { document }) {
-  // Get all immediate column divs
+  // Extract all immediate columns
   const columns = Array.from(element.querySelectorAll(':scope > .et_pb_column'));
-
-  // For each column, get its direct module contents
-  const columnContent = columns.map(col => {
-    // Get all direct et_pb_module children
+  // For each column, gather all direct module's .et_pb_text_inner contents
+  const columnContents = columns.map(col => {
     const modules = Array.from(col.querySelectorAll(':scope > .et_pb_module'));
-    // For each module, get its content (prefer .et_pb_text_inner if present)
-    const contents = modules.map(mod => {
-      const inner = mod.querySelector('.et_pb_text_inner');
+    const content = modules.map(mod => {
+      // Prefer the .et_pb_text_inner div, else fallback to full module
+      const inner = mod.querySelector(':scope > .et_pb_text_inner');
       return inner ? inner : mod;
-    }).filter(Boolean);
-    // If multiple content blocks, return as array; if just one, the single element
-    if (contents.length === 1) {
-      return contents[0];
-    }
-    return contents;
+    });
+    // If only one content node, just return that, else return as array
+    return content.length === 1 ? content[0] : content;
   });
 
-  // Compose the table header and row (header is single cell, not one per column!)
-  const cells = [
-    ['Columns (columns18)'], // single-cell header row
-    columnContent // columns as the second row
+  // The header row should be a single cell, not multiple columns
+  const tableData = [
+    ['Columns (columns18)'],
+    columnContents
   ];
 
-  // Create the table block
-  const table = WebImporter.DOMUtils.createTable(cells, document);
+  // Create the table with the correct structure
+  const table = WebImporter.DOMUtils.createTable(tableData, document);
+
+  // Replace the original element with the new table
   element.replaceWith(table);
 }

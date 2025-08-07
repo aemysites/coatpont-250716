@@ -1,23 +1,33 @@
 /* global WebImporter */
 export default function parse(element, { document }) {
-  // Table header row exactly as in the example
+  // Header row as in example
   const headerRow = ['Hero (hero8)'];
 
-  // Background image row. Not present in this HTML example.
+  // Background image row: not present in origin HTML, so leave cell blank
   const bgRow = [''];
 
-  // Content row: Collect all .et_pb_text_inner elements in order for semantic structure
-  // It is important NOT to clone or create new nodes, but reference the originals
-  const contentInners = Array.from(element.querySelectorAll('.et_pb_text_inner'));
-  const contentRow = [contentInners];
+  // Content row: gather all .et_pb_text_inner content (headings, subheading, paragraphs)
+  // This will preserve the semantic meaning and original element structure
+  const textInners = Array.from(element.querySelectorAll('.et_pb_text_inner'));
+  const contentArr = [];
+  textInners.forEach(inner => {
+    // Add each child node in order (preserves headings, paragraphs, etc)
+    Array.from(inner.childNodes).forEach((node) => {
+      // Skip empty text nodes
+      if (node.nodeType === Node.TEXT_NODE && !node.textContent.trim()) return;
+      // Avoid adding empty <p>s at the end
+      if (node.nodeType === Node.ELEMENT_NODE && node.tagName.toLowerCase() === 'p' && !node.textContent.trim()) return;
+      contentArr.push(node);
+    });
+  });
 
-  // Create the main block table
+  const contentRow = [contentArr];
+
   const table = WebImporter.DOMUtils.createTable([
     headerRow,
     bgRow,
     contentRow
   ], document);
 
-  // Replace the original element with the new table
   element.replaceWith(table);
 }

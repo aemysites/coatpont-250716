@@ -1,45 +1,56 @@
 /* global WebImporter */
 export default function parse(element, { document }) {
-  // Table header row (must match example exactly)
+  // Table header matches example exactly
   const headerRow = ['Hero (hero3)'];
 
-  // Background image row (there is no image in the input HTML)
-  const backgroundRow = [''];
-
-  // Content row: gather all heading/paragraph content from the element
-  // This block's content is found inside the .et_pb_column_4_4 element
-  const col = element.querySelector('.et_pb_column_4_4');
-  const contentEls = [];
-  if (col) {
-    // Each module contains a .et_pb_text_inner div with the actual heading(s)
-    const modules = Array.from(col.querySelectorAll(':scope > .et_pb_module'));
-    for (const module of modules) {
-      const inner = module.querySelector('.et_pb_text_inner');
-      if (inner) {
-        // If .et_pb_text_inner has block children (e.g. h1, h2, p), include all of them
-        if (inner.children.length > 0) {
-          for (const child of inner.children) {
-            contentEls.push(child);
-          }
-        } else if (inner.textContent.trim()) {
-          // Rare case: only text, no children
-          const span = document.createElement('span');
-          span.textContent = inner.textContent;
-          contentEls.push(span);
-        }
-      }
+  // Background image: There is none in this source, but code should handle it if present
+  let bgImageUrl = null;
+  // Check inline style on section
+  if (element.style && element.style.backgroundImage) {
+    const urlMatch = element.style.backgroundImage.match(/url\(["']?(.*?)["']?\)/);
+    if (urlMatch) bgImageUrl = urlMatch[1];
+  }
+  // Or first <img> inside element
+  if (!bgImageUrl) {
+    const img = element.querySelector('img');
+    if (img && img.src) {
+      bgImageUrl = img.src;
     }
   }
+  let bgRow = null;
+  if (bgImageUrl) {
+    const img = document.createElement('img');
+    img.src = bgImageUrl;
+    bgRow = [img];
+  }
 
-  const contentRow = [contentEls]; // cell should be array of HTMLElements
+  // Gather the main content: headline(s), subheading(s), etc. as per example
+  // The HTML has a row > col > (several) .et_pb_module (each with .et_pb_text_inner)
+  // We want the content (headings, etc) in the third row in the same column
+  // We'll get all .et_pb_text_inner descendants in document order
+  const contentElements = [];
+  const textInners = element.querySelectorAll('.et_pb_text_inner');
+  textInners.forEach(node => {
+    // only add if it contains content (skip empty)
+    if (node.textContent.trim().length > 0) {
+      contentElements.push(node);
+    }
+  });
 
-  // Create the block table
-  const table = WebImporter.DOMUtils.createTable([
+  // Compose table rows as per requirement: header, (optional background img), content
+  const cells = [
     headerRow,
-    backgroundRow,
-    contentRow
-  ], document);
+  ];
+  if (bgRow) {
+    cells.push(bgRow);
+  }
+  // Only add content row if there is content
+  if (contentElements.length) {
+    cells.push([contentElements]);
+  }
 
-  // Replace the original element with the new block
+  // Create the table
+  const table = WebImporter.DOMUtils.createTable(cells, document);
+  // Replace the original element
   element.replaceWith(table);
 }

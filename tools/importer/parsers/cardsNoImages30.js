@@ -1,47 +1,31 @@
 /* global WebImporter */
 export default function parse(element, { document }) {
-  // Prepare the header row
-  const headerRow = ['Cards (cardsNoImages30)'];
-  const rows = [headerRow];
+  // Compose header row for the block, as per requirements
+  const cells = [['Cards (cardsNoImages30)']];
 
-  // Locate article cards inside the element
-  const articles = element.querySelectorAll('article');
-  articles.forEach((article) => {
-    const cardContent = [];
-
-    // Title (usually h2, possibly with link)
-    const titleEl = article.querySelector('.entry-title');
-    if (titleEl) {
-      cardContent.push(titleEl);
-    }
-
-    // Date (span.published)
-    const dateEl = article.querySelector('.post-meta .published');
-    if (dateEl && dateEl.textContent.trim()) {
-      cardContent.push(dateEl);
-    }
-
-    // Description/content
-    const descEl = article.querySelector('.post-content .post-content-inner p');
-    if (descEl && descEl.textContent.trim()) {
-      cardContent.push(descEl);
-    }
-
-    // CTA link (if present)
-    const ctaLink = article.querySelector('.post-content a.more-link');
-    if (ctaLink && ctaLink.textContent.trim()) {
-      cardContent.push(ctaLink);
-    }
-
-    // Only add the card if there is card content (should always be true if article exists)
-    if (cardContent.length > 0) {
-      rows.push([cardContent]);
-    }
-  });
-
-  // Replace only if we have at least the header and one card
-  if (rows.length > 1) {
-    const table = WebImporter.DOMUtils.createTable(rows, document);
-    element.replaceWith(table);
+  // Locate the card list section (each article is a card)
+  const blogList = element.querySelector('.et_pb_blog_0 .et_pb_ajax_pagination_container');
+  if (blogList) {
+    const articles = blogList.querySelectorAll('article');
+    articles.forEach((article) => {
+      const cardContent = [];
+      // Heading/title (linked h2)
+      const h2 = article.querySelector('h2');
+      if (h2) cardContent.push(h2);
+      // Meta/date
+      const meta = article.querySelector('.post-meta');
+      if (meta) cardContent.push(meta);
+      // Excerpt/description
+      const inner = article.querySelector('.post-content-inner');
+      if (inner) cardContent.push(inner);
+      // Call-to-action (lire plus link)
+      const cta = article.querySelector('.more-link');
+      if (cta) cardContent.push(cta);
+      cells.push([cardContent]);
+    });
   }
+
+  // Only create the table if there is at least the header row
+  const block = WebImporter.DOMUtils.createTable(cells, document);
+  element.replaceWith(block);
 }

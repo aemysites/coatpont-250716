@@ -1,52 +1,51 @@
 /* global WebImporter */
 export default function parse(element, { document }) {
-  // Prepare the header row as in the example
+  // The block header, as in the example, exactly:
   const headerRow = ['Cards (cardsNoImages26)'];
-  const cells = [headerRow];
+  const rows = [headerRow];
 
-  // Find all blurbs (cards) in DOM order
-  const blurbNodes = element.querySelectorAll('.et_pb_blurb');
-  blurbNodes.forEach((blurb) => {
-    // We'll collect existing elements for this card in order
-    const cardContent = [];
-    // Heading (optional)
+  // Find all .et_pb_blurb elements in order
+  const blurbs = element.querySelectorAll('.et_pb_blurb');
+
+  blurbs.forEach(blurb => {
+    // We will assemble a DocumentFragment for this card's cell
+    const frag = document.createDocumentFragment();
+
+    // 1. Heading: .et_pb_module_header (usually h2 > span or h2 direct)
     const heading = blurb.querySelector('.et_pb_module_header');
     if (heading) {
-      cardContent.push(heading);
+      // As per example, bold the heading, preserving any spans
+      // Instead of creating a new <strong>, just use the heading element itself, preserving tag
+      // But if it's h2, we want the content only, as h2 is not allowed in table cell in example
+      // So wrap heading's innerHTML in <strong>
+      const strong = document.createElement('strong');
+      strong.innerHTML = heading.innerHTML;
+      frag.appendChild(strong);
+      frag.appendChild(document.createElement('br'));
     }
-    // Description area (may contain p, em, ul, etc)
-    const descr = blurb.querySelector('.et_pb_blurb_description');
-    if (descr) {
-      // Remove empty <p> tags (but only those that are truly empty)
-      descr.querySelectorAll('p').forEach((p) => {
-        if (!p.textContent.trim()) {
-          p.remove();
+
+    // 2. Description: first <p> (if any, with <em> child), then the <ul>
+    const blurbDesc = blurb.querySelector('.et_pb_blurb_description');
+    if (blurbDesc) {
+      // Sometimes the first <p> is an italic subtitle (with <em>), sometimes empty
+      const paragraphs = Array.from(blurbDesc.querySelectorAll('p'));
+      for (const p of paragraphs) {
+        // Only use non-empty paragraphs
+        if (p.textContent && p.textContent.trim() !== '') {
+          frag.appendChild(p);
         }
-      });
-      // Push all children in order (em, ul, etc)
-      Array.from(descr.childNodes).forEach((node) => {
-        // Only include nodes that have meaningful text OR are a list
-        if (node.nodeType === Node.ELEMENT_NODE) {
-          if (
-            (node.tagName === 'P' && node.textContent.trim()) ||
-            node.tagName === 'EM' ||
-            node.tagName === 'UL' ||
-            node.tagName === 'OL' ||
-            node.tagName === 'SPAN' ||
-            node.tagName === 'STRONG'
-          ) {
-            cardContent.push(node);
-          }
-        }
-      });
+      }
+      // Now lists, if present
+      const ul = blurbDesc.querySelector('ul');
+      if (ul) {
+        frag.appendChild(ul);
+      }
     }
-    // Only add row if there is meaningful content
-    if (cardContent.length > 0) {
-      cells.push([cardContent]);
-    }
+    // Add this fragment to table rows
+    rows.push([frag]);
   });
 
-  // Create and replace
-  const table = WebImporter.DOMUtils.createTable(cells, document);
+  // Create table and replace original element
+  const table = WebImporter.DOMUtils.createTable(rows, document);
   element.replaceWith(table);
 }

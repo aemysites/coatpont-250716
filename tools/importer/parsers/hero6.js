@@ -1,91 +1,50 @@
 /* global WebImporter */
 export default function parse(element, { document }) {
-  // Create the header row exactly as specified
+  // 1. Table header: always 'Hero (hero6)'
   const headerRow = ['Hero (hero6)'];
 
-  // --- Extract the image (background/visual hero asset) ---
-  let imgEl = null;
-  // The structure is: row > col (image) > module > span > img
-  const row = element.querySelector(':scope > .et_pb_row');
+  // 2. Get all direct .et_pb_row > .et_pb_column children
+  const row = element.querySelector('.et_pb_row');
+  let columns = [];
   if (row) {
-    const columns = row.querySelectorAll(':scope > div');
-    if (columns.length > 0) {
-      const imageModule = columns[0].querySelector('.et_pb_module.et_pb_image');
-      if (imageModule) {
-        const imgWrap = imageModule.querySelector('img');
-        if (imgWrap) {
-          imgEl = imgWrap;
-        }
-      } else {
-        // Fallback: any img in col
-        const fallbackImg = columns[0].querySelector('img');
-        if (fallbackImg) imgEl = fallbackImg;
-      }
-    }
-  }
-  // Fallback: any img in element if not found already
-  if (!imgEl) {
-    imgEl = element.querySelector('img');
+    columns = row.querySelectorAll(':scope > .et_pb_column');
   }
 
-  // If no image is found, keep cell empty (matches optional background image spec)
-
-  // --- Extract the headline and text content ---
-  let textCellContent = [];
-  if (row) {
-    const columns = row.querySelectorAll(':scope > div');
-    if (columns.length > 1) {
-      // Usually the headline/text is in the second column
-      const textBlock = columns[1].querySelector('.et_pb_text_inner');
-      if (textBlock) {
-        // Collect all children: h2, p, etc.
-        // If there are empty <p>, skip them
-        Array.from(textBlock.childNodes).forEach(child => {
-          // If <p> and only &nbsp;, skip
-          if (child.nodeType === 1 && child.tagName === 'P' && child.innerHTML.trim() === '&nbsp;') {
-            return;
-          }
-          // Only add non-empty nodes
-          if (child.nodeType === 1 && child.textContent.trim() === '' && !child.querySelector('img')) {
-            return;
-          }
-          if (child.nodeType === 1 || (child.nodeType === 3 && child.textContent.trim())) {
-            textCellContent.push(child);
-          }
-        });
-      }
-    }
+  // 3. Background image: look for the first <img> in the left column
+  let backgroundImg = null;
+  if (columns.length > 0) {
+    const img = columns[0].querySelector('img');
+    if (img) backgroundImg = img;
   }
-  // Fallback: try to find .et_pb_text_inner anywhere
-  if (textCellContent.length === 0) {
-    const fallbackTextBlock = element.querySelector('.et_pb_text_inner');
-    if (fallbackTextBlock) {
-      Array.from(fallbackTextBlock.childNodes).forEach(child => {
-        if (child.nodeType === 1 && child.tagName === 'P' && child.innerHTML.trim() === '&nbsp;') {
-          return;
+
+  // 4. Text content: right column, get heading(s) and paragraph(s)
+  let textContent = [];
+  if (columns.length > 1) {
+    const textInner = columns[1].querySelector('.et_pb_text_inner');
+    if (textInner) {
+      // preserve only <h1>-<h6> and <p> children
+      textContent = Array.from(textInner.childNodes).filter(node => {
+        return node.nodeType === Node.ELEMENT_NODE &&
+          (/^H[1-6]$/.test(node.tagName) || node.tagName === 'P');
+      });
+      // If all <p>s are empty (like <p>&nbsp;</p>), remove them
+      textContent = textContent.filter(node => {
+        if (node.tagName === 'P') {
+          return node.textContent.trim().replace(/\u00a0/g, '') !== '';
         }
-        if (child.nodeType === 1 && child.textContent.trim() === '' && !child.querySelector('img')) {
-          return;
-        }
-        if (child.nodeType === 1 || (child.nodeType === 3 && child.textContent.trim())) {
-          textCellContent.push(child);
-        }
+        return true;
       });
     }
   }
 
-  // If no text, cell must be empty
-  if (textCellContent.length === 0) {
-    textCellContent = [''];
-  }
-
-  // --- Construct table array ---
-  const cells = [
+  // 5. Build table rows
+  const tableRows = [
     headerRow,
-    [imgEl ? imgEl : ''],
-    [textCellContent]
+    [backgroundImg],
+    [textContent]
   ];
+  const block = WebImporter.DOMUtils.createTable(tableRows, document);
 
-  const table = WebImporter.DOMUtils.createTable(cells, document);
-  element.replaceWith(table);
+  // 6. Replace the original element
+  element.replaceWith(block);
 }
