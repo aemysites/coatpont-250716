@@ -1,4 +1,5 @@
-/* Stylelint-disable no-descending-specificity */
+/* Disable the no-descending-specificity rule globally */
+/* stylelint-disable no-descending-specificity */
 
 .hero-container .hero-wrapper {
   max-width: unset;
@@ -238,7 +239,6 @@
   background: linear-gradient(135deg, #099ca0 0%, #90e8dd 100%);
 }
 
-/* Shallower, more accurate top curve overlays using SVG background */
 .hero.hero2::before {
   position: absolute;
   top: 0;
@@ -251,7 +251,6 @@
   pointer-events: none;
 }
 
-/* Only show content from the second direct child of hero (matches provided HTML) */
 .hero.hero2 > div {
   width: 100%;
   display: flex;
@@ -261,12 +260,10 @@
   z-index: 2;
 }
 
-/* Hide the first empty inner div */
 .hero.hero2 > div:first-child {
   display: none;
 }
 
-/* Center and widen the content block, move it up for vertical balance */
 .hero.hero2 > div > div {
   display: flex;
   flex-direction: column;
@@ -329,7 +326,6 @@
   text-decoration: none;
 }
 
-/* Responsive Adjustments */
 @media (width <= 900px) {
   .hero.hero2 {
     min-height: 220px;
@@ -362,5 +358,105 @@
   .hero.hero2 .button-container .button {
     padding: 10px 24px;
     font-size: 15px;
+  }
+}
+
+
+.hero.hero3 {
+  position: relative;
+  width: 100vw;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+  min-height: 200px;
+  background: linear-gradient(120deg, #08989F 0%, #6EE6DB 100%);
+  overflow: hidden;
+  display: block;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Wave decoration at the bottom */
+.hero.hero3::after {
+  display: block;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -2px;
+  height: 52px;
+  width: 100%;
+  pointer-events: none;
+  z-index: 1;
+  background: url("data:image/svg+xml,%3Csvg width='1600' height='52' viewBox='0 0 1600 52' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0 26C122.5 52 245 37 400 30C555 23 677.5 37 800 30C922.5 23 1045 7 1200 15C1355 23 1477.5 37 1600 26V52H0V26Z' fill='%236EE6DB' fill-opacity='0.3'/%3E%3Cpath d='M0 41C122.5 52 245 46 400 41C555 36 677.5 46 800 41C922.5 36 1045 28 1200 32C1355 36 1477.5 46 1600 41V52H0V41Z' fill='%23fff' fill-opacity='0.7'/%3E%3C/svg%3E") no-repeat bottom center / cover;
+  content: "";
+}
+
+/* Center the main content horizontally, push it slightly higher for better balance */
+.hero.hero3 > div {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 2;
+  position: relative;
+  margin-top: 48px;   /* Decreased from 65px for less top space */
+  margin-bottom: 0;
+  padding-bottom: 40px; /* Increased from 28px for more space above waves */
+  padding-top: 0;
+}
+
+/* Remove excessive spacing inside the text block */
+.hero.hero3 > div > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  padding: 0;
+  margin: 0;
+}
+
+/* H2: small, bold, all uppercase, white, centered, tight above h1 */
+.hero.hero3 h2 {
+  color: #fff;
+  font-size: 1.08rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 0.02em;
+  margin: 0 0 6px;
+  padding: 0;
+  line-height: 1.2;
+}
+
+/* H1: large, bold, white, centered, minimal spacing below */
+.hero.hero3 h1 {
+  color: #fff;
+  font-size: 2.25rem;
+  font-weight: 700;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  line-height: 1.15;
+  letter-spacing: -0.01em;
+}
+
+/* Responsive adjustments */
+@media (width <= 900px) {
+  .hero.hero3 > div {
+    margin-top: 24px;
+    padding-bottom: 20px;
+  }
+
+  .hero.hero3 h1 {
+    font-size: 1.18rem;
+  }
+
+  .hero.hero3 h2 {
+    font-size: 0.85rem;
+  }
+
+  .hero.hero3::after {
+    height: 28px;
   }
 }
