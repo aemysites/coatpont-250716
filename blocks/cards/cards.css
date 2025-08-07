@@ -1,4 +1,4 @@
-/* Disable no-descending-specificity rule globally */
+/* Disable no-descending-specificity globally for this file */
 /* stylelint-disable no-descending-specificity */
 
 .cards > ul {
@@ -198,7 +198,6 @@
   padding-bottom: 2.5rem;
 }
 
-/* Tighter horizontal gap and card group width for improved alignment */
 .cards.cardsnoimages1 > ul {
   display: flex;
   flex-direction: row;
@@ -208,7 +207,7 @@
   padding: 0;
   margin: 0 auto;
   list-style: none;
-  max-width: calc(3 * 300px + 2 * 1.25rem); /* fits 3 cards + 2 gaps snugly */
+  max-width: calc(3 * 300px + 2 * 1.25rem);
 }
 
 .cards.cardsnoimages1 > ul > li {
@@ -229,7 +228,6 @@
   box-shadow: 0 8px 24px rgb(60 60 60 / 13%);
 }
 
-/* Card content: compact padding and consistent vertical alignment */
 .cards.cardsnoimages1 .cards-card-body {
   width: 100%;
   padding: 1rem 1.2rem;
@@ -242,7 +240,6 @@
   min-height: 120px;
 }
 
-/* Title and subtitle spacing and colors */
 .cards.cardsnoimages1 .cards-card-body h2 {
   margin-top: 0;
   margin-bottom: 0.15em;
@@ -262,7 +259,6 @@
   color: #7269ac;
 }
 
-/* Subtitle: always reserve space for alignment */
 .cards.cardsnoimages1 .cards-card-body em {
   display: block;
   min-height: 1.2em;
@@ -278,7 +274,6 @@
   margin-bottom: 0.3em;
 }
 
-/* Dates/times: compact margin */
 .cards.cardsnoimages1 .cards-card-body p {
   color: #222;
   font-size: 1rem;
@@ -296,7 +291,6 @@
   margin-bottom: 0;
 }
 
-/* Responsive: stack cards vertically on small screens */
 @media (width <= 900px) {
   .cards.cardsnoimages1 {
     padding-top: 1.5rem;
@@ -319,4 +313,113 @@
     padding: 1rem 0.8rem;
     min-height: 0;
   }
+}
+
+.cards.cards4 > ul {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(425px, 1fr));
+  gap: 26px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.cards.cards4 > ul > li {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  background: #fff;
+  border: none;
+  border-radius: 20px;
+  box-shadow: 0 2px 20px 0 rgb(60 60 60 / 10%);
+  padding: 24px 36px;
+  min-width: 0;
+  box-sizing: border-box;
+  height: 100%;
+  transition: box-shadow 0.2s;
+}
+
+/* Icon wrapper */
+.cards.cards4 > ul > li > .cards-card-body:first-child {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  margin-right: 14px;
+  flex: 0 0 auto;
+  padding: 0;
+}
+
+/* Icon style */
+.cards.cards4 > ul > li > .cards-card-body:first-child > p {
+  margin: 3px 0 0;
+  font-size: 3.05rem;
+  line-height: 1;
+  font-family: 'Font Awesome 5 Free', FontAwesome, 'ETmodules Fallback', sans-serif;
+  font-weight: 900;
+}
+
+/* First card icon color */
+.cards.cards4 > ul > li:first-child > .cards-card-body:first-child > p {
+  color: #7867D2;
+}
+
+/* Second card icon color */
+.cards.cards4 > ul > li:nth-child(2) > .cards-card-body:first-child > p {
+  color: #93E9E1;
+}
+
+/* Content body */
+.cards.cards4 > ul > li > .cards-card-body:last-child {
+  flex: 1 1 0;
+  min-width: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+/* Heading style */
+.cards.cards4 > ul > li > .cards-card-body:last-child h2 {
+  margin: 0 0 12px;
+  font-size: 1.37rem;
+  font-weight: 800;
+  color: #222;
+  line-height: 1.18;
+  font-family: var(--heading-font-family);
+}
+
+/* Description style */
+.cards.cards4 > ul > li > .cards-card-body:last-child p {
+  margin: 0;
+  color: #444;
+  font-size: 1.05rem;
+  font-weight: 500;
+  line-height: 1.38;
+  font-family: var(--body-font-family);
+}
+
+/* Remove default margin on .cards-card-body */
+.cards.cards4 .cards-card-body {
+  margin: 0;
+  background: none;
+  padding: 0;
+}
+
+/* Responsive: stack cards vertically on small screens */
+@media (width <= 820px) {
+  .cards.cards4 > ul {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+
+  .cards.cards4 > ul > li {
+    padding: 18px 10px;
+  }
+}
+
+/* Prevent image rules from interfering (in this block, not used) */
+.cards.cards4 > ul > li img {
+  width: auto;
+  aspect-ratio: initial;
+  object-fit: initial;
 }
