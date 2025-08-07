@@ -788,8 +788,6 @@
   color: #00877a;
   text-decoration: none;
 }
-
-/* Responsive adjustments */
 @media (max-width: 1150px) {
   .cards.cards19 > ul {
     grid-template-columns: repeat(2, 1fr);
@@ -811,4 +809,97 @@
 .cards.cards19 *:focus-visible {
   outline: 2px solid #c6ebe9;
   outline-offset: 2px;
+}
+
+
+.cards.cardsnoimages21 {
+  /* Remove horizontal centering, ensure flush left alignment */
+  display: block;
+  width: 100%;
+  background: #fff;
+  padding: 32px 0;
+  box-sizing: border-box;
+}
+
+.cards.cardsnoimages21 > ul {
+  display: block;
+  width: 100%;
+  max-width: 900px;
+  margin: 0;
+  padding: 0;
+  /* Remove auto side margins (prevent centering in parent) */
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.cards.cardsnoimages21 > ul > li {
+  width: 100%;
+  max-width: 900px;
+  background: #fff;
+  border: none;
+  border-radius: 8px;
+  box-shadow: none;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  position: relative;
+  display: block;
+}
+
+.cards.cardsnoimages21 .cards-card-body {
+  width: 100%;
+  max-width: 900px;
+  margin: 0;
+  background: #fff;
+  border-radius: 8px;
+  box-sizing: border-box;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 56px 32px 32px 32px;
+  background-image: url('data:image/svg+xml;utf8,<svg width="32" height="32" xmlns="http://www.w3.org/2000/svg"><circle cx="16" cy="16" r="15" fill="white" stroke="%230098A6" stroke-width="2"/><text x="50%" y="57%" text-anchor="middle" fill="%230098A6" font-size="22" font-family="Arial, sans-serif" dy=".1em">”</text></svg>');
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: 32px 32px;
+}
+
+.cards.cardsnoimages21 .cards-card-body p:first-child {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+.cards.cardsnoimages21 .cards-card-body p:first-child strong {
+  color: #0098A6;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  display: block;
+  line-height: 1.3;
+  margin-bottom: 0;
+}
+
+.cards.cardsnoimages21 .cards-card-body p:nth-child(2) {
+  color: #3C3C3B;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 1.6;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.cards.cardsnoimages21 ul {
+  margin: 0;
+  padding: 0;
+}
+
+@media (max-width: 600px) {
+  .cards.cardsnoimages21 .cards-card-body {
+    padding: 48px 10px 20px 10px;
+    max-width: 100%;
+  }
+  .cards.cardsnoimages21 > ul,
+  .cards.cardsnoimages21 > ul > li,
+  .cards.cardsnoimages21 .cards-card-body {
+    max-width: 100%;
+  }
 }
