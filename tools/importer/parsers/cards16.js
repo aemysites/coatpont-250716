@@ -1,57 +1,51 @@
 /* global WebImporter */
 export default function parse(element, { document }) {
   // Header row as in example
-  const headerRow = ['Cards (cards16)'];
-  // Get all direct card columns
-  const columns = element.querySelectorAll(':scope > div');
-  const rows = [];
+  const cells = [['Cards (cards16)']];
+
+  // Collect all direct children columns (cards)
+  const columns = Array.from(element.querySelectorAll(':scope > div'));
+
   columns.forEach((col) => {
-    // Card icon or image (always in ".et_pb_blurb .et_pb_main_blurb_image")
-    let icon = null;
-    const blurb = col.querySelector('.et_pb_blurb');
+    // Find the blurb content (main card section)
+    const blurb = col.querySelector('.et_pb_blurb_content');
+    let iconCell = '';
+    const textCellContent = [];
+
     if (blurb) {
-      const iconWrap = blurb.querySelector('.et_pb_main_blurb_image');
-      if (iconWrap) {
-        icon = iconWrap;
+      // Icon/"Image" cell
+      const icon = blurb.querySelector('.et_pb_main_blurb_image');
+      if (icon) {
+        iconCell = icon;
+      }
+
+      // Text content cell
+      const blurbContainer = blurb.querySelector('.et_pb_blurb_container');
+      if (blurbContainer) {
+        // Heading (keep original element)
+        const heading = blurbContainer.querySelector('.et_pb_module_header');
+        if (heading) textCellContent.push(heading);
+        // Description
+        const desc = blurbContainer.querySelector('.et_pb_blurb_description');
+        if (desc) textCellContent.push(desc);
       }
     }
-    // Card text content
-    const textContent = document.createElement('div');
-    if (blurb) {
-      // Title
-      const title = blurb.querySelector('.et_pb_module_header');
-      if (title && title.textContent.trim()) {
-        // Use <strong> for title for visual weight (as in example)
-        const strong = document.createElement('strong');
-        strong.innerHTML = title.textContent.trim();
-        textContent.appendChild(strong);
-        textContent.appendChild(document.createElement('br'));
-      }
-      // Description (may contain <br> and inline elements)
-      const desc = blurb.querySelector('.et_pb_blurb_description');
-      if (desc) {
-        // Copy all child nodes to preserve formatting
-        Array.from(desc.childNodes).forEach((node) => {
-          textContent.appendChild(node.cloneNode(true));
-        });
-      }
+
+    // Call-to-action (optional)
+    const cta = col.querySelector('a.et_pb_button');
+    if (cta) {
+      textCellContent.push(cta);
     }
-    // Card CTA button (if exists)
-    const button = col.querySelector('a.et_pb_button');
-    if (button && button.textContent.trim()) {
-      textContent.appendChild(document.createElement('br'));
-      // Reference the existing anchor element
-      textContent.appendChild(button);
+
+    // Add row for this card if at least an icon and text content
+    if (iconCell && textCellContent.length > 0) {
+      cells.push([iconCell, textCellContent]);
     }
-    rows.push([
-      icon,
-      textContent
-    ]);
   });
 
-  const table = WebImporter.DOMUtils.createTable([
-    headerRow,
-    ...rows
-  ], document);
-  element.replaceWith(table);
+  // Only create table if at least header + one row
+  if (cells.length > 1) {
+    const table = WebImporter.DOMUtils.createTable(cells, document);
+    element.replaceWith(table);
+  }
 }

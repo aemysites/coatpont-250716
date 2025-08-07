@@ -1,40 +1,26 @@
 /* global WebImporter */
 export default function parse(element, { document }) {
-  // Table header row; must exactly match the specification
+  // 1. Header row for the block, as per table header guideline
   const headerRow = ['Hero (hero12)'];
 
-  // Background Image row: No background image in the HTML, so keep empty string
-  const bgImageRow = [''];
+  // 2. Background image row: This HTML block does NOT have a background image, so keep cell empty
+  const backgroundRow = [''];
 
-  // Hero content row: icon, heading, description
-  // Get the blurb content block
+  // 3. Content row: place all of the icon, heading, and description in a single cell
+  //    The content lives within .et_pb_blurb_content
+  //    It's best to reference the .et_pb_blurb_content element directly for resilience
   const blurbContent = element.querySelector('.et_pb_blurb_content');
-  const heroContent = [];
+  // Defensive: if not found, use an empty string
+  const contentRow = [blurbContent || ''];
 
-  if (blurbContent) {
-    // Get the icon or image element (if any)
-    const iconContainer = blurbContent.querySelector('.et_pb_main_blurb_image');
-    if (iconContainer && iconContainer.firstElementChild) {
-      // Insert the entire icon container, as it may contain spans and special styling
-      heroContent.push(iconContainer);
-    }
+  // Compose the rows for the table
+  const cells = [
+    headerRow,
+    backgroundRow,
+    contentRow
+  ];
 
-    // Get the container for text
-    const blurbContainer = blurbContent.querySelector('.et_pb_blurb_container');
-    if (blurbContainer) {
-      // Heading
-      const heading = blurbContainer.querySelector('h2');
-      if (heading) heroContent.push(heading);
-      // Description (et_pb_blurb_description can have multiple paragraphs)
-      const desc = blurbContainer.querySelector('.et_pb_blurb_description');
-      if (desc) heroContent.push(desc);
-    }
-  }
-
-  const contentRow = [heroContent];
-
-  // Compose table
-  const cells = [headerRow, bgImageRow, contentRow];
+  // Create the block table and replace the original element
   const table = WebImporter.DOMUtils.createTable(cells, document);
   element.replaceWith(table);
 }

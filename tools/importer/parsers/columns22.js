@@ -1,29 +1,27 @@
 /* global WebImporter */
 export default function parse(element, { document }) {
-  // Find all columns
-  const columns = Array.from(element.children).filter(child => child.classList && child.classList.contains('et_pb_column'));
-  const colElements = columns.length > 0 ? columns : Array.from(element.children);
+  // Extract all column divs
+  const columns = Array.from(element.querySelectorAll(':scope > div.et_pb_column'));
 
-  // Header row with a single cell
-  const headerRow = ['Columns (columns22)'];
-
-  // Second row: each cell is the full content of each column
-  const contentRow = colElements.map(col => {
-    // If column has multiple root children, group them
-    if (col.children.length === 1) {
-      return col.firstElementChild;
+  // For each column, gather all direct children (modules)
+  const contentRow = columns.map(col => {
+    const modules = Array.from(col.children);
+    if (modules.length === 1) {
+      return modules[0];
     } else {
-      const frag = document.createDocumentFragment();
-      Array.from(col.children).forEach(child => frag.appendChild(child));
-      return frag;
+      return modules;
     }
   });
 
-  // Assemble table
-  const tableCells = [
-    headerRow, // one cell
-    contentRow // n cells
+  // Compose the table rows:
+  // - Header row: one cell/column only
+  // - Content row: as many columns as needed
+  const rows = [
+    ['Columns (columns22)'],
+    contentRow
   ];
-  const block = WebImporter.DOMUtils.createTable(tableCells, document);
-  element.replaceWith(block);
+
+  // Create the table and replace
+  const table = WebImporter.DOMUtils.createTable(rows, document);
+  element.replaceWith(table);
 }

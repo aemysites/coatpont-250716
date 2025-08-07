@@ -1,52 +1,73 @@
 /* global WebImporter */
 export default function parse(element, { document }) {
-  // Define table header row exactly as required
+  // Header row exactly as required
   const headerRow = ['Hero (hero20)'];
-  // No background image in provided HTML, so second row is empty string
+  // Background image row (optional in this case, empty string)
   const bgRow = [''];
 
-  // Collect all relevant content from the block
-  // We'll gather all .et_pb_text_inner and .et_pb_contact_form_container in DOM order
-  const content = [];
-  // Get all immediate children
-  const children = Array.from(element.querySelectorAll(':scope > div'));
-  children.forEach(child => {
-    // Skip dividers and irrelevant containers
-    if (
-      child.classList.contains('et_pb_top_inside_divider') ||
-      child.classList.contains('et_pb_top_divider') ||
-      child.classList.contains('et_pb_bottom_divider')
-    ) {
-      return;
+  // Collect all content for the content cell
+  const contentCell = [];
+
+  // 1. Headings: Find all headings that are direct or indirect descendants
+  // We want to preserve their order and hierarchy
+  // Also include any containers with headings/subheadings
+  const headingBlocks = [];
+  // Find all elements that look like content blocks (with text/heading)
+  // First, gather all .et_pb_text_inner blocks
+  element.querySelectorAll('.et_pb_text_inner').forEach(inner => {
+    // Only add if contains at least one heading (h1/h2/h3)
+    if (inner.querySelector('h1, h2, h3')) {
+      headingBlocks.push(inner);
     }
-    // Add all .et_pb_text_inner descendants in DOM order
-    const textBlocks = Array.from(child.querySelectorAll('.et_pb_text_inner'));
-    textBlocks.forEach(tb => content.push(tb));
-    // Add all .et_pb_contact_form_container descendants in DOM order
-    const forms = Array.from(child.querySelectorAll('.et_pb_contact_form_container'));
-    forms.forEach(form => {
-      // Replace any iframe inside forms with a link to src
-      const iframes = form.querySelectorAll('iframe');
-      iframes.forEach(iframe => {
-        const src = iframe.getAttribute('src');
-        if (src) {
-          const link = document.createElement('a');
-          link.href = src;
-          link.textContent = src;
-          iframe.replaceWith(link);
-        }
-      });
-      content.push(form);
-    });
+  });
+  headingBlocks.forEach(block => contentCell.push(block));
+
+  // 2. Description or instruction paragraph (not inside form)
+  element.querySelectorAll('.et_pb_text_inner').forEach(inner => {
+    // If contains only paragraphs and not already added
+    if (!headingBlocks.includes(inner)) {
+      contentCell.push(inner);
+    }
   });
 
-  // If we somehow missed everything, just put original element content as fallback
-  const contentRow = [content.length ? content : [element]];
+  // 3. Contact form
+  const formContainer = element.querySelector('.et_pb_contact_form_container');
+  if (formContainer) {
+    // Replace non-img [src] with a link to its src
+    formContainer.querySelectorAll('[src]:not(img)').forEach(el => {
+      const src = el.getAttribute('src');
+      if (src) {
+        const link = document.createElement('a');
+        link.href = src;
+        link.textContent = src;
+        el.replaceWith(link);
+      }
+    });
+    contentCell.push(formContainer);
+  }
 
-  const table = WebImporter.DOMUtils.createTable([
+  // Make sure all relevant text content is included (avoid missing lone headings/paragraphs)
+  // (Fallback in case e.g. headings are not in .et_pb_text_inner)
+  // Collect any top-level headings/paragraphs not already in contentCell
+  element.querySelectorAll('h1, h2, h3, p').forEach(elm => {
+    let alreadyIncluded = false;
+    for (const block of contentCell) {
+      if (block.contains && block.contains(elm)) {
+        alreadyIncluded = true;
+        break;
+      }
+    }
+    if (!alreadyIncluded) {
+      contentCell.push(elm);
+    }
+  });
+
+  // Construct the final table
+  const rows = [
     headerRow,
     bgRow,
-    contentRow,
-  ], document);
+    [contentCell]
+  ];
+  const table = WebImporter.DOMUtils.createTable(rows, document);
   element.replaceWith(table);
 }

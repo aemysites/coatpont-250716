@@ -1,24 +1,17 @@
 /* global WebImporter */
 export default function parse(element, { document }) {
-  // Build header row with a single cell
-  const headerRow = ['Columns (columns17)'];
-
-  // Get immediate column children
-  const columns = Array.from(element.querySelectorAll(':scope > .et_pb_column'));
-
-  // For each column, gather all meaningful content
-  const contentCells = columns.map((col) => {
-    // Collect all child elements with content
-    const children = Array.from(col.children).filter((child) => {
-      return child.textContent.trim().length > 0 || child.querySelector('img, a, p, div');
-    });
-    if (children.length === 0) return col;
-    if (children.length === 1) return children[0];
-    return children;
+  // Find immediate columns
+  const columns = element.querySelectorAll(':scope > div');
+  // Collect main module from each column, fallback to the column itself
+  const colContent = Array.from(columns).map((col) => {
+    const mainModule = col.querySelector(':scope > .et_pb_module');
+    return mainModule || col;
   });
-
-  // The second row contains one cell per column (can be >1 cell)
-  const tableRows = [headerRow, contentCells];
-  const table = WebImporter.DOMUtils.createTable(tableRows, document);
+  // The header row must be a single cell (one column)
+  const cells = [
+    ['Columns (columns17)'], // header row: single cell
+    colContent // content row: one cell per column
+  ];
+  const table = WebImporter.DOMUtils.createTable(cells, document);
   element.replaceWith(table);
 }

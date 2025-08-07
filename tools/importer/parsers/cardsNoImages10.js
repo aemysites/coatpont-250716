@@ -1,47 +1,47 @@
 /* global WebImporter */
 export default function parse(element, { document }) {
-  // Header row: block name per specification
-  const rows = [
-    ['Cards (cardsNoImages10)'],
-  ];
+  // Block header as in the markdown example
+  const headerRow = ['Cards (cardsNoImages10)'];
+  const rows = [headerRow];
 
-  // Select all direct column children (each with a testimonial)
+  // Find each column (each is a card)
   const columns = element.querySelectorAll(':scope > div');
-  columns.forEach(col => {
+  columns.forEach((col) => {
+    // Each column contains a .et_pb_testimonial block
     const testimonial = col.querySelector('.et_pb_testimonial');
-    if (testimonial) {
-      // We'll gather the content in order: testimonial text (em), author (span), position (in p > span)
-      const cellContent = [];
-      // Testimonial text
-      const contentEm = testimonial.querySelector('.et_pb_testimonial_content em');
-      if (contentEm) {
-        // Wrap in <p> for structure, as in the example
-        const p = document.createElement('p');
-        p.append(contentEm);
-        cellContent.push(p);
+    if (!testimonial) return;
+    const cellContent = [];
+    // Content (the quote)
+    const content = testimonial.querySelector('.et_pb_testimonial_content');
+    if (content) {
+      // Use a <div> to wrap the content (may contain <em> etc.)
+      const div = document.createElement('div');
+      // Move all child nodes (not clone) for reference
+      while (content.childNodes.length > 0) {
+        div.appendChild(content.childNodes[0]);
       }
-      // Author (name)
-      const authorSpan = testimonial.querySelector('.et_pb_testimonial_author');
-      if (authorSpan) {
-        const strong = document.createElement('strong');
-        strong.append(authorSpan);
-        cellContent.push(strong);
-      }
-      // Author position (meta)
-      const positionSpan = testimonial.querySelector('.et_pb_testimonial_position');
-      if (positionSpan) {
-        const p = document.createElement('p');
-        p.append(positionSpan);
-        cellContent.push(p);
-      }
-      // Only push non-empty cards
-      if (cellContent.length) {
-        rows.push([cellContent]);
-      }
+      cellContent.push(div);
+    }
+    // Author name (bold)
+    const author = testimonial.querySelector('.et_pb_testimonial_author');
+    if (author && author.textContent.trim() !== '') {
+      const strong = document.createElement('strong');
+      strong.textContent = author.textContent;
+      cellContent.push(strong);
+    }
+    // Position/job - always below author, not bold
+    const position = testimonial.querySelector('.et_pb_testimonial_position');
+    if (position && position.textContent.trim() !== '') {
+      const posDiv = document.createElement('div');
+      posDiv.textContent = position.textContent;
+      cellContent.push(posDiv);
+    }
+    // Only add row if there's something to show
+    if (cellContent.length > 0) {
+      rows.push([cellContent]);
     }
   });
-
-  // Create the block table
+  // Create the table and replace original element
   const table = WebImporter.DOMUtils.createTable(rows, document);
   element.replaceWith(table);
 }

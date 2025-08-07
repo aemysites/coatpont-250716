@@ -1,25 +1,25 @@
 /* global WebImporter */
 export default function parse(element, { document }) {
-  // Header row as a single cell (spanning all columns), matching example
-  const cells = [
-    ['Columns (columns31)']
-  ];
-  // Get all immediate columns in the element
+  // Header for columns31 block: Must be a single cell
+  const headerRow = ['Columns (columns31)'];
+
+  // Get all direct child columns (divs with class et_pb_column)
   const columns = Array.from(element.querySelectorAll(':scope > div'));
-  // For each column, extract the .et_pb_text_inner (the main content block)
-  const row = columns.map(col => {
-    const module = col.querySelector('.et_pb_module');
-    if (module) {
-      const inner = module.querySelector('.et_pb_text_inner');
-      if (inner) return inner;
-      return module;
-    }
-    return col;
+
+  // For each column, collect its entire module (usually a single child)
+  const contentCells = columns.map((col) => {
+    // The content is the first child div with class et_pb_module...
+    const module = col.querySelector(':scope > div');
+    return module || col;
   });
-  // Add one row with N cells (one for each column)
-  cells.push(row);
-  // Create the block table
-  const table = WebImporter.DOMUtils.createTable(cells, document);
-  // Replace the original element
+
+  // The content row must have one array item per column (be a row of N cells),
+  // but the header row must be a single cell array
+  const tableData = [
+    headerRow,         // 1 cell in header row
+    contentCells       // N cells in second row, one per column
+  ];
+
+  const table = WebImporter.DOMUtils.createTable(tableData, document);
   element.replaceWith(table);
 }
