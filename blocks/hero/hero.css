@@ -1,3 +1,4 @@
+/* Disable no-descending-specificity globally */
 /* stylelint-disable no-descending-specificity */
 
 .hero-container .hero-wrapper {
@@ -45,181 +46,6 @@
 @media (width >= 900px) {
   .hero {
     padding: 40px 32px;
-  }
-}
-
-.hero.hero7 {
-  margin-top: 0;
-  padding-top: 0;
-  border: none;
-  position: relative;
-  width: 100vw;
-  min-height: 100vh;
-  background: linear-gradient(180deg, #0893A7 0%, #7BE3C9 60%, #E6F8F6 100%);
-  overflow: hidden;
-  display: flex;
-  flex-direction: column;
-  align-items: stretch;
-  box-sizing: border-box;
-}
-
-.hero.hero7::before {
-  position: absolute;
-  left: 0;
-  right: 0;
-  bottom: 180px;
-  width: 100vw;
-  height: 420px;
-  background: url("data:image/svg+xml,%3Csvg width='100%25' height='420' viewBox='0 0 1280 420' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0 240 Q 640 60 1280 240 L 1280 420 L 0 420 Z' fill='%23fff'/%3E%3C/svg%3E") no-repeat bottom center;
-  background-size: cover;
-  z-index: 2;
-  display: block;
-  pointer-events: none;
-}
-
-.hero.hero7 > div:nth-child(2) {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: flex-start;
-  padding-top: 8vh;
-  padding-bottom: 6vh;
-  min-height: 48vh;
-  z-index: 3;
-}
-
-.hero.hero7 > div:first-child {
-  position: absolute;
-  left: 50%;
-  bottom: 120px;
-  transform: translateX(-50%);
-  width: 420px;
-  height: 120px;
-  z-index: 3;
-  display: block;
-  pointer-events: none;
-}
-
-.hero.hero7 > div:first-child > div {
-  width: 100%;
-  height: 100%;
-  border-radius: 18px;
-  box-shadow: 0 8px 32px rgb(16 78 92 / 15%);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  background-color: #e6f8f6;
-}
-
-.hero.hero7 > div:nth-child(2) > div {
-  max-width: 720px;
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.hero.hero7 h1 {
-  color: #fff;
-  font-size: 3rem;
-  font-weight: 700;
-  text-align: center;
-  margin-bottom: 12px;
-  margin-top: 0;
-  letter-spacing: 0;
-}
-
-.hero.hero7 h2 {
-  color: #fff;
-  font-size: 1.5rem;
-  font-weight: 600;
-  text-align: center;
-  margin-bottom: 28px;
-  margin-top: 0;
-  line-height: 1.3;
-  max-width: 720px;
-}
-
-.hero.hero7 .button-container {
-  text-align: center;
-  margin-bottom: 0;
-}
-
-.hero.hero7 .button {
-  background: transparent;
-  border: 1px solid #fff;
-  color: #fff;
-  border-radius: 4px;
-  padding: 12px 36px;
-  font-size: 1.05rem;
-  font-weight: 500;
-  text-decoration: none;
-  transition: background 0.2s, color 0.2s;
-  margin: 0;
-  box-shadow: none;
-  line-height: 1.2;
-  min-width: 180px;
-}
-
-.hero.hero7 .button:hover,
-.hero.hero7 .button:focus {
-  background: rgb(255 255 255 / 10%);
-  color: #fff;
-}
-
-.hero.hero7 h1 + h2 {
-  margin-top: 0;
-}
-
-.hero.hero7 h2 + .button-container {
-  margin-top: 0;
-}
-
-@media (width <= 900px) {
-  .hero.hero7 > div:first-child {
-    width: 90vw;
-    height: 70px;
-    bottom: 100px;
-  }
-
-  .hero.hero7::before {
-    height: 220px;
-    bottom: 77px;
-  }
-
-  .hero.hero7 > div:nth-child(2) > div {
-    max-width: 96vw;
-  }
-
-  .hero.hero7 h1 {
-    font-size: 2rem;
-  }
-
-  .hero.hero7 h2 {
-    font-size: 1.1rem;
-    margin-bottom: 18px;
-  }
-}
-
-@media (width <= 600px) {
-  .hero.hero7 > div:first-child {
-    width: 99vw;
-    height: 38px;
-    bottom: 70px;
-  }
-
-  .hero.hero7::before {
-    height: 110px;
-    bottom: 32px;
-  }
-
-  .hero.hero7 h1 {
-    font-size: 1.3rem;
-  }
-
-  .hero.hero7 h2 {
-    font-size: 0.97rem;
-    margin-bottom: 13px;
   }
 }
 
@@ -496,8 +322,6 @@
   margin: 0;
   transform: rotate(-16deg);
   z-index: 2;
-
-  /* Center the phone vertically if it's alone */
   align-self: flex-end;
 }
 
@@ -519,7 +343,6 @@
   padding-left: 0;
 }
 
-/* Headline and paragraph styling */
 .hero.hero6 h1,
 .hero.hero6 h2 {
   color: #96e5d9;
@@ -541,7 +364,6 @@
   max-width: 430px;
 }
 
-/* Hide button if present for this layout */
 .hero.hero6 a.button,
 .hero.hero6 button {
   display: none;
@@ -561,14 +383,12 @@
   display: block;
 }
 
-/* Make sure image and text stay above the curve */
 .hero.hero6 > div,
 .hero.hero6 > div * {
   position: relative;
   z-index: 2;
 }
 
-/* Responsive: stack columns, center text and reduce image size on small screens */
 @media (width <= 900px) {
   .hero.hero6 {
     flex-direction: column;
@@ -605,3 +425,185 @@
   }
 }
 
+
+
+.hero-container > .hero-wrapper {
+  max-width: unset;
+  padding: 0;
+  margin: 0;
+}
+
+.hero.hero7 {
+  background: linear-gradient(160deg, #09929e 0%, #6be8d5 100%);
+  width: 100vw;
+  min-height: 100vh;
+  box-sizing: border-box;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Center content vertically */
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  top: 0;
+}
+
+.hero.hero7::before {
+  display: none;
+}
+
+/* Higher, more prominent wave */
+.hero.hero7::after {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100vw;
+  height: 420px;
+  background: url("data:image/svg+xml,%3Csvg width='100%25' height='420' viewBox='0 0 1280 420' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0 230 Q 900 620 1280 170 L1280 420 L0 420 Z' fill='white'/%3E%3C/svg%3E") no-repeat bottom center/cover;
+  z-index: 2;
+  pointer-events: none;
+  content: "";
+}
+
+/* Vertically center content in available space, exclude card from centering logic */
+.hero.hero7 > div:nth-child(2) {
+  flex: 0 1 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 0;
+  width: 100%;
+  padding: 0 24px;
+  z-index: 3;
+  margin: 0;
+}
+
+.hero.hero7 > div:nth-child(2) > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  max-width: 700px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.hero.hero7 h1 {
+  color: #fff;
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-top: 0;
+  margin-bottom: 24px;
+  letter-spacing: 0.01em;
+  line-height: 1.15;
+}
+
+.hero.hero7 h2 {
+  color: #fff;
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin: 0 0 32px;
+  line-height: 1.4;
+  max-width: 700px;
+}
+
+.hero.hero7 .button-container {
+  text-align: center;
+  margin-bottom: 0;
+  margin-top: 0;
+  padding-bottom: 0;
+}
+
+.hero.hero7 .button-container .button {
+  background: transparent;
+  border: 2px solid #fff;
+  color: #fff;
+  border-radius: 12px;
+  padding: 10px 28px;
+  font-size: 1rem;
+  font-weight: 500;
+  text-decoration: none;
+  transition: background 0.2s, color 0.2s;
+  margin: 0;
+  box-shadow: none;
+  line-height: 1.2;
+  min-width: 160px;
+  display: inline-block;
+}
+
+.hero.hero7 .button-container .button:hover,
+.hero.hero7 .button-container .button:focus {
+  background: #fff;
+  color: #09929e;
+}
+
+/* Card at the bottom (absolutely positioned, doesn't push content down) */
+.hero.hero7 > div:first-child {
+  position: absolute;
+  left: 50%;
+  bottom: 68px;
+  transform: translateX(-50%);
+  width: 620px;
+  height: 200px;
+  z-index: 4;
+  display: flex;
+  align-items: flex-end;
+  pointer-events: none;
+  background: none;
+  margin: 0;
+}
+
+.hero.hero7 > div:first-child > div {
+  width: 100%;
+  height: 100%;
+  border-radius: 12px;
+  box-shadow: 0 8px 32px rgb(16 78 92 / 13%);
+  background: #e6f8f6;
+}
+
+/* Responsive adjustments */
+@media (width <= 900px) {
+  .hero.hero7 > div:first-child {
+    width: 94vw;
+    height: 110px;
+    bottom: 24px;
+  }
+
+  .hero.hero7::after {
+    height: 190px;
+  }
+}
+
+@media (width <= 600px) {
+  .hero.hero7 > div:first-child {
+    width: 99vw;
+    height: 54px;
+    bottom: 8px;
+  }
+
+  .hero.hero7::after {
+    height: 90px;
+  }
+
+  .hero.hero7 > div:nth-child(2) > div {
+    max-width: 96vw;
+  }
+
+  .hero.hero7 h1 {
+    font-size: 1.5rem;
+  }
+
+  .hero.hero7 h2 {
+    font-size: 1rem;
+    margin-bottom: 18px;
+  }
+}
+
+.hero.hero7,
+.hero.hero7 > div,
+.hero.hero7 > div > div {
+  box-sizing: border-box;
+}
