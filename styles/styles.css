@@ -102,7 +102,7 @@
 @font-face {
   font-family:"Roboto Fallback";
   font-style:normal;
-  font-weight:100;
+  font-weight:500;
   src:local("Arial");
   ascent-override:92.43%;
   descent-override:24.32%;
@@ -135,17 +135,6 @@
 @font-face {
   font-family:"Roboto Fallback";
   font-style:normal;
-  font-weight:400;
-  src:local("Arial");
-  ascent-override:92.43%;
-  descent-override:24.32%;
-  line-gap-override:0.00%;
-  size-adjust:100.37%;
-}
-
-@font-face {
-  font-family:"Roboto Fallback";
-  font-style:normal;
   font-weight:700;
   src:local("Arial Bold");
   ascent-override:100.00%;
@@ -157,7 +146,7 @@
 @font-face {
   font-family:"Roboto Fallback";
   font-style:normal;
-  font-weight:500;
+  font-weight:100;
   src:local("Arial");
   ascent-override:92.43%;
   descent-override:24.32%;
@@ -166,14 +155,14 @@
 }
 
 @font-face {
-  font-family:"Poppins Fallback";
+  font-family:"Roboto Fallback";
   font-style:normal;
-  font-weight:600;
-  src:local("Arial Bold");
-  ascent-override:98.30%;
-  descent-override:32.77%;
-  line-gap-override:9.36%;
-  size-adjust:106.82%;
+  font-weight:400;
+  src:local("Arial");
+  ascent-override:92.43%;
+  descent-override:24.32%;
+  line-gap-override:0.00%;
+  size-adjust:100.37%;
 }
 
 @font-face {
@@ -185,6 +174,17 @@
   descent-override:12.50%;
   line-gap-override:0.00%;
   size-adjust:100.00%;
+}
+
+@font-face {
+  font-family:"Poppins Fallback";
+  font-style:normal;
+  font-weight:600;
+  src:local("Arial Bold");
+  ascent-override:98.30%;
+  descent-override:32.77%;
+  line-gap-override:9.36%;
+  size-adjust:106.82%;
 }
 
 @media (width>=900px) {
@@ -387,61 +387,61 @@ main .section.light, main .section.highlight {
 }
 
 .section.section-1 {
-  background: rgb(0, 132, 134) linear-gradient(rgb(0, 132, 134) 0%, rgb(143, 233, 210) 99%) no-repeat scroll 50% 50% / cover padding-box border-box;
+  background: rgb(0 132 134) linear-gradient(rgb(0 132 134) 0%, rgb(143 233 210) 99%) no-repeat scroll 50% 50% / cover padding-box border-box;
 }
 
 .section.section-2 {
-  background: rgb(255, 255, 255) none repeat scroll 50% 50% / cover padding-box border-box;
+  background: rgb(255 255 255) none repeat scroll 50% 50% / cover padding-box border-box;
 }
 
 .section.section-3 {
-  background: rgb(255, 255, 255) none no-repeat scroll 50% 50% / cover padding-box border-box;
+  background: rgb(255 255 255) none no-repeat scroll 50% 50% / cover padding-box border-box;
 }
 
 .section.section-4 {
-  background: rgb(0, 132, 134) linear-gradient(130deg, rgb(143, 233, 210) 10%, rgb(0, 132, 134) 100%) no-repeat scroll 50% 50% / cover padding-box border-box;
+  background: rgb(0 132 134) linear-gradient(130deg, rgb(143 233 210) 10%, rgb(0 132 134) 100%) no-repeat scroll 50% 50% / cover padding-box border-box;
 }
 
 .section.section-5 {
-  background: rgb(255, 255, 255) linear-gradient(rgb(255, 255, 255) 0%, rgb(242, 242, 250) 50%) repeat scroll 50% 50% / cover padding-box border-box;
+  background: rgb(255 255 255) linear-gradient(rgb(255 255 255) 0%, rgb(242 242 250) 50%) repeat scroll 50% 50% / cover padding-box border-box;
 }
 
 .section.section-6 {
-  background: rgb(242, 242, 250) linear-gradient(rgb(255, 255, 255) 0%, rgb(242, 242, 250) 50%) no-repeat scroll 50% 50% / cover padding-box border-box;
+  background: rgb(242 242 250) linear-gradient(rgb(255 255 255) 0%, rgb(242 242 250) 50%) no-repeat scroll 50% 50% / cover padding-box border-box;
 }
 
 .section.section-7 {
-  background: rgb(255, 255, 255) linear-gradient(130deg, rgb(74, 190, 192) 25%, rgb(0, 132, 134) 100%) repeat scroll 50% 50% / cover padding-box border-box;
+  background: rgb(255 255 255) linear-gradient(130deg, rgb(74 190 192) 25%, rgb(0 132 134) 100%) repeat scroll 50% 50% / cover padding-box border-box;
 }
 
 .section.section-8 {
-  background: rgb(242, 242, 250) none no-repeat scroll 50% 50% / cover padding-box border-box;
+  background: rgb(242 242 250) none no-repeat scroll 50% 50% / cover padding-box border-box;
 }
 
 .section.section-9 {
-  background: rgb(255, 255, 255) linear-gradient(130deg, rgb(0, 132, 134) 25%, rgb(143, 233, 210) 100%) repeat scroll 50% 50% / cover padding-box border-box;
+  background: rgb(255 255 255) linear-gradient(130deg, rgb(0 132 134) 25%, rgb(143 233 210) 100%) repeat scroll 50% 50% / cover padding-box border-box;
 }
 
 .section.section-10 {
-  background: rgba(0, 0, 0, 0) url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIyNTBweCIgdmlld0JveD0iMCAwIDEyODAgMTQwIiBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJub25lIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxnIGZpbGw9IiNmZmZmZmYiPjxwYXRoIGQ9Ik0wIDE0MGgxMjgwQzU3My4wOCAxNDAgMCAwIDAgMHoiLz48L2c+PC9zdmc+") repeat scroll 0% 0% / 100% 250px padding-box border-box;
+  background: rgb(0 0 0 / 0%) url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIyNTBweCIgdmlld0JveD0iMCAwIDEyODAgMTQwIiBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJub25lIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxnIGZpbGw9IiNmZmZmZmYiPjxwYXRoIGQ9Ik0wIDE0MGgxMjgwQzU3My4wOCAxNDAgMCAwIDAgMHoiLz48L2c+PC9zdmc+") repeat scroll 0% 0% / 100% 250px padding-box border-box;
 }
 
 .section.section-11 {
-  background: rgba(0, 0, 0, 0) url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIyMDBweCIgdmlld0JveD0iMCAwIDEyODAgMTQwIiBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJub25lIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxnIGZpbGw9IiNmZmZmZmYiPjxwYXRoIGQ9Ik0wIDE0MGgxMjgwQzU3My4wOCAxNDAgMCAwIDAgMHoiLz48L2c+PC9zdmc+") repeat scroll 0% 0% / 100% 200px padding-box border-box;
+  background: rgb(0 0 0 / 0%) url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIyMDBweCIgdmlld0JveD0iMCAwIDEyODAgMTQwIiBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJub25lIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxnIGZpbGw9IiNmZmZmZmYiPjxwYXRoIGQ9Ik0wIDE0MGgxMjgwQzU3My4wOCAxNDAgMCAwIDAgMHoiLz48L2c+PC9zdmc+") repeat scroll 0% 0% / 100% 200px padding-box border-box;
 }
 
 .section.section-12 {
-  background: rgb(255, 255, 255) linear-gradient(130deg, rgb(0, 132, 134) 0%, rgb(143, 233, 210) 100%) repeat scroll 50% 50% / cover padding-box border-box;
+  background: rgb(255 255 255) linear-gradient(130deg, rgb(0 132 134) 0%, rgb(143 233 210) 100%) repeat scroll 50% 50% / cover padding-box border-box;
 }
 
 .section.section-13 {
-  background: rgb(255, 255, 255) none repeat scroll 0% 0% / auto padding-box border-box;
+  background: rgb(255 255 255) none repeat scroll 0% 0% / auto padding-box border-box;
 }
 
 .section.section-14 {
-  background: rgb(242, 242, 250) linear-gradient(rgb(242, 242, 250) 0%, rgb(255, 255, 255) 100%) no-repeat scroll 50% 50% / cover padding-box border-box;
+  background: rgb(242 242 250) linear-gradient(rgb(242 242 250) 0%, rgb(255 255 255) 100%) no-repeat scroll 50% 50% / cover padding-box border-box;
 }
 
 .section.section-15 {
-  background: rgba(255, 255, 255, 0) linear-gradient(130deg, rgb(0, 132, 134) 25%, rgb(143, 233, 210) 100%) no-repeat scroll 50% 50% / cover padding-box border-box;
+  background: rgb(255 255 255 / 0%) linear-gradient(130deg, rgb(0 132 134) 25%, rgb(143 233 210) 100%) no-repeat scroll 50% 50% / cover padding-box border-box;
 }
