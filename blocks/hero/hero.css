@@ -840,8 +840,6 @@
   align-items: stretch;
   width: 100%;
 }
-
-/* Headings: stacked and centered */
 .hero.hero20 h3,
 .hero.hero20 h2 {
   width: 100%;
@@ -868,8 +866,6 @@
   margin-top: 0.5em;
   line-height: 1.15;
 }
-
-/* Explanatory text: centered, smaller, subtle */
 .hero.hero20 p:first-of-type {
   color: #888;
   font-size: 13.5px;
@@ -882,8 +878,6 @@
   margin-top: 0.8em;
   line-height: 1.6;
 }
-
-/* Form fields: left-aligned and compact */
 .hero.hero20 p:not(:first-of-type):not(:nth-last-child(2)):not(:last-child) {
   color: #3C3C3C;
   font-size: 16px;
@@ -892,18 +886,12 @@
   text-align: left;
   width: 100%;
 }
-
-/* --- BOTTOM ROW: LABEL AND BUTTON SIDE BY SIDE --- */
-/* Wrap bottom row (last two <p>s) in a flex row */
 .hero.hero20 > div:last-child > div > p:nth-last-child(2),
 .hero.hero20 > div:last-child > div > p:last-child {
   margin-top: 0;
   margin-bottom: 0;
 }
-
-/* Target the parent and apply flex if the last two children are the bottom row */
 .hero.hero20 > div:last-child > div {
-  /* By default column, but if last two children, make row */
 }
 .hero.hero20 > div:last-child > div > p:nth-last-child(2) + p:last-child {
   display: flex;
@@ -946,8 +934,6 @@
 .hero.hero20 > div:last-child > div > p:last-child:focus {
   background: #15a5a1;
 }
-
-/* Responsive: stack bottom row vertically on small screens */
 @media (max-width: 600px) {
   .hero.hero20 > div:last-child {
     padding: 24px 6px 24px 6px;
@@ -973,4 +959,113 @@
     font-size: 17px;
     padding: 14px 0;
   }
+}
+
+
+.hero.hero25 {
+  position: relative;
+  width: 100vw;
+  max-width: 100vw;
+  min-height: 180px;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+  background: linear-gradient(180deg, #09989e 0%, #a6f1e0 100%);
+  background-image:
+    url('data:image/svg+xml;utf8,<svg width="100%" height="90" viewBox="0 0 1440 90" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0 75 Q 720 120 1440 75 L1440 90 L0 90Z" fill="%23ffffff" fill-opacity="0.18"/><path d="M0 85 Q 720 150 1440 85 L1440 90 L0 90Z" fill="%23ffffff" fill-opacity="0.3"/></svg>');
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: bottom right;
+}
+
+/* Use flex row for the two child columns, but only the second one should fill space */
+.hero.hero25 > div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  min-height: 180px;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Hide left column visually, but preserve for structure */
+.hero.hero25 > div:first-child {
+  flex: 0 0 0;
+  min-width: 0;
+  max-width: 0;
+  padding: 0;
+  margin: 0;
+  opacity: 0;
+  pointer-events: none;
+}
+
+/* Make the right column fill and center content */
+.hero.hero25 > div:last-child {
+  flex: 1 1 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 0;
+  min-height: 180px;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+/* Center the innermost div and heading fully */
+.hero.hero25 > div:last-child > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  min-width: 0;
+}
+
+.hero.hero25 h1 {
+  color: #fff;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 700;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  letter-spacing: -0.01em;
+  line-height: 1.1;
+  display: block;
+}
+
+.hero.hero25 h2,
+.hero.hero25 h3,
+.hero.hero25 h4,
+.hero.hero25 h5,
+.hero.hero25 h6 {
+  color: #fff;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+@media (max-width: 900px) {
+  .hero.hero25,
+  .hero.hero25 > div,
+  .hero.hero25 > div:last-child {
+    min-height: 120px;
+    padding: 20px 5vw;
+  }
+  .hero.hero25 h1 {
+    font-size: 1.4rem;
+  }
+}
+
+/* Ensure the block sits flush with the page edge */
+.hero-container > .hero-wrapper {
+  max-width: unset;
+  padding: 0;
 }
