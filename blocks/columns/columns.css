@@ -1,4 +1,8 @@
+/* Fixed CSS Code */
+
+/* Disabled no-descending-specificity rule globally */
 /* stylelint-disable no-descending-specificity */
+
 .columns > div {
   display: flex;
   flex-direction: column;
@@ -197,5 +201,184 @@
     max-width: 100%;
     padding: 24px 16px;
     border-radius: 12px;
+  }
+}
+
+.columns.columns13 {
+  background: #fff;
+  position: relative;
+  padding: 48px 0;
+  overflow: visible;
+}
+
+/* Soft gradient at lower right */
+.columns.columns13::after {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 340px;
+  height: 110px;
+  background: radial-gradient(ellipse at bottom right, #e6eef6 0%, transparent 80%);
+  z-index: 0;
+  pointer-events: none;
+  display: block;
+  content: "";
+}
+
+/* --- Layout: Two columns, align tops --- */
+.columns.columns13 > div {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 7rem;
+  max-width: 1010px;
+  margin: 0 auto;
+  padding-left: 5.7rem;
+  padding-right: 2rem;
+  position: relative;
+  z-index: 1;
+}
+
+@media (width <= 1100px) {
+  .columns.columns13 > div {
+    max-width: 95vw;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    gap: 2.5rem;
+  }
+}
+
+@media (width <= 900px) {
+  .columns.columns13 > div {
+    flex-direction: column;
+    gap: 2rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    max-width: 100vw;
+  }
+}
+
+/* --- Left column (text) --- */
+.columns.columns13 > div > div:first-child {
+  flex: 1 1 0;
+  max-width: 334px;
+  padding: 0;
+  margin: 0;
+  align-self: flex-start;
+}
+
+.columns.columns13 h2 {
+  font-size: 2rem;
+  font-weight: 800;
+  color: #212121;
+  margin-top: 0;
+  margin-bottom: 1.15rem;
+  line-height: 1.15;
+  font-family: var(--heading-font-family), sans-serif;
+}
+
+.columns.columns13 p {
+  font-size: 1rem;
+  color: #5D6E7B;
+  margin-bottom: 1.2rem;
+  line-height: 1.5;
+  max-width: 100%;
+}
+
+.columns.columns13 .button-container {
+  margin-top: 3rem;
+  margin-bottom: 0;
+}
+
+.columns.columns13 .button-container .button {
+  background: #09948D;
+  color: #fff;
+  font-weight: 600;
+  font-size: 1rem;
+  border-radius: 6px;
+  padding: 0.7em 2em;
+  border: none;
+  text-decoration: none;
+  box-shadow: 0 2px 6px rgb(9 148 141 / 7%);
+  margin-top: 0;
+  margin-bottom: 0;
+  display: inline-block;
+  transition: background 0.2s;
+  line-height: 1.25;
+}
+
+.columns.columns13 .button-container .button:hover,
+.columns.columns13 .button-container .button:focus {
+  background: #07736c;
+  color: #fff;
+}
+
+/* --- Right column (image/laptop) --- */
+.columns.columns13 > div > .columns-img-col {
+  flex: 1 1 0;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  min-width: 300px;
+  max-width: 480px;
+  padding: 0;
+  margin: 0;
+  position: relative;
+  z-index: 1;
+  align-self: flex-start;
+  margin-top: -0.32rem;
+}
+
+.columns.columns13 .columns-img-col picture {
+  display: block;
+  border-radius: 24px;
+  background: #fff;
+  box-shadow: 0 8px 24px 0 rgb(44 62 80 / 10%);
+  padding: 0.65rem 0.65rem 1.05rem;
+  position: relative;
+  overflow: hidden;
+  width: 320px;
+  max-width: 100%;
+  margin-top: 0;
+}
+
+.columns.columns13 .columns-img-col img {
+  display: block;
+  border-radius: 16px;
+  width: 100%;
+  height: auto;
+  box-shadow: 0 2px 18px rgb(44 62 80 / 7%);
+  margin-top: 0;
+  padding-top: 0;
+}
+
+/* Remove any accidental vertical displacement from the laptop image */
+.columns.columns13 .columns-img-col,
+.columns.columns13 .columns-img-col picture,
+.columns.columns13 .columns-img-col img {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+@media (width <= 900px) {
+  .columns.columns13 > div > .columns-img-col {
+    min-width: 0;
+    max-width: 100%;
+    width: 100%;
+    justify-content: center;
+    margin-top: 0;
+  }
+
+  .columns.columns13 .columns-img-col picture {
+    width: 100%;
+    min-width: 0;
+    padding: 0.7rem 0.7rem 1rem;
+  }
+}
+
+/* Even on wide screens, keep block visually contained */
+@media (width >= 1300px) {
+  .columns.columns13 > div {
+    max-width: 1100px;
   }
 }
