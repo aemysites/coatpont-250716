@@ -1,8 +1,4 @@
-/* Fixed CSS Code */
-
-/* Disabled no-descending-specificity rule globally */
-/* stylelint-disable no-descending-specificity */
-
+/* Stylelint-disable no-descending-specificity */
 .columns > div {
   display: flex;
   flex-direction: column;
@@ -211,7 +207,6 @@
   overflow: visible;
 }
 
-/* Soft gradient at lower right */
 .columns.columns13::after {
   position: absolute;
   right: 0;
@@ -225,7 +220,6 @@
   content: "";
 }
 
-/* --- Layout: Two columns, align tops --- */
 .columns.columns13 > div {
   display: flex;
   flex-direction: row;
@@ -258,7 +252,6 @@
   }
 }
 
-/* --- Left column (text) --- */
 .columns.columns13 > div > div:first-child {
   flex: 1 1 0;
   max-width: 334px;
@@ -313,7 +306,6 @@
   color: #fff;
 }
 
-/* --- Right column (image/laptop) --- */
 .columns.columns13 > div > .columns-img-col {
   flex: 1 1 0;
   display: flex;
@@ -352,7 +344,6 @@
   padding-top: 0;
 }
 
-/* Remove any accidental vertical displacement from the laptop image */
 .columns.columns13 .columns-img-col,
 .columns.columns13 .columns-img-col picture,
 .columns.columns13 .columns-img-col img {
@@ -376,9 +367,101 @@
   }
 }
 
-/* Even on wide screens, keep block visually contained */
 @media (width >= 1300px) {
   .columns.columns13 > div {
     max-width: 1100px;
+  }
+}
+
+.columns.columns17 {
+  background: #f6f6fb;
+  border-radius: 8px;
+  padding: 2rem;
+  max-width: 700px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+/* --- Layout: two columns if BOTH exist, otherwise single column text --- */
+.columns.columns17 > div {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 2rem;
+}
+
+/* Hide the image column if it's empty so text can take full width */
+.columns.columns17 > div > .columns-img-col:empty {
+  display: none;
+  width: 0;
+  min-width: 0;
+  max-width: 0;
+  padding: 0;
+  margin: 0;
+}
+
+/* When image column is hidden, let text fill all space */
+.columns.columns17 > div > .columns-img-col:empty + div {
+  flex: 1 1 100%;
+}
+
+/* When image is present: reserve space, keep flush left, don't collapse */
+.columns.columns17 > div > .columns-img-col {
+  flex: 0 0 40%;
+  max-width: 300px;
+  min-width: 180px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* Style the image itself */
+.columns.columns17 > div > .columns-img-col img,
+.columns.columns17 > div > .columns-img-col picture {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 4px;
+  box-shadow: 0 2px 8px rgb(0 0 0 / 3%);
+}
+
+/* Text column: always fills remaining space, never overflows */
+.columns.columns17 > div > div:not(.columns-img-col) {
+  flex: 1 1 0;
+  color: #464656;
+  font-size: 14px;
+  font-family: inherit;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  line-height: 1.6;
+  min-width: 0;
+  word-break: break-word;
+  margin: 0;
+}
+
+/* Padding/margin tweaks for perfect text-top alignment */
+.columns.columns17 > div > div:not(.columns-img-col) > *:first-child {
+  margin-top: 0;
+}
+
+@media (width <= 900px) {
+  .columns.columns17 {
+    padding: 1.25rem;
+    max-width: 100%;
+  }
+
+  .columns.columns17 > div {
+    flex-direction: column;
+    gap: 1.25rem;
+  }
+
+  .columns.columns17 > div > .columns-img-col {
+    max-width: 100%;
+    min-width: 0;
+    margin-bottom: 1rem;
   }
 }
