@@ -1,4 +1,3 @@
-/* Disable the no-descending-specificity rule globally */
 /* stylelint-disable no-descending-specificity */
 
 .hero-container .hero-wrapper {
@@ -361,7 +360,6 @@
   }
 }
 
-
 .hero.hero3 {
   position: relative;
   width: 100vw;
@@ -377,7 +375,6 @@
   box-sizing: border-box;
 }
 
-/* Wave decoration at the bottom */
 .hero.hero3::after {
   display: block;
   position: absolute;
@@ -392,7 +389,6 @@
   content: "";
 }
 
-/* Center the main content horizontally, push it slightly higher for better balance */
 .hero.hero3 > div {
   width: 100%;
   display: flex;
@@ -400,13 +396,12 @@
   align-items: center;
   z-index: 2;
   position: relative;
-  margin-top: 48px;   /* Decreased from 65px for less top space */
+  margin-top: 48px;
   margin-bottom: 0;
-  padding-bottom: 40px; /* Increased from 28px for more space above waves */
+  padding-bottom: 40px;
   padding-top: 0;
 }
 
-/* Remove excessive spacing inside the text block */
 .hero.hero3 > div > div {
   display: flex;
   flex-direction: column;
@@ -416,7 +411,6 @@
   margin: 0;
 }
 
-/* H2: small, bold, all uppercase, white, centered, tight above h1 */
 .hero.hero3 h2 {
   color: #fff;
   font-size: 1.08rem;
@@ -429,7 +423,6 @@
   line-height: 1.2;
 }
 
-/* H1: large, bold, white, centered, minimal spacing below */
 .hero.hero3 h1 {
   color: #fff;
   font-size: 2.25rem;
@@ -441,7 +434,6 @@
   letter-spacing: -0.01em;
 }
 
-/* Responsive adjustments */
 @media (width <= 900px) {
   .hero.hero3 > div {
     margin-top: 24px;
@@ -460,3 +452,156 @@
     height: 28px;
   }
 }
+
+.hero.hero6 {
+  position: relative;
+  overflow: hidden;
+  background: radial-gradient(circle at 0% 0%, #7ee2d5 0%, #17a1b6 100%);
+  min-height: 540px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 72px;
+  padding: 54px 40px 0;
+  z-index: 1;
+}
+
+.hero.hero6 > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-width: 0;
+  position: relative;
+}
+
+.hero.hero6 > div:first-child {
+  flex: 1 0 390px;
+  align-items: flex-end;
+  justify-content: center;
+  max-width: 465px;
+  min-width: 240px;
+  z-index: 2;
+}
+
+.hero.hero6 picture {
+  display: block;
+  width: 365px;
+  max-width: 98vw;
+  aspect-ratio: 9/16;
+  background: #fff;
+  border-radius: 32px;
+  box-shadow: 0 8px 32px 0 rgb(44 62 80 / 22%), 0 2px 8px 0 rgb(44 62 80 / 10%);
+  position: relative;
+  margin: 0;
+  transform: rotate(-16deg);
+  z-index: 2;
+
+  /* Center the phone vertically if it's alone */
+  align-self: flex-end;
+}
+
+.hero.hero6 img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 32px;
+}
+
+.hero.hero6 > div:last-child {
+  flex: 1 1 480px;
+  align-items: flex-start;
+  justify-content: center;
+  max-width: 520px;
+  min-width: 240px;
+  z-index: 2;
+  padding-left: 0;
+}
+
+/* Headline and paragraph styling */
+.hero.hero6 h1,
+.hero.hero6 h2 {
+  color: #96e5d9;
+  font-size: 2.6rem;
+  font-weight: 700;
+  line-height: 1.14;
+  margin: 0 0 22px;
+  letter-spacing: -0.5px;
+  text-align: left;
+  max-width: 520px;
+}
+
+.hero.hero6 p {
+  color: #c8e3e0;
+  font-size: 1.25rem;
+  line-height: 1.6;
+  margin: 0;
+  text-align: left;
+  max-width: 430px;
+}
+
+/* Hide button if present for this layout */
+.hero.hero6 a.button,
+.hero.hero6 button {
+  display: none;
+}
+
+.hero.hero6::before {
+  position: absolute;
+  left: -13%;
+  right: -13%;
+  bottom: 0;
+  height: 46%;
+  background: white;
+  border-radius: 100% 100% 0 0 / 68% 68% 0 0;
+  z-index: 1;
+  opacity: 0.78;
+  pointer-events: none;
+  display: block;
+}
+
+/* Make sure image and text stay above the curve */
+.hero.hero6 > div,
+.hero.hero6 > div * {
+  position: relative;
+  z-index: 2;
+}
+
+/* Responsive: stack columns, center text and reduce image size on small screens */
+@media (width <= 900px) {
+  .hero.hero6 {
+    flex-direction: column;
+    align-items: center;
+    gap: 38px;
+    padding: 32px 10px 0;
+    min-height: unset;
+  }
+
+  .hero.hero6 > div:first-child,
+  .hero.hero6 > div:last-child {
+    max-width: 100%;
+    align-items: center;
+    justify-content: center;
+    min-width: 0;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .hero.hero6 h1,
+  .hero.hero6 h2,
+  .hero.hero6 p {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .hero.hero6 picture {
+    width: 220px;
+    max-width: 90vw;
+    margin-bottom: 18px;
+    transform: rotate(-8deg) scale(0.97);
+    align-self: center;
+  }
+}
+
