@@ -411,7 +411,6 @@
   position: static;
   left: auto;
   right: auto;
-  /* No asymmetric tricks */
 }
 
 .cards.cardsnoimages10 > ul {
@@ -427,8 +426,6 @@
   max-width: 1280px;
   box-sizing: border-box;
 }
-
-/* Slightly increase card max-width for a fuller row */
 .cards.cardsnoimages10 > ul > li {
   background: #fff;
   border-radius: 16px;
@@ -441,8 +438,6 @@
   align-items: stretch;
   transition: box-shadow 0.2s;
 }
-
-/* Card body */
 .cards.cardsnoimages10 .cards-card-body {
   padding: 24px 24px 22px 24px;
   margin: 0;
@@ -453,8 +448,6 @@
   justify-content: flex-start;
   align-items: flex-start;
 }
-
-/* Typography */
 .cards.cardsnoimages10 .cards-card-body p {
   font-family: 'Inter', 'Poppins', Arial, sans-serif;
   font-size: 16px;
@@ -492,8 +485,6 @@
 .cards.cardsnoimages10 .cards-card-body p:not(:first-child):not(:last-child) {
   margin-bottom: 0;
 }
-
-/* Responsive stacking on small screens */
 @media (max-width: 900px) {
   .cards.cardsnoimages10 > ul {
     flex-direction: column;
@@ -509,5 +500,74 @@
   }
   .cards.cardsnoimages10 .cards-card-body {
     padding: 20px 10px 16px 10px;
+  }
+}
+
+
+.cards.cardsnoimages14 {
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+.cards.cardsnoimages14 > ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: stretch;
+  gap: 32px;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.cards.cardsnoimages14 > ul > li {
+  background: #fff;
+  border: none;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(44, 62, 80, 0.10);
+  width: 320px;
+  min-height: 160px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.cards.cardsnoimages14 .cards-card-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 32px 20px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.cards.cardsnoimages14 .cards-card-body h2 {
+  color: #5DD1C4;
+  font-size: 1.25rem;
+  font-weight: bold;
+  text-align: center;
+  margin: 0 0 16px 0;
+  line-height: 1.2;
+}
+
+.cards.cardsnoimages14 .cards-card-body p {
+  color: #333;
+  font-size: 1rem;
+  text-align: center;
+  margin: 0;
+  line-height: 1.5;
+}
+
+@media (max-width: 800px) {
+  .cards.cardsnoimages14 > ul {
+    flex-direction: column;
+    gap: 24px;
+    align-items: center;
+  }
+  .cards.cardsnoimages14 > ul > li {
+    width: 100%;
+    max-width: 380px;
   }
 }
