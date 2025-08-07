@@ -571,3 +571,87 @@
     max-width: 380px;
   }
 }
+
+
+.cards.cards15 {
+  position: relative;
+  min-height: 140px;
+  padding-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  /* Subtle background for visual presence and fade anchor */
+  background: linear-gradient(to bottom, #f6f6f8 85%, #fff 100%);
+  border-radius: 0;
+  box-shadow: none;
+}
+
+/* Horizontal row layout for cards (when present) */
+.cards.cards15 > ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: stretch;
+  gap: 32px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  min-height: 112px;
+}
+
+/* Minimum height for empty ul as fade anchor */
+.cards.cards15 > ul:empty {
+  min-height: 112px;
+}
+
+/* Stronger and taller fade for more visual separation */
+.cards.cards15::after {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 64px;
+  background: linear-gradient(to bottom, rgba(246,246,248,0) 0%, #fff 100%);
+  pointer-events: none;
+  z-index: 1;
+  display: block;
+}
+
+/* Card appearance for li children (future-proofing) */
+.cards.cards15 > ul > li {
+  background: #fff;
+  box-shadow: 0 2px 8px 0 rgba(33,33,33,0.12), 0 4px 12px 0 rgba(33,33,33,0.08);
+  border: none;
+  border-radius: 0;
+  min-width: 180px;
+  max-width: 240px;
+  min-height: 112px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 0;
+  transition: box-shadow 0.15s;
+}
+
+/* Responsive: stack cards vertically on mobile */
+@media (max-width: 700px) {
+  .cards.cards15 > ul {
+    flex-direction: column;
+    gap: 20px;
+    min-height: 0;
+  }
+  .cards.cards15 > ul > li {
+    min-width: 0;
+    max-width: 100%;
+  }
+  .cards.cards15 {
+    min-height: 90px;
+    padding-bottom: 20px;
+  }
+  .cards.cards15::after {
+    height: 40px;
+  }
+}
