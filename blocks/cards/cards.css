@@ -1,6 +1,3 @@
-/* Disable no-descending-specificity globally for this file */
-/* stylelint-disable no-descending-specificity */
-
 .cards > ul {
   list-style: none;
   margin: 0;
@@ -338,8 +335,6 @@
   height: 100%;
   transition: box-shadow 0.2s;
 }
-
-/* Icon wrapper */
 .cards.cards4 > ul > li > .cards-card-body:first-child {
   display: flex;
   align-items: flex-start;
@@ -348,8 +343,6 @@
   flex: 0 0 auto;
   padding: 0;
 }
-
-/* Icon style */
 .cards.cards4 > ul > li > .cards-card-body:first-child > p {
   margin: 3px 0 0;
   font-size: 3.05rem;
@@ -357,18 +350,12 @@
   font-family: 'Font Awesome 5 Free', FontAwesome, 'ETmodules Fallback', sans-serif;
   font-weight: 900;
 }
-
-/* First card icon color */
 .cards.cards4 > ul > li:first-child > .cards-card-body:first-child > p {
   color: #7867D2;
 }
-
-/* Second card icon color */
 .cards.cards4 > ul > li:nth-child(2) > .cards-card-body:first-child > p {
   color: #93E9E1;
 }
-
-/* Content body */
 .cards.cards4 > ul > li > .cards-card-body:last-child {
   flex: 1 1 0;
   min-width: 0;
@@ -377,8 +364,6 @@
   flex-direction: column;
   justify-content: flex-start;
 }
-
-/* Heading style */
 .cards.cards4 > ul > li > .cards-card-body:last-child h2 {
   margin: 0 0 12px;
   font-size: 1.37rem;
@@ -387,8 +372,6 @@
   line-height: 1.18;
   font-family: var(--heading-font-family);
 }
-
-/* Description style */
 .cards.cards4 > ul > li > .cards-card-body:last-child p {
   margin: 0;
   color: #444;
@@ -397,15 +380,11 @@
   line-height: 1.38;
   font-family: var(--body-font-family);
 }
-
-/* Remove default margin on .cards-card-body */
 .cards.cards4 .cards-card-body {
   margin: 0;
   background: none;
   padding: 0;
 }
-
-/* Responsive: stack cards vertically on small screens */
 @media (width <= 820px) {
   .cards.cards4 > ul {
     grid-template-columns: 1fr;
@@ -416,10 +395,119 @@
     padding: 18px 10px;
   }
 }
-
-/* Prevent image rules from interfering (in this block, not used) */
 .cards.cards4 > ul > li img {
   width: auto;
   aspect-ratio: initial;
   object-fit: initial;
+}
+
+
+.cards.cardsnoimages10 {
+  background: #F6F8FB;
+  padding: 48px 0;
+  width: 100%;
+  box-sizing: border-box;
+  margin: 0;
+  position: static;
+  left: auto;
+  right: auto;
+  /* No asymmetric tricks */
+}
+
+.cards.cardsnoimages10 > ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: stretch;
+  gap: 28px;
+  list-style: none;
+  margin: 0 auto;
+  padding: 0 40px;
+  width: 100%;
+  max-width: 1280px;
+  box-sizing: border-box;
+}
+
+/* Slightly increase card max-width for a fuller row */
+.cards.cardsnoimages10 > ul > li {
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 4px 24px rgba(47, 52, 89, 0.07);
+  border: none;
+  flex: 1 1 0;
+  min-width: 300px;
+  max-width: 390px;
+  display: flex;
+  align-items: stretch;
+  transition: box-shadow 0.2s;
+}
+
+/* Card body */
+.cards.cardsnoimages10 .cards-card-body {
+  padding: 24px 24px 22px 24px;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  box-sizing: border-box;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+/* Typography */
+.cards.cardsnoimages10 .cards-card-body p {
+  font-family: 'Inter', 'Poppins', Arial, sans-serif;
+  font-size: 16px;
+  color: #2F3459;
+  line-height: 1.5;
+  margin: 0 0 8px 0;
+  text-align: left;
+  word-break: break-word;
+  font-weight: 400;
+}
+
+.cards.cardsnoimages10 .cards-card-body em {
+  font-style: normal;
+  color: #2F3459;
+  font-weight: 400;
+}
+
+.cards.cardsnoimages10 .cards-card-body strong {
+  display: block;
+  font-weight: bold;
+  font-size: 15px;
+  margin-top: 16px;
+  margin-bottom: 6px;
+  color: #2F3459;
+  letter-spacing: 0.01em;
+}
+
+.cards.cardsnoimages10 .cards-card-body p:last-child {
+  color: #8B92A6;
+  font-size: 14px;
+  margin-bottom: 0;
+  font-weight: 400;
+}
+
+.cards.cardsnoimages10 .cards-card-body p:not(:first-child):not(:last-child) {
+  margin-bottom: 0;
+}
+
+/* Responsive stacking on small screens */
+@media (max-width: 900px) {
+  .cards.cardsnoimages10 > ul {
+    flex-direction: column;
+    gap: 24px;
+    align-items: center;
+    max-width: 100vw;
+    padding: 0 8px;
+  }
+  .cards.cardsnoimages10 > ul > li {
+    max-width: 98vw;
+    min-width: 0;
+    width: 100%;
+  }
+  .cards.cardsnoimages10 .cards-card-body {
+    padding: 20px 10px 16px 10px;
+  }
 }
