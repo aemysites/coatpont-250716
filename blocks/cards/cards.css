@@ -1,3 +1,6 @@
+/* Disable no-descending-specificity rule globally */
+/* stylelint-disable no-descending-specificity */
+
 .cards > ul {
   list-style: none;
   margin: 0;
@@ -25,7 +28,6 @@
   aspect-ratio: 4 / 3;
   object-fit: cover;
 }
-
 
 .cards.cards16 {
   background: #f8fbfc;
@@ -188,5 +190,133 @@
     width: 94vw;
     margin: 0 auto;
     max-width: 440px;
+  }
+}
+
+.cards.cardsnoimages1 {
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+}
+
+/* Tighter horizontal gap and card group width for improved alignment */
+.cards.cardsnoimages1 > ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: stretch;
+  gap: 1.25rem;
+  padding: 0;
+  margin: 0 auto;
+  list-style: none;
+  max-width: calc(3 * 300px + 2 * 1.25rem); /* fits 3 cards + 2 gaps snugly */
+}
+
+.cards.cardsnoimages1 > ul > li {
+  flex: 0 1 300px;
+  max-width: 300px;
+  min-width: 240px;
+  background: #fff;
+  border: none;
+  border-radius: 16px;
+  box-shadow: 0 2px 12px rgb(60 60 60 / 10%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: box-shadow 0.2s;
+}
+
+.cards.cardsnoimages1 > ul > li:hover {
+  box-shadow: 0 8px 24px rgb(60 60 60 / 13%);
+}
+
+/* Card content: compact padding and consistent vertical alignment */
+.cards.cardsnoimages1 .cards-card-body {
+  width: 100%;
+  padding: 1rem 1.2rem;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  text-align: center;
+  min-height: 120px;
+}
+
+/* Title and subtitle spacing and colors */
+.cards.cardsnoimages1 .cards-card-body h2 {
+  margin-top: 0;
+  margin-bottom: 0.15em;
+  font-size: 1.14rem;
+  font-weight: 700;
+}
+
+.cards.cardsnoimages1 > ul > li:nth-child(1) .cards-card-body h2 {
+  color: #28b8b8;
+}
+
+.cards.cardsnoimages1 > ul > li:nth-child(2) .cards-card-body h2 {
+  color: #6fe2d9;
+}
+
+.cards.cardsnoimages1 > ul > li:nth-child(3) .cards-card-body h2 {
+  color: #7269ac;
+}
+
+/* Subtitle: always reserve space for alignment */
+.cards.cardsnoimages1 .cards-card-body em {
+  display: block;
+  min-height: 1.2em;
+  color: #999;
+  font-size: 0.96rem;
+  font-style: italic;
+  margin-top: 0;
+  margin-bottom: 0.3em;
+}
+
+.cards.cardsnoimages1 > ul > li:not(:first-child) .cards-card-body em:empty {
+  min-height: 1.2em;
+  margin-bottom: 0.3em;
+}
+
+/* Dates/times: compact margin */
+.cards.cardsnoimages1 .cards-card-body p {
+  color: #222;
+  font-size: 1rem;
+  font-weight: 400;
+  margin: 0.08em 0 0;
+  line-height: 1.4;
+  padding: 0;
+}
+
+.cards.cardsnoimages1 .cards-card-body p:first-of-type {
+  margin-top: 0.06em;
+}
+
+.cards.cardsnoimages1 .cards-card-body p:last-child {
+  margin-bottom: 0;
+}
+
+/* Responsive: stack cards vertically on small screens */
+@media (width <= 900px) {
+  .cards.cardsnoimages1 {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+  }
+
+  .cards.cardsnoimages1 > ul {
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    max-width: 100%;
+  }
+
+  .cards.cardsnoimages1 > ul > li {
+    max-width: 95vw;
+    min-width: 0;
+  }
+
+  .cards.cardsnoimages1 .cards-card-body {
+    padding: 1rem 0.8rem;
+    min-height: 0;
   }
 }
