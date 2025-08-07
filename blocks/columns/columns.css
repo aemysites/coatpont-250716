@@ -1,4 +1,4 @@
-/* Updated CSS Code */
+/* stylelint-disable no-descending-specificity */
 .columns > div {
   display: flex;
   flex-direction: column;
@@ -33,7 +33,6 @@
   }
 }
 
-
 .columns.columns5 {
   background: linear-gradient(120deg, #6ed0e0 0%, #05989c 100%);
   width: 100vw;
@@ -47,7 +46,6 @@
   overflow: hidden;
 }
 
-/* Center and space the heading */
 .columns.columns5 > div:first-child {
   width: 100%;
   display: flex;
@@ -68,7 +66,6 @@
   font-family: Montserrat, Poppins, Arial, sans-serif;
 }
 
-/* Stats row: four columns side by side, spaced more generously */
 .columns.columns5 > div:nth-child(2) {
   width: 100%;
   max-width: 1050px;
@@ -82,7 +79,6 @@
   gap: 0;
 }
 
-/* Each stat column: tighter max-width for vertical stacking and balance */
 .columns.columns5 > div:nth-child(2) > div {
   flex: 1 1 0;
   max-width: 220px;
@@ -93,8 +89,6 @@
   text-align: center;
 }
 
-/* Stat text: create stronger visual hierarchy and more spacing between lines */
-/* Merged duplicate selector */
 .columns.columns5 > div:nth-child(2) h3 {
   color: #fff;
   font-family: Montserrat, Poppins, Arial, sans-serif;
@@ -107,7 +101,6 @@
   padding: 0.05em 0 0.6em;
 }
 
-/* Strong stat "number" effect—larger and bolder first line, now more dominant */
 .columns.columns5 > div:nth-child(2) h3::first-line {
   font-size: 48px;
   font-weight: 700;
@@ -117,7 +110,6 @@
   margin-bottom: 0.32em;
 }
 
-/* Responsive: stack columns vertically on small screens */
 @media (width <= 900px) {
   .columns.columns5 {
     padding: 48px 0 32px;
@@ -137,9 +129,73 @@
   }
 }
 
-/* Always set text color to white for children */
 .columns.columns5,
 .columns.columns5 * {
   color: #fff;
   box-sizing: border-box;
+}
+
+.columns.columns11 > div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: stretch;
+  gap: 32px;
+  background: transparent;
+  border-radius: 0;
+  padding: 40px 0;
+  max-width: 1120px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+.columns.columns11 > div > div {
+  background: #f6f7fb;
+  border-radius: 16px;
+  flex: 1 1 0;
+  min-width: 0;
+  max-width: 460px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.columns.columns11 h2 {
+  color: #252525;
+  font-size: 20px;
+  font-weight: 700;
+  margin-top: 0;
+  margin-bottom: 20px;
+  line-height: 1.2;
+}
+
+.columns.columns11 p {
+  color: #5b5d67;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.65;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+@media (width <= 900px) {
+  .columns.columns11 > div {
+    flex-direction: column;
+    gap: 24px;
+    padding: 24px 0;
+    max-width: 100%;
+  }
+
+  .columns.columns11 > div > div {
+    max-width: 100%;
+    padding: 24px 16px;
+    border-radius: 12px;
+  }
 }
