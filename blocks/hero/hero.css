@@ -610,7 +610,7 @@
   box-sizing: border-box;
   text-align: center;
   overflow: hidden;
-  margin: 0; /* eliminate any margin that causes unwanted spacing at the top */
+  margin: 0;
 }
 
 .hero.hero8 > div:nth-child(2) {
@@ -630,7 +630,7 @@
 }
 
 .hero.hero8 h1 {
-  font-size: 2.25rem; /* 36px */
+  font-size: 2.25rem;
   font-weight: 800;
   color: #fff;
   margin-top: 0;
@@ -640,7 +640,7 @@
 }
 
 .hero.hero8 h2 {
-  font-size: 1.25rem; /* 20px */
+  font-size: 1.25rem;
   font-weight: 700;
   color: #fff;
   text-transform: uppercase;
@@ -650,22 +650,18 @@
 }
 
 .hero.hero8 p {
-  font-size: 1.125rem; /* 18px */
+  font-size: 1.125rem;
   color: rgba(255,255,255,0.9);
   margin-top: 0;
   margin-bottom: 10px;
   line-height: 1.5;
   font-weight: 400;
 }
-
-/* Remove inherited max-width from global styles for this block */
 .hero.hero8 h1,
 .hero.hero8 h2,
 .hero.hero8 p {
   max-width: none;
 }
-
-/* Decorative SVG wave at the bottom: taller, smoother, and further away from text */
 .hero.hero8::after {
   position: absolute;
   left: 0;
@@ -678,8 +674,6 @@
   z-index: 1;
   pointer-events: none;
 }
-
-/* Responsive adjustments */
 @media (max-width: 900px) {
   .hero.hero8 {
     min-height: 340px;
@@ -718,5 +712,105 @@
   }
   .hero.hero8::after {
     height: 38px;
+  }
+}
+
+
+.hero.hero12 {
+  background: #f5f6fa;
+  border-radius: 12px 12px 0 0;
+  max-width: 900px;
+  margin: 32px auto;
+  padding: 32px 40px 24px 40px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 32px;
+}
+
+/* Left icon column: use a church SVG as bg-image for best match */
+.hero.hero12 > div:first-child {
+  flex: 0 0 56px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  min-width: 56px;
+  min-height: 36px;
+}
+.hero.hero12 > div:first-child > div {
+  width: 36px;
+  height: 36px;
+  display: block;
+  border-radius: 8px;
+  background: #36c3cf;
+  /* Replace turquoise square with SVG church as background */
+  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="none" viewBox="0 0 36 36"><path fill="%2336c3cf" d="M18 4l-8 8v4H6v16h8v-8h8v8h8V16h-4v-4l-8-8zm0 4.828l6 6V16h-2v4h-8v-4h-2v-5.172l6-6zm0 9.172h2v2h-4v-2h2z"/></svg>');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: transparent; /* remove solid color fill */
+}
+
+/* Remove "icon as text" if present in the first p inside the text column */
+.hero.hero12 > div:last-child > div > p:first-child {
+  display: none;
+}
+
+/* Right text column */
+.hero.hero12 > div:last-child {
+  flex: 1 1 0%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.hero.hero12 > div:last-child > div {
+  width: 100%;
+  max-width: 700px;
+}
+
+.hero.hero12 h2,
+.hero.hero12 h2[id] {
+  color: #23242d;
+  font-weight: 700;
+  font-size: 18px;
+  margin: 0 0 12px 0;
+  text-align: left;
+  font-family: var(--heading-font-family);
+}
+
+.hero.hero12 p {
+  color: #6b6f76;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 1.5;
+  margin: 0 0 8px 0;
+  text-align: left;
+}
+
+/* Responsive: stack icon above text for narrow screens */
+@media (max-width: 700px) {
+  .hero.hero12 {
+    flex-direction: column;
+    align-items: center;
+    max-width: 98vw;
+    padding: 20px 8px 16px 8px;
+    gap: 16px;
+  }
+  .hero.hero12 > div:first-child {
+    justify-content: center;
+    align-items: flex-start;
+    min-width: 0;
+    margin-bottom: 8px;
+  }
+  .hero.hero12 > div:last-child {
+    align-items: center;
+  }
+  .hero.hero12 > div:last-child > div,
+  .hero.hero12 h2,
+  .hero.hero12 p {
+    text-align: center;
   }
 }
