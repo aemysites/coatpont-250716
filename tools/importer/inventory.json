@@ -1,0 +1,2958 @@
+{
+  "fragments": [
+    {
+      "name": "nav",
+      "path": "/nav",
+      "totalBoxes": 1,
+      "instances": [
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-281",
+          "urlHash": "01ee323a59d9b71002833d3a231077d78028ea16",
+          "uuid": "01ee323a-00-0de96cf3f29d839c079021e506b0c0e6a296edb6",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/nav[1]/div[1]/div[1]"
+        },
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-317",
+          "urlHash": "0698d3b69e925447c3dcd39bc29fa76c054604a0",
+          "uuid": "0698d3b6-00-0de96cf3f29d839c079021e506b0c0e6a296edb6",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/nav[1]/div[1]/div[1]"
+        },
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-173",
+          "urlHash": "07bee30337fa4240584e73b5fde07bd0b41753ff",
+          "uuid": "07bee303-00-0de96cf3f29d839c079021e506b0c0e6a296edb6",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/nav[1]/div[1]/div[1]"
+        },
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-291",
+          "urlHash": "091adc3b6c3e4dfddc47979322bcace1bd192ae8",
+          "uuid": "091adc3b-00-0de96cf3f29d839c079021e506b0c0e6a296edb6",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/nav[1]/div[1]/div[1]"
+        },
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-253",
+          "urlHash": "09909d72a5652cc55078d366cb733edae8fced74",
+          "uuid": "09909d72-00-0de96cf3f29d839c079021e506b0c0e6a296edb6",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/nav[1]/div[1]/div[1]"
+        },
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-275",
+          "urlHash": "0b2d88f10327b169587243b315d8eaa84204344c",
+          "uuid": "0b2d88f1-00-0de96cf3f29d839c079021e506b0c0e6a296edb6",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/nav[1]/div[1]/div[1]"
+        },
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/saas/sprint-252",
+          "urlHash": "0bc0bc0bc7f57ee3b2dbec160a83a2ac1238de00",
+          "uuid": "0bc0bc0b-00-0de96cf3f29d839c079021e506b0c0e6a296edb6",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/nav[1]/div[1]/div[1]"
+        },
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-231",
+          "urlHash": "122b48d84d5e66b612232c22c7a4c3f97eca6e91",
+          "uuid": "122b48d8-00-0de96cf3f29d839c079021e506b0c0e6a296edb6",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/nav[1]/div[1]/div[1]"
+        },
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-289",
+          "urlHash": "15e2574511122a66fe3dff38264a7bc989b002a0",
+          "uuid": "15e25745-00-0de96cf3f29d839c079021e506b0c0e6a296edb6",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/nav[1]/div[1]/div[1]"
+        },
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-251",
+          "urlHash": "1614376f93afb1d4f7030d15e9e508e5bac17095",
+          "uuid": "1614376f-00-0de96cf3f29d839c079021e506b0c0e6a296edb6",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/nav[1]/div[1]/div[1]"
+        },
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-273",
+          "urlHash": "175d59426988f44b135941ae06f9320612cca84f",
+          "uuid": "175d5942-00-0de96cf3f29d839c079021e506b0c0e6a296edb6",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/nav[1]/div[1]/div[1]"
+        },
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-313",
+          "urlHash": "17e7e1b235a2d7d784d2450df4f82a9bd6b6900e",
+          "uuid": "17e7e1b2-00-0de96cf3f29d839c079021e506b0c0e6a296edb6",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/nav[1]/div[1]/div[1]"
+        },
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/saas/sprint-255",
+          "urlHash": "184fe4f90c4d1d9eaf664b06333a872d8224984e",
+          "uuid": "184fe4f9-00-0de96cf3f29d839c079021e506b0c0e6a296edb6",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/nav[1]/div[1]/div[1]"
+        },
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-287",
+          "urlHash": "1925a67a28637a6159bcc8e80505bd7af9e3d115",
+          "uuid": "1925a67a-00-0de96cf3f29d839c079021e506b0c0e6a296edb6",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/nav[1]/div[1]/div[1]"
+        },
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/saas/sprint-242",
+          "urlHash": "1cb162ced136abba58a44ecce303fb4b02d175f6",
+          "uuid": "1cb162ce-00-0de96cf3f29d839c079021e506b0c0e6a296edb6",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/nav[1]/div[1]/div[1]"
+        },
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/saas/sprint-254",
+          "urlHash": "253f66c05d6f2fce285c8cd367f0d0262cb52e20",
+          "uuid": "253f66c0-00-0de96cf3f29d839c079021e506b0c0e6a296edb6",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/nav[1]/div[1]/div[1]"
+        },
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-213",
+          "urlHash": "27efe6106250fc5ec93ccc34a5afee21c064e8a0",
+          "uuid": "27efe610-00-0de96cf3f29d839c079021e506b0c0e6a296edb6",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/nav[1]/div[1]/div[1]"
+        },
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/saas/sprint-260",
+          "urlHash": "28a88173b12a70d8b8082801a696ce8c98557e2c",
+          "uuid": "28a88173-00-0de96cf3f29d839c079021e506b0c0e6a296edb6",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/nav[1]/div[1]/div[1]"
+        },
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/saas/sprint-233",
+          "urlHash": "2db4f0b12b2b46fb167d900cdb1183d49201e14b",
+          "uuid": "2db4f0b1-00-0de96cf3f29d839c079021e506b0c0e6a296edb6",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/nav[1]/div[1]/div[1]"
+        },
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-171",
+          "urlHash": "2f631da950708ca351bfb292a75227c7ee58ffe0",
+          "uuid": "2f631da9-00-0de96cf3f29d839c079021e506b0c0e6a296edb6",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/nav[1]/div[1]/div[1]"
+        },
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-309",
+          "urlHash": "34ba0d94df6e30c17f44646ce4f8c89ef000fcbb",
+          "uuid": "34ba0d94-00-0de96cf3f29d839c079021e506b0c0e6a296edb6",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/nav[1]/div[1]/div[1]"
+        },
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-283",
+          "urlHash": "35de8e5531b5b8f26597c88b78811ec7d6e745a3",
+          "uuid": "35de8e55-00-0de96cf3f29d839c079021e506b0c0e6a296edb6",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/nav[1]/div[1]/div[1]"
+        },
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-297",
+          "urlHash": "3750a6d86102796dde5b310b59e3d122c4bd67a1",
+          "uuid": "3750a6d8-00-0de96cf3f29d839c079021e506b0c0e6a296edb6",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/nav[1]/div[1]/div[1]"
+        },
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-221",
+          "urlHash": "376bf1634d4aaf35c10324350b6bb8937a067fee",
+          "uuid": "376bf163-00-0de96cf3f29d839c079021e506b0c0e6a296edb6",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/nav[1]/div[1]/div[1]"
+        },
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-303",
+          "urlHash": "3848d6cc4a7180cca177699f54848b1ee8006f7a",
+          "uuid": "3848d6cc-00-0de96cf3f29d839c079021e506b0c0e6a296edb6",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/nav[1]/div[1]/div[1]"
+        },
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/saas/sprint-241",
+          "urlHash": "3a16ca577be2bb692c3d124a49af64de8bf2aa4f",
+          "uuid": "3a16ca57-00-0de96cf3f29d839c079021e506b0c0e6a296edb6",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/nav[1]/div[1]/div[1]"
+        },
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-175",
+          "urlHash": "3a8f86a19461f0cc8b7d51e209d9249737edfc83",
+          "uuid": "3a8f86a1-00-0de96cf3f29d839c079021e506b0c0e6a296edb6",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/nav[1]/div[1]/div[1]"
+        },
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-279",
+          "urlHash": "3cf7797ae7903facd571095616280a5fbdcde2c3",
+          "uuid": "3cf7797a-00-0de96cf3f29d839c079021e506b0c0e6a296edb6",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/nav[1]/div[1]/div[1]"
+        },
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-293",
+          "urlHash": "40f52c4f0ac3d74f862d36379b4f2db0fa029050",
+          "uuid": "40f52c4f-00-0de96cf3f29d839c079021e506b0c0e6a296edb6",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/nav[1]/div[1]/div[1]"
+        },
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-189",
+          "urlHash": "4154f88298cd510d2934b309b263888abce76951",
+          "uuid": "4154f882-00-0de96cf3f29d839c079021e506b0c0e6a296edb6",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/nav[1]/div[1]/div[1]"
+        },
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-263",
+          "urlHash": "445c0a101dfd94dcdf44d6049a124359c6dae85e",
+          "uuid": "445c0a10-00-0de96cf3f29d839c079021e506b0c0e6a296edb6",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/nav[1]/div[1]/div[1]"
+        },
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/saas/sprint-234",
+          "urlHash": "472abb309c93f16e0d98121e7a22da67468a7855",
+          "uuid": "472abb30-00-0de96cf3f29d839c079021e506b0c0e6a296edb6",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/nav[1]/div[1]/div[1]"
+        },
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-195",
+          "urlHash": "4be5de99205087a6d45dace496aa72c2354ac8ee",
+          "uuid": "4be5de99-00-0de96cf3f29d839c079021e506b0c0e6a296edb6",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/nav[1]/div[1]/div[1]"
+        },
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-197",
+          "urlHash": "4bfd76fb221b3b5dd3ffbddc16de1b1432ca0528",
+          "uuid": "4bfd76fb-00-0de96cf3f29d839c079021e506b0c0e6a296edb6",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/nav[1]/div[1]/div[1]"
+        },
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-257",
+          "urlHash": "502e389deb4d867402efc183fc93d6b53ab165ba",
+          "uuid": "502e389d-00-0de96cf3f29d839c079021e506b0c0e6a296edb6",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/nav[1]/div[1]/div[1]"
+        },
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-261",
+          "urlHash": "510bb40c37f1b14fd6327ee2960ba936091f37b5",
+          "uuid": "510bb40c-00-0de96cf3f29d839c079021e506b0c0e6a296edb6",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/nav[1]/div[1]/div[1]"
+        },
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-183",
+          "urlHash": "544bce40cabf519a6124a3d54352df2c3dc9f3c9",
+          "uuid": "544bce40-00-0de96cf3f29d839c079021e506b0c0e6a296edb6",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/nav[1]/div[1]/div[1]"
+        },
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/saas/sprint-257",
+          "urlHash": "55a40f82325225e3114b855c4e3690a9de167da8",
+          "uuid": "55a40f82-00-0de96cf3f29d839c079021e506b0c0e6a296edb6",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/nav[1]/div[1]/div[1]"
+        },
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/saas/sprint-232",
+          "urlHash": "59e67383b82ede1aaecefc28cea35473cbf7ef02",
+          "uuid": "59e67383-00-0de96cf3f29d839c079021e506b0c0e6a296edb6",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/nav[1]/div[1]/div[1]"
+        },
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-177",
+          "urlHash": "5e1710b5955a4c208657b9344beb0f4df78ea8a3",
+          "uuid": "5e1710b5-00-0de96cf3f29d839c079021e506b0c0e6a296edb6",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/nav[1]/div[1]/div[1]"
+        },
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/activegate/sprint-187",
+          "urlHash": "5e76d610f04a48bd79c2182fe5c988ea0aa36b33",
+          "uuid": "5e76d610-00-0de96cf3f29d839c079021e506b0c0e6a296edb6",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/nav[1]/div[1]/div[1]"
+        },
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/saas/sprint-249",
+          "urlHash": "5fcbb1bbcc267945f9d114b778eb444f5f353518",
+          "uuid": "5fcbb1bb-00-0de96cf3f29d839c079021e506b0c0e6a296edb6",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/nav[1]/div[1]/div[1]"
+        },
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-201",
+          "urlHash": "62d01aebae4b8523dc212f9ba739b9fe3660fa91",
+          "uuid": "62d01aeb-00-0de96cf3f29d839c079021e506b0c0e6a296edb6",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/nav[1]/div[1]/div[1]"
+        },
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/oneagent",
+          "urlHash": "660da7fade23d9eae73cce6fb6d9e68f94775fe9",
+          "uuid": "660da7fa-00-0de96cf3f29d839c079021e506b0c0e6a296edb6",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/nav[1]/div[1]/div[1]"
+        },
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-217",
+          "urlHash": "66bd3c616aa319101371b47ff5f4db3d8d9a257f",
+          "uuid": "66bd3c61-00-0de96cf3f29d839c079021e506b0c0e6a296edb6",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/nav[1]/div[1]/div[1]"
+        },
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-193",
+          "urlHash": "6d72eaee54f3278c6a7cd7746056f4a239c6a2cd",
+          "uuid": "6d72eaee-00-0de96cf3f29d839c079021e506b0c0e6a296edb6",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/nav[1]/div[1]/div[1]"
+        },
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/saas/sprint-253",
+          "urlHash": "6d943d61a98b0dbb869f52a242142d4e735f315b",
+          "uuid": "6d943d61-00-0de96cf3f29d839c079021e506b0c0e6a296edb6",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/nav[1]/div[1]/div[1]"
+        },
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/saas/sprint-244",
+          "urlHash": "6f0dca16e09ce9436a68461f76b9f0f0fe44f6fa",
+          "uuid": "6f0dca16-00-0de96cf3f29d839c079021e506b0c0e6a296edb6",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/nav[1]/div[1]/div[1]"
+        },
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/saas/sprint-251",
+          "urlHash": "6fe18af3d717e6c5064572e338a759014967de92",
+          "uuid": "6fe18af3-00-0de96cf3f29d839c079021e506b0c0e6a296edb6",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/nav[1]/div[1]/div[1]"
+        },
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-205",
+          "urlHash": "70b6e5921260523abfcaf9375ff73a49cf729ea7",
+          "uuid": "70b6e592-00-0de96cf3f29d839c079021e506b0c0e6a296edb6",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/nav[1]/div[1]/div[1]"
+        },
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-311",
+          "urlHash": "759d8dbbef9d9ec9efe539a726eb1ec597b5acfc",
+          "uuid": "759d8dbb-00-0de96cf3f29d839c079021e506b0c0e6a296edb6",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/nav[1]/div[1]/div[1]"
+        },
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-179",
+          "urlHash": "833501a748c813561bf60227a69f2a02ab0a8563",
+          "uuid": "833501a7-00-0de96cf3f29d839c079021e506b0c0e6a296edb6",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/nav[1]/div[1]/div[1]"
+        },
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/saas/sprint-239",
+          "urlHash": "89038f5a0aa0641e5a2e4448f59fa4321bbd8b7d",
+          "uuid": "89038f5a-00-0de96cf3f29d839c079021e506b0c0e6a296edb6",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/nav[1]/div[1]/div[1]"
+        },
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-209",
+          "urlHash": "89e5aa2cf02cac94f4cd3d0effb88b6c035312c9",
+          "uuid": "89e5aa2c-00-0de96cf3f29d839c079021e506b0c0e6a296edb6",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/nav[1]/div[1]/div[1]"
+        },
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-295",
+          "urlHash": "8f226ba7e5d96b036d1194344ebb5315ae15d7ca",
+          "uuid": "8f226ba7-00-0de96cf3f29d839c079021e506b0c0e6a296edb6",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/nav[1]/div[1]/div[1]"
+        },
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/saas/sprint-248",
+          "urlHash": "91effad00fb1cd6883fd6cf0e06a1838b679f5db",
+          "uuid": "91effad0-00-0de96cf3f29d839c079021e506b0c0e6a296edb6",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/nav[1]/div[1]/div[1]"
+        },
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-225",
+          "urlHash": "9343e2ae0cb2bf4cb317162d397796ddeeb8b63d",
+          "uuid": "9343e2ae-00-0de96cf3f29d839c079021e506b0c0e6a296edb6",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/nav[1]/div[1]/div[1]"
+        },
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/activegate/sprint-183",
+          "urlHash": "93e47c1a51180e6069dc3f58a99118f408676ec0",
+          "uuid": "93e47c1a-00-0de96cf3f29d839c079021e506b0c0e6a296edb6",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/nav[1]/div[1]/div[1]"
+        },
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-215",
+          "urlHash": "951fd12b8e9d4be6f908c7acbc59573377f2075c",
+          "uuid": "951fd12b-00-0de96cf3f29d839c079021e506b0c0e6a296edb6",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/nav[1]/div[1]/div[1]"
+        },
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-269",
+          "urlHash": "9695947b8dfe69b92b78528dfafee79b701ba359",
+          "uuid": "9695947b-00-0de96cf3f29d839c079021e506b0c0e6a296edb6",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/nav[1]/div[1]/div[1]"
+        },
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/saas/sprint-245",
+          "urlHash": "96d6926b02d1b2d833cc959bc3725a5b5b177e7d",
+          "uuid": "96d6926b-00-0de96cf3f29d839c079021e506b0c0e6a296edb6",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/nav[1]/div[1]/div[1]"
+        },
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-199",
+          "urlHash": "9dfe12e80f43983cae598879aa85e142368d412b",
+          "uuid": "9dfe12e8-00-0de96cf3f29d839c079021e506b0c0e6a296edb6",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/nav[1]/div[1]/div[1]"
+        },
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-227",
+          "urlHash": "9f0628bb56b60a609ba5bf4bd37f39d39eb6dd8f",
+          "uuid": "9f0628bb-00-0de96cf3f29d839c079021e506b0c0e6a296edb6",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/nav[1]/div[1]/div[1]"
+        },
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-187",
+          "urlHash": "9fffc80ae528f3abad9690aa432deb7e91dba3e1",
+          "uuid": "9fffc80a-00-0de96cf3f29d839c079021e506b0c0e6a296edb6",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/nav[1]/div[1]/div[1]"
+        },
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/saas/sprint-246",
+          "urlHash": "a0d83ac2f186c363c4e87ca27483573704104857",
+          "uuid": "a0d83ac2-00-0de96cf3f29d839c079021e506b0c0e6a296edb6",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/nav[1]/div[1]/div[1]"
+        },
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-233",
+          "urlHash": "a8a89de1d0084f085e34c5b340823e2caee81cfd",
+          "uuid": "a8a89de1-00-0de96cf3f29d839c079021e506b0c0e6a296edb6",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/nav[1]/div[1]/div[1]"
+        },
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-235",
+          "urlHash": "aa0f825e93ded8b69734b8de5ae1fe4ec2474182",
+          "uuid": "aa0f825e-00-0de96cf3f29d839c079021e506b0c0e6a296edb6",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/nav[1]/div[1]/div[1]"
+        },
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-299",
+          "urlHash": "ad24331d06d25ce8084b6a5f2eb9624486781aaa",
+          "uuid": "ad24331d-00-0de96cf3f29d839c079021e506b0c0e6a296edb6",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/nav[1]/div[1]/div[1]"
+        },
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-305",
+          "urlHash": "b394ff64d9774e948ea19a9f5282a8db92f7a7a3",
+          "uuid": "b394ff64-00-0de96cf3f29d839c079021e506b0c0e6a296edb6",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/nav[1]/div[1]/div[1]"
+        },
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/saas/sprint-231",
+          "urlHash": "b5d184289cc41a2d3cab369af84d9909add8577c",
+          "uuid": "b5d18428-00-0de96cf3f29d839c079021e506b0c0e6a296edb6",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/nav[1]/div[1]/div[1]"
+        },
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-307",
+          "urlHash": "b7b04f18c0f8d0c68f7c2c2fc5922c5b68a61634",
+          "uuid": "b7b04f18-00-0de96cf3f29d839c079021e506b0c0e6a296edb6",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/nav[1]/div[1]/div[1]"
+        },
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-315",
+          "urlHash": "b8e941c65a776115f12cace0072f06b5f89ac090",
+          "uuid": "b8e941c6-00-0de96cf3f29d839c079021e506b0c0e6a296edb6",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/nav[1]/div[1]/div[1]"
+        },
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-239",
+          "urlHash": "b900dde358c13b3247e9388b8089ac1b7f52b810",
+          "uuid": "b900dde3-00-0de96cf3f29d839c079021e506b0c0e6a296edb6",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/nav[1]/div[1]/div[1]"
+        },
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/activegate/sprint-185",
+          "urlHash": "b9229e8c7e25642720e9a753136b26c757104ccd",
+          "uuid": "b9229e8c-00-0de96cf3f29d839c079021e506b0c0e6a296edb6",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/nav[1]/div[1]/div[1]"
+        },
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/saas/sprint-250",
+          "urlHash": "b96e9c618923d4ae9049fab37a984c21305e35dd",
+          "uuid": "b96e9c61-00-0de96cf3f29d839c079021e506b0c0e6a296edb6",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/nav[1]/div[1]/div[1]"
+        },
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/saas/sprint-256",
+          "urlHash": "b979136829a910897519e167bc0968d19762d42b",
+          "uuid": "b9791368-00-0de96cf3f29d839c079021e506b0c0e6a296edb6",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/nav[1]/div[1]/div[1]"
+        },
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-223",
+          "urlHash": "bd75061536acafe09f212cfe4144c3852175a20e",
+          "uuid": "bd750615-00-0de96cf3f29d839c079021e506b0c0e6a296edb6",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/nav[1]/div[1]/div[1]"
+        },
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/saas/sprint-235",
+          "urlHash": "c1397c496e5598e27ad184cffa1c42f324412bb1",
+          "uuid": "c1397c49-00-0de96cf3f29d839c079021e506b0c0e6a296edb6",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/nav[1]/div[1]/div[1]"
+        },
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-191",
+          "urlHash": "c7b3b590e383b1640ec923ea859000106e959628",
+          "uuid": "c7b3b590-00-0de96cf3f29d839c079021e506b0c0e6a296edb6",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/nav[1]/div[1]/div[1]"
+        },
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-285",
+          "urlHash": "c899a0178ae5a439d6c6f4729017e54dc2bdc089",
+          "uuid": "c899a017-00-0de96cf3f29d839c079021e506b0c0e6a296edb6",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/nav[1]/div[1]/div[1]"
+        },
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-169",
+          "urlHash": "c8ead1c6bf06c37f5720e44f49d52462687b7393",
+          "uuid": "c8ead1c6-00-0de96cf3f29d839c079021e506b0c0e6a296edb6",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/nav[1]/div[1]/div[1]"
+        },
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-301",
+          "urlHash": "c93448a04d205b789822edf69be013515c6eb394",
+          "uuid": "c93448a0-00-0de96cf3f29d839c079021e506b0c0e6a296edb6",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/nav[1]/div[1]/div[1]"
+        },
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/saas/sprint-259",
+          "urlHash": "d01f41ab6f614705e3a6502459a976a61e04b3b0",
+          "uuid": "d01f41ab-00-0de96cf3f29d839c079021e506b0c0e6a296edb6",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/nav[1]/div[1]/div[1]"
+        },
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/saas/sprint-243",
+          "urlHash": "d0a7834162f524847456163ac46157d7522a518a",
+          "uuid": "d0a78341-00-0de96cf3f29d839c079021e506b0c0e6a296edb6",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/nav[1]/div[1]/div[1]"
+        },
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/saas/sprint-240",
+          "urlHash": "d25496e32017ffe0fb0360755cf4442bcd278c46",
+          "uuid": "d25496e3-00-0de96cf3f29d839c079021e506b0c0e6a296edb6",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/nav[1]/div[1]/div[1]"
+        },
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/saas/sprint-247",
+          "urlHash": "d391830e464bb18d0cf42bae367947b2733fc0e1",
+          "uuid": "d391830e-00-0de96cf3f29d839c079021e506b0c0e6a296edb6",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/nav[1]/div[1]/div[1]"
+        },
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-249",
+          "urlHash": "d5a2a55da306ca50cfd761dbf26b469f40a18996",
+          "uuid": "d5a2a55d-00-0de96cf3f29d839c079021e506b0c0e6a296edb6",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/nav[1]/div[1]/div[1]"
+        },
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-243",
+          "urlHash": "dfd65a6626c5fe7d85d7b49c7f58e75d39a4a3af",
+          "uuid": "dfd65a66-00-0de96cf3f29d839c079021e506b0c0e6a296edb6",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/nav[1]/div[1]/div[1]"
+        },
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-229",
+          "urlHash": "e09fe7e20ffd2509fb5a02bcefaa4e62bb934f38",
+          "uuid": "e09fe7e2-00-0de96cf3f29d839c079021e506b0c0e6a296edb6",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/nav[1]/div[1]/div[1]"
+        },
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-237",
+          "urlHash": "e3129f87392a4815be4d1e5de4e88971dcdebbb5",
+          "uuid": "e3129f87-00-0de96cf3f29d839c079021e506b0c0e6a296edb6",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/nav[1]/div[1]/div[1]"
+        },
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-277",
+          "urlHash": "e383e2c5c23dfd16594ebaffcf4553cbcdab7dbd",
+          "uuid": "e383e2c5-00-0de96cf3f29d839c079021e506b0c0e6a296edb6",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/nav[1]/div[1]/div[1]"
+        },
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-255",
+          "urlHash": "e567e39f008c71dd4842741d2dab3b5b752a45f5",
+          "uuid": "e567e39f-00-0de96cf3f29d839c079021e506b0c0e6a296edb6",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/nav[1]/div[1]/div[1]"
+        },
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/saas/sprint-258",
+          "urlHash": "e57956bcc845f77f4eed475c8c6fa9ef0cbcc72e",
+          "uuid": "e57956bc-00-0de96cf3f29d839c079021e506b0c0e6a296edb6",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/nav[1]/div[1]/div[1]"
+        },
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-267",
+          "urlHash": "eb07f560b99c8b67b13f8df32617df431e1e514e",
+          "uuid": "eb07f560-00-0de96cf3f29d839c079021e506b0c0e6a296edb6",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/nav[1]/div[1]/div[1]"
+        },
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-211",
+          "urlHash": "ed26476818dc24d55f16520a983e4af3f54006c5",
+          "uuid": "ed264768-00-0de96cf3f29d839c079021e506b0c0e6a296edb6",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/nav[1]/div[1]/div[1]"
+        },
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-265",
+          "urlHash": "f040401608d5d0fa395ca23921fa764cda0a7063",
+          "uuid": "f0404016-00-0de96cf3f29d839c079021e506b0c0e6a296edb6",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/nav[1]/div[1]/div[1]"
+        },
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-181",
+          "urlHash": "f2763d9df17457faee38bccf67201d18ffb77a87",
+          "uuid": "f2763d9d-00-0de96cf3f29d839c079021e506b0c0e6a296edb6",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/nav[1]/div[1]/div[1]"
+        },
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-185",
+          "urlHash": "f5f7d023a2bfcf8e13c86ee0db2dc2ea9cd7e6f7",
+          "uuid": "f5f7d023-00-0de96cf3f29d839c079021e506b0c0e6a296edb6",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/nav[1]/div[1]/div[1]"
+        },
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-203",
+          "urlHash": "f604ba803ee94092e0d9a47e48c6481d2abedcb3",
+          "uuid": "f604ba80-00-0de96cf3f29d839c079021e506b0c0e6a296edb6",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/nav[1]/div[1]/div[1]"
+        },
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-207",
+          "urlHash": "fa192110cba44d672e3cbb2cc070e4f2cff2a45a",
+          "uuid": "fa192110-00-0de96cf3f29d839c079021e506b0c0e6a296edb6",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/nav[1]/div[1]/div[1]"
+        }
+      ],
+      "styles": {
+        "height": 36
+      }
+    },
+    {
+      "name": "footer",
+      "path": "/footer",
+      "totalBoxes": 1,
+      "instances": [
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-281",
+          "urlHash": "01ee323a59d9b71002833d3a231077d78028ea16",
+          "uuid": "01ee323a-01-07c557d6636fc1961324aaf292245586a3c75f16",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[2]"
+        },
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-317",
+          "urlHash": "0698d3b69e925447c3dcd39bc29fa76c054604a0",
+          "uuid": "0698d3b6-01-07c557d6636fc1961324aaf292245586a3c75f16",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[2]"
+        },
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-173",
+          "urlHash": "07bee30337fa4240584e73b5fde07bd0b41753ff",
+          "uuid": "07bee303-01-07c557d6636fc1961324aaf292245586a3c75f16",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[2]"
+        },
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-291",
+          "urlHash": "091adc3b6c3e4dfddc47979322bcace1bd192ae8",
+          "uuid": "091adc3b-01-07c557d6636fc1961324aaf292245586a3c75f16",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[2]"
+        },
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-253",
+          "urlHash": "09909d72a5652cc55078d366cb733edae8fced74",
+          "uuid": "09909d72-01-07c557d6636fc1961324aaf292245586a3c75f16",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[2]"
+        },
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-275",
+          "urlHash": "0b2d88f10327b169587243b315d8eaa84204344c",
+          "uuid": "0b2d88f1-01-07c557d6636fc1961324aaf292245586a3c75f16",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[2]"
+        },
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/saas/sprint-252",
+          "urlHash": "0bc0bc0bc7f57ee3b2dbec160a83a2ac1238de00",
+          "uuid": "0bc0bc0b-01-07c557d6636fc1961324aaf292245586a3c75f16",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[2]"
+        },
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-231",
+          "urlHash": "122b48d84d5e66b612232c22c7a4c3f97eca6e91",
+          "uuid": "122b48d8-01-07c557d6636fc1961324aaf292245586a3c75f16",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[2]"
+        },
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-289",
+          "urlHash": "15e2574511122a66fe3dff38264a7bc989b002a0",
+          "uuid": "15e25745-01-07c557d6636fc1961324aaf292245586a3c75f16",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[2]"
+        },
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-251",
+          "urlHash": "1614376f93afb1d4f7030d15e9e508e5bac17095",
+          "uuid": "1614376f-01-07c557d6636fc1961324aaf292245586a3c75f16",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[2]"
+        },
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-273",
+          "urlHash": "175d59426988f44b135941ae06f9320612cca84f",
+          "uuid": "175d5942-01-07c557d6636fc1961324aaf292245586a3c75f16",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[2]"
+        },
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-313",
+          "urlHash": "17e7e1b235a2d7d784d2450df4f82a9bd6b6900e",
+          "uuid": "17e7e1b2-01-07c557d6636fc1961324aaf292245586a3c75f16",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[2]"
+        },
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/saas/sprint-255",
+          "urlHash": "184fe4f90c4d1d9eaf664b06333a872d8224984e",
+          "uuid": "184fe4f9-01-07c557d6636fc1961324aaf292245586a3c75f16",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[2]"
+        },
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-287",
+          "urlHash": "1925a67a28637a6159bcc8e80505bd7af9e3d115",
+          "uuid": "1925a67a-01-07c557d6636fc1961324aaf292245586a3c75f16",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[2]"
+        },
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/saas/sprint-242",
+          "urlHash": "1cb162ced136abba58a44ecce303fb4b02d175f6",
+          "uuid": "1cb162ce-01-07c557d6636fc1961324aaf292245586a3c75f16",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[2]"
+        },
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/saas/sprint-254",
+          "urlHash": "253f66c05d6f2fce285c8cd367f0d0262cb52e20",
+          "uuid": "253f66c0-01-07c557d6636fc1961324aaf292245586a3c75f16",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[2]"
+        },
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-213",
+          "urlHash": "27efe6106250fc5ec93ccc34a5afee21c064e8a0",
+          "uuid": "27efe610-01-07c557d6636fc1961324aaf292245586a3c75f16",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[2]"
+        },
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/saas/sprint-260",
+          "urlHash": "28a88173b12a70d8b8082801a696ce8c98557e2c",
+          "uuid": "28a88173-01-07c557d6636fc1961324aaf292245586a3c75f16",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[2]"
+        },
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/saas/sprint-233",
+          "urlHash": "2db4f0b12b2b46fb167d900cdb1183d49201e14b",
+          "uuid": "2db4f0b1-01-07c557d6636fc1961324aaf292245586a3c75f16",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[2]"
+        },
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-171",
+          "urlHash": "2f631da950708ca351bfb292a75227c7ee58ffe0",
+          "uuid": "2f631da9-01-07c557d6636fc1961324aaf292245586a3c75f16",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[2]"
+        },
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-309",
+          "urlHash": "34ba0d94df6e30c17f44646ce4f8c89ef000fcbb",
+          "uuid": "34ba0d94-01-07c557d6636fc1961324aaf292245586a3c75f16",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[2]"
+        },
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-283",
+          "urlHash": "35de8e5531b5b8f26597c88b78811ec7d6e745a3",
+          "uuid": "35de8e55-01-07c557d6636fc1961324aaf292245586a3c75f16",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[2]"
+        },
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-297",
+          "urlHash": "3750a6d86102796dde5b310b59e3d122c4bd67a1",
+          "uuid": "3750a6d8-01-07c557d6636fc1961324aaf292245586a3c75f16",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[2]"
+        },
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-221",
+          "urlHash": "376bf1634d4aaf35c10324350b6bb8937a067fee",
+          "uuid": "376bf163-01-07c557d6636fc1961324aaf292245586a3c75f16",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[2]"
+        },
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-303",
+          "urlHash": "3848d6cc4a7180cca177699f54848b1ee8006f7a",
+          "uuid": "3848d6cc-01-07c557d6636fc1961324aaf292245586a3c75f16",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[2]"
+        },
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/saas/sprint-241",
+          "urlHash": "3a16ca577be2bb692c3d124a49af64de8bf2aa4f",
+          "uuid": "3a16ca57-01-07c557d6636fc1961324aaf292245586a3c75f16",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[2]"
+        },
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-175",
+          "urlHash": "3a8f86a19461f0cc8b7d51e209d9249737edfc83",
+          "uuid": "3a8f86a1-01-07c557d6636fc1961324aaf292245586a3c75f16",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[2]"
+        },
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-279",
+          "urlHash": "3cf7797ae7903facd571095616280a5fbdcde2c3",
+          "uuid": "3cf7797a-01-07c557d6636fc1961324aaf292245586a3c75f16",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[2]"
+        },
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-293",
+          "urlHash": "40f52c4f0ac3d74f862d36379b4f2db0fa029050",
+          "uuid": "40f52c4f-01-07c557d6636fc1961324aaf292245586a3c75f16",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[2]"
+        },
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-189",
+          "urlHash": "4154f88298cd510d2934b309b263888abce76951",
+          "uuid": "4154f882-01-07c557d6636fc1961324aaf292245586a3c75f16",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[2]"
+        },
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-263",
+          "urlHash": "445c0a101dfd94dcdf44d6049a124359c6dae85e",
+          "uuid": "445c0a10-01-07c557d6636fc1961324aaf292245586a3c75f16",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[2]"
+        },
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/saas/sprint-234",
+          "urlHash": "472abb309c93f16e0d98121e7a22da67468a7855",
+          "uuid": "472abb30-01-07c557d6636fc1961324aaf292245586a3c75f16",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[2]"
+        },
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-195",
+          "urlHash": "4be5de99205087a6d45dace496aa72c2354ac8ee",
+          "uuid": "4be5de99-01-07c557d6636fc1961324aaf292245586a3c75f16",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[2]"
+        },
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-197",
+          "urlHash": "4bfd76fb221b3b5dd3ffbddc16de1b1432ca0528",
+          "uuid": "4bfd76fb-01-07c557d6636fc1961324aaf292245586a3c75f16",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[2]"
+        },
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-257",
+          "urlHash": "502e389deb4d867402efc183fc93d6b53ab165ba",
+          "uuid": "502e389d-01-07c557d6636fc1961324aaf292245586a3c75f16",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[2]"
+        },
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-261",
+          "urlHash": "510bb40c37f1b14fd6327ee2960ba936091f37b5",
+          "uuid": "510bb40c-01-07c557d6636fc1961324aaf292245586a3c75f16",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[2]"
+        },
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-183",
+          "urlHash": "544bce40cabf519a6124a3d54352df2c3dc9f3c9",
+          "uuid": "544bce40-01-07c557d6636fc1961324aaf292245586a3c75f16",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[2]"
+        },
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/saas/sprint-257",
+          "urlHash": "55a40f82325225e3114b855c4e3690a9de167da8",
+          "uuid": "55a40f82-01-07c557d6636fc1961324aaf292245586a3c75f16",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[2]"
+        },
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/saas/sprint-232",
+          "urlHash": "59e67383b82ede1aaecefc28cea35473cbf7ef02",
+          "uuid": "59e67383-01-07c557d6636fc1961324aaf292245586a3c75f16",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[2]"
+        },
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-177",
+          "urlHash": "5e1710b5955a4c208657b9344beb0f4df78ea8a3",
+          "uuid": "5e1710b5-01-07c557d6636fc1961324aaf292245586a3c75f16",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[2]"
+        },
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/activegate/sprint-187",
+          "urlHash": "5e76d610f04a48bd79c2182fe5c988ea0aa36b33",
+          "uuid": "5e76d610-01-07c557d6636fc1961324aaf292245586a3c75f16",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[2]"
+        },
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/saas/sprint-249",
+          "urlHash": "5fcbb1bbcc267945f9d114b778eb444f5f353518",
+          "uuid": "5fcbb1bb-01-07c557d6636fc1961324aaf292245586a3c75f16",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[2]"
+        },
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-201",
+          "urlHash": "62d01aebae4b8523dc212f9ba739b9fe3660fa91",
+          "uuid": "62d01aeb-01-07c557d6636fc1961324aaf292245586a3c75f16",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[2]"
+        },
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/oneagent",
+          "urlHash": "660da7fade23d9eae73cce6fb6d9e68f94775fe9",
+          "uuid": "660da7fa-01-07c557d6636fc1961324aaf292245586a3c75f16",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[2]"
+        },
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-217",
+          "urlHash": "66bd3c616aa319101371b47ff5f4db3d8d9a257f",
+          "uuid": "66bd3c61-01-07c557d6636fc1961324aaf292245586a3c75f16",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[2]"
+        },
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-193",
+          "urlHash": "6d72eaee54f3278c6a7cd7746056f4a239c6a2cd",
+          "uuid": "6d72eaee-01-07c557d6636fc1961324aaf292245586a3c75f16",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[2]"
+        },
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/saas/sprint-253",
+          "urlHash": "6d943d61a98b0dbb869f52a242142d4e735f315b",
+          "uuid": "6d943d61-01-07c557d6636fc1961324aaf292245586a3c75f16",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[2]"
+        },
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/saas/sprint-244",
+          "urlHash": "6f0dca16e09ce9436a68461f76b9f0f0fe44f6fa",
+          "uuid": "6f0dca16-01-07c557d6636fc1961324aaf292245586a3c75f16",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[2]"
+        },
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/saas/sprint-251",
+          "urlHash": "6fe18af3d717e6c5064572e338a759014967de92",
+          "uuid": "6fe18af3-01-07c557d6636fc1961324aaf292245586a3c75f16",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[2]"
+        },
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-205",
+          "urlHash": "70b6e5921260523abfcaf9375ff73a49cf729ea7",
+          "uuid": "70b6e592-01-07c557d6636fc1961324aaf292245586a3c75f16",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[2]"
+        },
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-311",
+          "urlHash": "759d8dbbef9d9ec9efe539a726eb1ec597b5acfc",
+          "uuid": "759d8dbb-01-07c557d6636fc1961324aaf292245586a3c75f16",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[2]"
+        },
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-179",
+          "urlHash": "833501a748c813561bf60227a69f2a02ab0a8563",
+          "uuid": "833501a7-01-07c557d6636fc1961324aaf292245586a3c75f16",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[2]"
+        },
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/saas/sprint-239",
+          "urlHash": "89038f5a0aa0641e5a2e4448f59fa4321bbd8b7d",
+          "uuid": "89038f5a-01-07c557d6636fc1961324aaf292245586a3c75f16",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[2]"
+        },
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-209",
+          "urlHash": "89e5aa2cf02cac94f4cd3d0effb88b6c035312c9",
+          "uuid": "89e5aa2c-01-07c557d6636fc1961324aaf292245586a3c75f16",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[2]"
+        },
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-295",
+          "urlHash": "8f226ba7e5d96b036d1194344ebb5315ae15d7ca",
+          "uuid": "8f226ba7-01-07c557d6636fc1961324aaf292245586a3c75f16",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[2]"
+        },
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/saas/sprint-248",
+          "urlHash": "91effad00fb1cd6883fd6cf0e06a1838b679f5db",
+          "uuid": "91effad0-01-07c557d6636fc1961324aaf292245586a3c75f16",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[2]"
+        },
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-225",
+          "urlHash": "9343e2ae0cb2bf4cb317162d397796ddeeb8b63d",
+          "uuid": "9343e2ae-01-07c557d6636fc1961324aaf292245586a3c75f16",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[2]"
+        },
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/activegate/sprint-183",
+          "urlHash": "93e47c1a51180e6069dc3f58a99118f408676ec0",
+          "uuid": "93e47c1a-01-07c557d6636fc1961324aaf292245586a3c75f16",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[2]"
+        },
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-215",
+          "urlHash": "951fd12b8e9d4be6f908c7acbc59573377f2075c",
+          "uuid": "951fd12b-01-07c557d6636fc1961324aaf292245586a3c75f16",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[2]"
+        },
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-269",
+          "urlHash": "9695947b8dfe69b92b78528dfafee79b701ba359",
+          "uuid": "9695947b-01-07c557d6636fc1961324aaf292245586a3c75f16",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[2]"
+        },
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/saas/sprint-245",
+          "urlHash": "96d6926b02d1b2d833cc959bc3725a5b5b177e7d",
+          "uuid": "96d6926b-01-07c557d6636fc1961324aaf292245586a3c75f16",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[2]"
+        },
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-199",
+          "urlHash": "9dfe12e80f43983cae598879aa85e142368d412b",
+          "uuid": "9dfe12e8-01-07c557d6636fc1961324aaf292245586a3c75f16",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[2]"
+        },
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-227",
+          "urlHash": "9f0628bb56b60a609ba5bf4bd37f39d39eb6dd8f",
+          "uuid": "9f0628bb-01-07c557d6636fc1961324aaf292245586a3c75f16",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[2]"
+        },
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-187",
+          "urlHash": "9fffc80ae528f3abad9690aa432deb7e91dba3e1",
+          "uuid": "9fffc80a-01-07c557d6636fc1961324aaf292245586a3c75f16",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[2]"
+        },
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/saas/sprint-246",
+          "urlHash": "a0d83ac2f186c363c4e87ca27483573704104857",
+          "uuid": "a0d83ac2-01-07c557d6636fc1961324aaf292245586a3c75f16",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[2]"
+        },
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-233",
+          "urlHash": "a8a89de1d0084f085e34c5b340823e2caee81cfd",
+          "uuid": "a8a89de1-01-07c557d6636fc1961324aaf292245586a3c75f16",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[2]"
+        },
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-235",
+          "urlHash": "aa0f825e93ded8b69734b8de5ae1fe4ec2474182",
+          "uuid": "aa0f825e-01-07c557d6636fc1961324aaf292245586a3c75f16",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[2]"
+        },
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-299",
+          "urlHash": "ad24331d06d25ce8084b6a5f2eb9624486781aaa",
+          "uuid": "ad24331d-01-07c557d6636fc1961324aaf292245586a3c75f16",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[2]"
+        },
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-305",
+          "urlHash": "b394ff64d9774e948ea19a9f5282a8db92f7a7a3",
+          "uuid": "b394ff64-01-07c557d6636fc1961324aaf292245586a3c75f16",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[2]"
+        },
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/saas/sprint-231",
+          "urlHash": "b5d184289cc41a2d3cab369af84d9909add8577c",
+          "uuid": "b5d18428-01-07c557d6636fc1961324aaf292245586a3c75f16",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[2]"
+        },
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-307",
+          "urlHash": "b7b04f18c0f8d0c68f7c2c2fc5922c5b68a61634",
+          "uuid": "b7b04f18-01-07c557d6636fc1961324aaf292245586a3c75f16",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[2]"
+        },
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-315",
+          "urlHash": "b8e941c65a776115f12cace0072f06b5f89ac090",
+          "uuid": "b8e941c6-01-07c557d6636fc1961324aaf292245586a3c75f16",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[2]"
+        },
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-239",
+          "urlHash": "b900dde358c13b3247e9388b8089ac1b7f52b810",
+          "uuid": "b900dde3-01-07c557d6636fc1961324aaf292245586a3c75f16",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[2]"
+        },
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/activegate/sprint-185",
+          "urlHash": "b9229e8c7e25642720e9a753136b26c757104ccd",
+          "uuid": "b9229e8c-01-07c557d6636fc1961324aaf292245586a3c75f16",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[2]"
+        },
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/saas/sprint-250",
+          "urlHash": "b96e9c618923d4ae9049fab37a984c21305e35dd",
+          "uuid": "b96e9c61-01-07c557d6636fc1961324aaf292245586a3c75f16",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[2]"
+        },
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/saas/sprint-256",
+          "urlHash": "b979136829a910897519e167bc0968d19762d42b",
+          "uuid": "b9791368-01-07c557d6636fc1961324aaf292245586a3c75f16",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[2]"
+        },
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-223",
+          "urlHash": "bd75061536acafe09f212cfe4144c3852175a20e",
+          "uuid": "bd750615-01-07c557d6636fc1961324aaf292245586a3c75f16",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[2]"
+        },
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/saas/sprint-235",
+          "urlHash": "c1397c496e5598e27ad184cffa1c42f324412bb1",
+          "uuid": "c1397c49-01-07c557d6636fc1961324aaf292245586a3c75f16",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[2]"
+        },
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-191",
+          "urlHash": "c7b3b590e383b1640ec923ea859000106e959628",
+          "uuid": "c7b3b590-01-07c557d6636fc1961324aaf292245586a3c75f16",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[2]"
+        },
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-285",
+          "urlHash": "c899a0178ae5a439d6c6f4729017e54dc2bdc089",
+          "uuid": "c899a017-01-07c557d6636fc1961324aaf292245586a3c75f16",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[2]"
+        },
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-169",
+          "urlHash": "c8ead1c6bf06c37f5720e44f49d52462687b7393",
+          "uuid": "c8ead1c6-01-07c557d6636fc1961324aaf292245586a3c75f16",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[2]"
+        },
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-301",
+          "urlHash": "c93448a04d205b789822edf69be013515c6eb394",
+          "uuid": "c93448a0-01-07c557d6636fc1961324aaf292245586a3c75f16",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[2]"
+        },
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/saas/sprint-259",
+          "urlHash": "d01f41ab6f614705e3a6502459a976a61e04b3b0",
+          "uuid": "d01f41ab-01-07c557d6636fc1961324aaf292245586a3c75f16",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[2]"
+        },
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/saas/sprint-243",
+          "urlHash": "d0a7834162f524847456163ac46157d7522a518a",
+          "uuid": "d0a78341-01-07c557d6636fc1961324aaf292245586a3c75f16",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[2]"
+        },
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/saas/sprint-240",
+          "urlHash": "d25496e32017ffe0fb0360755cf4442bcd278c46",
+          "uuid": "d25496e3-01-07c557d6636fc1961324aaf292245586a3c75f16",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[2]"
+        },
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/saas/sprint-247",
+          "urlHash": "d391830e464bb18d0cf42bae367947b2733fc0e1",
+          "uuid": "d391830e-01-07c557d6636fc1961324aaf292245586a3c75f16",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[2]"
+        },
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-249",
+          "urlHash": "d5a2a55da306ca50cfd761dbf26b469f40a18996",
+          "uuid": "d5a2a55d-01-07c557d6636fc1961324aaf292245586a3c75f16",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[2]"
+        },
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-243",
+          "urlHash": "dfd65a6626c5fe7d85d7b49c7f58e75d39a4a3af",
+          "uuid": "dfd65a66-01-07c557d6636fc1961324aaf292245586a3c75f16",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[2]"
+        },
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-229",
+          "urlHash": "e09fe7e20ffd2509fb5a02bcefaa4e62bb934f38",
+          "uuid": "e09fe7e2-01-07c557d6636fc1961324aaf292245586a3c75f16",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[2]"
+        },
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-237",
+          "urlHash": "e3129f87392a4815be4d1e5de4e88971dcdebbb5",
+          "uuid": "e3129f87-01-07c557d6636fc1961324aaf292245586a3c75f16",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[2]"
+        },
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-277",
+          "urlHash": "e383e2c5c23dfd16594ebaffcf4553cbcdab7dbd",
+          "uuid": "e383e2c5-01-07c557d6636fc1961324aaf292245586a3c75f16",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[2]"
+        },
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-255",
+          "urlHash": "e567e39f008c71dd4842741d2dab3b5b752a45f5",
+          "uuid": "e567e39f-01-07c557d6636fc1961324aaf292245586a3c75f16",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[2]"
+        },
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/saas/sprint-258",
+          "urlHash": "e57956bcc845f77f4eed475c8c6fa9ef0cbcc72e",
+          "uuid": "e57956bc-01-07c557d6636fc1961324aaf292245586a3c75f16",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[2]"
+        },
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-267",
+          "urlHash": "eb07f560b99c8b67b13f8df32617df431e1e514e",
+          "uuid": "eb07f560-01-07c557d6636fc1961324aaf292245586a3c75f16",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[2]"
+        },
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-211",
+          "urlHash": "ed26476818dc24d55f16520a983e4af3f54006c5",
+          "uuid": "ed264768-01-07c557d6636fc1961324aaf292245586a3c75f16",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[2]"
+        },
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-265",
+          "urlHash": "f040401608d5d0fa395ca23921fa764cda0a7063",
+          "uuid": "f0404016-01-07c557d6636fc1961324aaf292245586a3c75f16",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[2]"
+        },
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-181",
+          "urlHash": "f2763d9df17457faee38bccf67201d18ffb77a87",
+          "uuid": "f2763d9d-01-07c557d6636fc1961324aaf292245586a3c75f16",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[2]"
+        },
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-185",
+          "urlHash": "f5f7d023a2bfcf8e13c86ee0db2dc2ea9cd7e6f7",
+          "uuid": "f5f7d023-01-07c557d6636fc1961324aaf292245586a3c75f16",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[2]"
+        },
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-203",
+          "urlHash": "f604ba803ee94092e0d9a47e48c6481d2abedcb3",
+          "uuid": "f604ba80-01-07c557d6636fc1961324aaf292245586a3c75f16",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[2]"
+        },
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-207",
+          "urlHash": "fa192110cba44d672e3cbb2cc070e4f2cff2a45a",
+          "uuid": "fa192110-01-07c557d6636fc1961324aaf292245586a3c75f16",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[2]"
+        }
+      ],
+      "styles": {}
+    }
+  ],
+  "blocks": [
+    {
+      "name": "Table",
+      "cluster": 1,
+      "source": "Table",
+      "target": "Table (table1)",
+      "key": "table1",
+      "instances": [
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-197",
+          "urlHash": "4bfd76fb221b3b5dd3ffbddc16de1b1432ca0528",
+          "uuid": "4bfd76fb-01-07c557d6636fc1961324aaf292245586a3c75f16",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[2]"
+        },
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-205",
+          "urlHash": "70b6e5921260523abfcaf9375ff73a49cf729ea7",
+          "uuid": "70b6e592-01-07c557d6636fc1961324aaf292245586a3c75f16",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[2]"
+        }
+      ]
+    },
+    {
+      "name": "Accordion",
+      "cluster": 2,
+      "source": "Accordion",
+      "target": "Accordion (accordion2)",
+      "key": "accordion2",
+      "instances": [
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/saas/sprint-252",
+          "urlHash": "0bc0bc0bc7f57ee3b2dbec160a83a2ac1238de00",
+          "uuid": "0bc0bc0b-01-07c557d6636fc1961324aaf292245586a3c75f16",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[2]"
+        },
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/saas/sprint-253",
+          "urlHash": "6d943d61a98b0dbb869f52a242142d4e735f315b",
+          "uuid": "6d943d61-01-07c557d6636fc1961324aaf292245586a3c75f16",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[2]"
+        }
+      ]
+    },
+    {
+      "name": "Table",
+      "cluster": 3,
+      "source": "Table",
+      "target": "Table (table3)",
+      "key": "table3",
+      "instances": [
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-297",
+          "urlHash": "3750a6d86102796dde5b310b59e3d122c4bd67a1",
+          "uuid": "3750a6d8-01-07c557d6636fc1961324aaf292245586a3c75f16",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[2]"
+        },
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-303",
+          "urlHash": "3848d6cc4a7180cca177699f54848b1ee8006f7a",
+          "uuid": "3848d6cc-01-07c557d6636fc1961324aaf292245586a3c75f16",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[2]"
+        },
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-295",
+          "urlHash": "8f226ba7e5d96b036d1194344ebb5315ae15d7ca",
+          "uuid": "8f226ba7-01-07c557d6636fc1961324aaf292245586a3c75f16",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[2]"
+        },
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-285",
+          "urlHash": "c899a0178ae5a439d6c6f4729017e54dc2bdc089",
+          "uuid": "c899a017-01-07c557d6636fc1961324aaf292245586a3c75f16",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[2]"
+        },
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-267",
+          "urlHash": "eb07f560b99c8b67b13f8df32617df431e1e514e",
+          "uuid": "eb07f560-01-07c557d6636fc1961324aaf292245586a3c75f16",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[2]"
+        }
+      ]
+    },
+    {
+      "name": "Table (bordered)",
+      "cluster": 4,
+      "source": "Table (bordered)",
+      "target": "Table (bordered, tableBordered4)",
+      "key": "tableBordered4",
+      "instances": [
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-281",
+          "urlHash": "01ee323a59d9b71002833d3a231077d78028ea16",
+          "uuid": "01ee323a-01-07c557d6636fc1961324aaf292245586a3c75f16",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[2]"
+        },
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-289",
+          "urlHash": "15e2574511122a66fe3dff38264a7bc989b002a0",
+          "uuid": "15e25745-01-07c557d6636fc1961324aaf292245586a3c75f16",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[2]"
+        },
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-279",
+          "urlHash": "3cf7797ae7903facd571095616280a5fbdcde2c3",
+          "uuid": "3cf7797a-01-07c557d6636fc1961324aaf292245586a3c75f16",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[2]"
+        },
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-277",
+          "urlHash": "e383e2c5c23dfd16594ebaffcf4553cbcdab7dbd",
+          "uuid": "e383e2c5-01-07c557d6636fc1961324aaf292245586a3c75f16",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[2]"
+        }
+      ]
+    },
+    {
+      "name": "Table",
+      "cluster": 5,
+      "source": "Table",
+      "target": "Table (table5)",
+      "key": "table5",
+      "instances": [
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-275",
+          "urlHash": "0b2d88f10327b169587243b315d8eaa84204344c",
+          "uuid": "0b2d88f1-01-07c557d6636fc1961324aaf292245586a3c75f16",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[2]"
+        }
+      ]
+    },
+    {
+      "name": "Table (bordered)",
+      "cluster": 6,
+      "source": "Table (bordered)",
+      "target": "Table (bordered, tableBordered6)",
+      "key": "tableBordered6",
+      "instances": [
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/saas/sprint-255",
+          "urlHash": "184fe4f90c4d1d9eaf664b06333a872d8224984e",
+          "uuid": "184fe4f9-01-07c557d6636fc1961324aaf292245586a3c75f16",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[2]"
+        },
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/saas/sprint-260",
+          "urlHash": "28a88173b12a70d8b8082801a696ce8c98557e2c",
+          "uuid": "28a88173-01-07c557d6636fc1961324aaf292245586a3c75f16",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[2]"
+        },
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/saas/sprint-244",
+          "urlHash": "6f0dca16e09ce9436a68461f76b9f0f0fe44f6fa",
+          "uuid": "6f0dca16-01-07c557d6636fc1961324aaf292245586a3c75f16",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[2]"
+        }
+      ]
+    },
+    {
+      "name": "Table",
+      "cluster": 7,
+      "source": "Table",
+      "target": "Table (table7)",
+      "key": "table7",
+      "instances": [
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/activegate/sprint-187",
+          "urlHash": "5e76d610f04a48bd79c2182fe5c988ea0aa36b33",
+          "uuid": "5e76d610-01-07c557d6636fc1961324aaf292245586a3c75f16",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[2]"
+        },
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/activegate/sprint-183",
+          "urlHash": "93e47c1a51180e6069dc3f58a99118f408676ec0",
+          "uuid": "93e47c1a-01-07c557d6636fc1961324aaf292245586a3c75f16",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[2]"
+        }
+      ]
+    },
+    {
+      "name": "unknown",
+      "cluster": 8,
+      "instances": [
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-253",
+          "urlHash": "09909d72a5652cc55078d366cb733edae8fced74",
+          "uuid": "09909d72-01-07c557d6636fc1961324aaf292245586a3c75f16",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[2]"
+        },
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-251",
+          "urlHash": "1614376f93afb1d4f7030d15e9e508e5bac17095",
+          "uuid": "1614376f-01-07c557d6636fc1961324aaf292245586a3c75f16",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[2]"
+        },
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-257",
+          "urlHash": "502e389deb4d867402efc183fc93d6b53ab165ba",
+          "uuid": "502e389d-01-07c557d6636fc1961324aaf292245586a3c75f16",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[2]"
+        },
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-249",
+          "urlHash": "d5a2a55da306ca50cfd761dbf26b469f40a18996",
+          "uuid": "d5a2a55d-01-07c557d6636fc1961324aaf292245586a3c75f16",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[2]"
+        },
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-243",
+          "urlHash": "dfd65a6626c5fe7d85d7b49c7f58e75d39a4a3af",
+          "uuid": "dfd65a66-01-07c557d6636fc1961324aaf292245586a3c75f16",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[2]"
+        },
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-255",
+          "urlHash": "e567e39f008c71dd4842741d2dab3b5b752a45f5",
+          "uuid": "e567e39f-01-07c557d6636fc1961324aaf292245586a3c75f16",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[2]"
+        }
+      ]
+    },
+    {
+      "name": "Table",
+      "cluster": 9,
+      "source": "Table",
+      "target": "Table (table9)",
+      "key": "table9",
+      "instances": [
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/saas/sprint-259",
+          "urlHash": "d01f41ab6f614705e3a6502459a976a61e04b3b0",
+          "uuid": "d01f41ab-01-07c557d6636fc1961324aaf292245586a3c75f16",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[2]"
+        }
+      ]
+    },
+    {
+      "name": "Table (bordered)",
+      "cluster": 10,
+      "source": "Table (bordered)",
+      "target": "Table (bordered, tableBordered10)",
+      "key": "tableBordered10",
+      "instances": [
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-177",
+          "urlHash": "5e1710b5955a4c208657b9344beb0f4df78ea8a3",
+          "uuid": "5e1710b5-01-07c557d6636fc1961324aaf292245586a3c75f16",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[2]"
+        }
+      ]
+    },
+    {
+      "name": "Table (striped & bordered)",
+      "cluster": 11,
+      "source": "Table (striped, bordered)",
+      "target": "Table (striped, bordered, tableStripedBordered11)",
+      "key": "tableStripedBordered11",
+      "instances": [
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-199",
+          "urlHash": "9dfe12e80f43983cae598879aa85e142368d412b",
+          "uuid": "9dfe12e8-01-07c557d6636fc1961324aaf292245586a3c75f16",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[2]"
+        },
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-227",
+          "urlHash": "9f0628bb56b60a609ba5bf4bd37f39d39eb6dd8f",
+          "uuid": "9f0628bb-01-07c557d6636fc1961324aaf292245586a3c75f16",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[2]"
+        },
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-211",
+          "urlHash": "ed26476818dc24d55f16520a983e4af3f54006c5",
+          "uuid": "ed264768-01-07c557d6636fc1961324aaf292245586a3c75f16",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[2]"
+        },
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-203",
+          "urlHash": "f604ba803ee94092e0d9a47e48c6481d2abedcb3",
+          "uuid": "f604ba80-01-07c557d6636fc1961324aaf292245586a3c75f16",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[2]"
+        }
+      ]
+    },
+    {
+      "name": "Table (bordered)",
+      "cluster": 12,
+      "source": "Table (bordered)",
+      "target": "Table (bordered, tableBordered12)",
+      "key": "tableBordered12",
+      "instances": [
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/oneagent",
+          "urlHash": "660da7fade23d9eae73cce6fb6d9e68f94775fe9",
+          "uuid": "660da7fa-01-07c557d6636fc1961324aaf292245586a3c75f16",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[2]"
+        }
+      ]
+    },
+    {
+      "name": "Table",
+      "cluster": 13,
+      "source": "Table",
+      "target": "Table (table13)",
+      "key": "table13",
+      "instances": [
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-175",
+          "urlHash": "3a8f86a19461f0cc8b7d51e209d9249737edfc83",
+          "uuid": "3a8f86a1-01-07c557d6636fc1961324aaf292245586a3c75f16",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[2]"
+        }
+      ]
+    },
+    {
+      "name": "Table",
+      "cluster": 14,
+      "source": "Table",
+      "target": "Table (table14)",
+      "key": "table14",
+      "instances": [
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-169",
+          "urlHash": "c8ead1c6bf06c37f5720e44f49d52462687b7393",
+          "uuid": "c8ead1c6-01-07c557d6636fc1961324aaf292245586a3c75f16",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[2]"
+        }
+      ]
+    },
+    {
+      "name": "Table (striped & bordered)",
+      "cluster": 15,
+      "source": "Table (striped, bordered)",
+      "target": "Table (striped, bordered, tableStripedBordered15)",
+      "key": "tableStripedBordered15",
+      "instances": [
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-235",
+          "urlHash": "aa0f825e93ded8b69734b8de5ae1fe4ec2474182",
+          "uuid": "aa0f825e-01-07c557d6636fc1961324aaf292245586a3c75f16",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[2]"
+        },
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-237",
+          "urlHash": "e3129f87392a4815be4d1e5de4e88971dcdebbb5",
+          "uuid": "e3129f87-01-07c557d6636fc1961324aaf292245586a3c75f16",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[2]"
+        }
+      ]
+    },
+    {
+      "name": "Table (bordered)",
+      "cluster": 16,
+      "source": "Table (bordered)",
+      "target": "Table (bordered, tableBordered16)",
+      "key": "tableBordered16",
+      "instances": [
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-189",
+          "urlHash": "4154f88298cd510d2934b309b263888abce76951",
+          "uuid": "4154f882-01-07c557d6636fc1961324aaf292245586a3c75f16",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[2]"
+        },
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-183",
+          "urlHash": "544bce40cabf519a6124a3d54352df2c3dc9f3c9",
+          "uuid": "544bce40-01-07c557d6636fc1961324aaf292245586a3c75f16",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[2]"
+        },
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-191",
+          "urlHash": "c7b3b590e383b1640ec923ea859000106e959628",
+          "uuid": "c7b3b590-01-07c557d6636fc1961324aaf292245586a3c75f16",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[2]"
+        },
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-181",
+          "urlHash": "f2763d9df17457faee38bccf67201d18ffb77a87",
+          "uuid": "f2763d9d-01-07c557d6636fc1961324aaf292245586a3c75f16",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[2]"
+        }
+      ]
+    },
+    {
+      "name": "Table (bordered)",
+      "cluster": 17,
+      "source": "Table (bordered)",
+      "target": "Table (bordered, tableBordered17)",
+      "key": "tableBordered17",
+      "instances": [
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-185",
+          "urlHash": "f5f7d023a2bfcf8e13c86ee0db2dc2ea9cd7e6f7",
+          "uuid": "f5f7d023-01-07c557d6636fc1961324aaf292245586a3c75f16",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[2]"
+        }
+      ]
+    },
+    {
+      "name": "Table (bordered)",
+      "cluster": 18,
+      "source": "Table (bordered)",
+      "target": "Table (bordered, tableBordered18)",
+      "key": "tableBordered18",
+      "instances": [
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-195",
+          "urlHash": "4be5de99205087a6d45dace496aa72c2354ac8ee",
+          "uuid": "4be5de99-01-07c557d6636fc1961324aaf292245586a3c75f16",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[2]"
+        },
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-207",
+          "urlHash": "fa192110cba44d672e3cbb2cc070e4f2cff2a45a",
+          "uuid": "fa192110-01-07c557d6636fc1961324aaf292245586a3c75f16",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[2]"
+        }
+      ]
+    },
+    {
+      "name": "Table",
+      "cluster": 19,
+      "source": "Table",
+      "target": "Table (table19)",
+      "key": "table19",
+      "instances": [
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-287",
+          "urlHash": "1925a67a28637a6159bcc8e80505bd7af9e3d115",
+          "uuid": "1925a67a-01-07c557d6636fc1961324aaf292245586a3c75f16",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[2]"
+        },
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-269",
+          "urlHash": "9695947b8dfe69b92b78528dfafee79b701ba359",
+          "uuid": "9695947b-01-07c557d6636fc1961324aaf292245586a3c75f16",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[2]"
+        },
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-299",
+          "urlHash": "ad24331d06d25ce8084b6a5f2eb9624486781aaa",
+          "uuid": "ad24331d-01-07c557d6636fc1961324aaf292245586a3c75f16",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[2]"
+        }
+      ]
+    },
+    {
+      "name": "Table (bordered)",
+      "cluster": 20,
+      "source": "Table (bordered)",
+      "target": "Table (bordered, tableBordered20)",
+      "key": "tableBordered20",
+      "instances": [
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/saas/sprint-251",
+          "urlHash": "6fe18af3d717e6c5064572e338a759014967de92",
+          "uuid": "6fe18af3-01-07c557d6636fc1961324aaf292245586a3c75f16",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[2]"
+        },
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/saas/sprint-248",
+          "urlHash": "91effad00fb1cd6883fd6cf0e06a1838b679f5db",
+          "uuid": "91effad0-01-07c557d6636fc1961324aaf292245586a3c75f16",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[2]"
+        },
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/saas/sprint-246",
+          "urlHash": "a0d83ac2f186c363c4e87ca27483573704104857",
+          "uuid": "a0d83ac2-01-07c557d6636fc1961324aaf292245586a3c75f16",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[2]"
+        }
+      ]
+    },
+    {
+      "name": "Cards (no images)",
+      "cluster": 21,
+      "source": "Cards",
+      "target": "Cards",
+      "key": "cardsNoImages21",
+      "instances": [
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/saas/sprint-254",
+          "urlHash": "253f66c05d6f2fce285c8cd367f0d0262cb52e20",
+          "uuid": "253f66c0-01-07c557d6636fc1961324aaf292245586a3c75f16",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[2]"
+        },
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/saas/sprint-257",
+          "urlHash": "55a40f82325225e3114b855c4e3690a9de167da8",
+          "uuid": "55a40f82-01-07c557d6636fc1961324aaf292245586a3c75f16",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[2]"
+        },
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/saas/sprint-250",
+          "urlHash": "b96e9c618923d4ae9049fab37a984c21305e35dd",
+          "uuid": "b96e9c61-01-07c557d6636fc1961324aaf292245586a3c75f16",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[2]"
+        }
+      ]
+    },
+    {
+      "name": "Table (bordered)",
+      "cluster": 22,
+      "source": "Table (bordered)",
+      "target": "Table (bordered, tableBordered22)",
+      "key": "tableBordered22",
+      "instances": [
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/saas/sprint-234",
+          "urlHash": "472abb309c93f16e0d98121e7a22da67468a7855",
+          "uuid": "472abb30-01-07c557d6636fc1961324aaf292245586a3c75f16",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[2]"
+        },
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/saas/sprint-247",
+          "urlHash": "d391830e464bb18d0cf42bae367947b2733fc0e1",
+          "uuid": "d391830e-01-07c557d6636fc1961324aaf292245586a3c75f16",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[2]"
+        }
+      ]
+    },
+    {
+      "name": "Table",
+      "cluster": 23,
+      "source": "Table",
+      "target": "Table (table23)",
+      "key": "table23",
+      "instances": [
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-221",
+          "urlHash": "376bf1634d4aaf35c10324350b6bb8937a067fee",
+          "uuid": "376bf163-01-07c557d6636fc1961324aaf292245586a3c75f16",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[2]"
+        },
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-225",
+          "urlHash": "9343e2ae0cb2bf4cb317162d397796ddeeb8b63d",
+          "uuid": "9343e2ae-01-07c557d6636fc1961324aaf292245586a3c75f16",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[2]"
+        },
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-215",
+          "urlHash": "951fd12b8e9d4be6f908c7acbc59573377f2075c",
+          "uuid": "951fd12b-01-07c557d6636fc1961324aaf292245586a3c75f16",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[2]"
+        },
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-229",
+          "urlHash": "e09fe7e20ffd2509fb5a02bcefaa4e62bb934f38",
+          "uuid": "e09fe7e2-01-07c557d6636fc1961324aaf292245586a3c75f16",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[2]"
+        }
+      ]
+    },
+    {
+      "name": "Table (striped & bordered)",
+      "cluster": 24,
+      "source": "Table (striped, bordered)",
+      "target": "Table (striped, bordered, tableStripedBordered24)",
+      "key": "tableStripedBordered24",
+      "instances": [
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/saas/sprint-245",
+          "urlHash": "96d6926b02d1b2d833cc959bc3725a5b5b177e7d",
+          "uuid": "96d6926b-01-07c557d6636fc1961324aaf292245586a3c75f16",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[2]"
+        }
+      ]
+    },
+    {
+      "name": "Table (bordered)",
+      "cluster": 25,
+      "source": "Table (bordered)",
+      "target": "Table (bordered, tableBordered25)",
+      "key": "tableBordered25",
+      "instances": [
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-173",
+          "urlHash": "07bee30337fa4240584e73b5fde07bd0b41753ff",
+          "uuid": "07bee303-01-07c557d6636fc1961324aaf292245586a3c75f16",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[2]"
+        }
+      ]
+    },
+    {
+      "name": "Table",
+      "cluster": 26,
+      "source": "Table",
+      "target": "Table (table26)",
+      "key": "table26",
+      "instances": [
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-201",
+          "urlHash": "62d01aebae4b8523dc212f9ba739b9fe3660fa91",
+          "uuid": "62d01aeb-01-07c557d6636fc1961324aaf292245586a3c75f16",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[2]"
+        }
+      ]
+    },
+    {
+      "name": "Table",
+      "cluster": 27,
+      "source": "Table",
+      "target": "Table (table27)",
+      "key": "table27",
+      "instances": [
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-317",
+          "urlHash": "0698d3b69e925447c3dcd39bc29fa76c054604a0",
+          "uuid": "0698d3b6-01-07c557d6636fc1961324aaf292245586a3c75f16",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[2]"
+        },
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-307",
+          "urlHash": "b7b04f18c0f8d0c68f7c2c2fc5922c5b68a61634",
+          "uuid": "b7b04f18-01-07c557d6636fc1961324aaf292245586a3c75f16",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[2]"
+        }
+      ]
+    },
+    {
+      "name": "Table",
+      "cluster": 28,
+      "source": "Table",
+      "target": "Table (table28)",
+      "key": "table28",
+      "instances": [
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-179",
+          "urlHash": "833501a748c813561bf60227a69f2a02ab0a8563",
+          "uuid": "833501a7-01-07c557d6636fc1961324aaf292245586a3c75f16",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[2]"
+        }
+      ]
+    },
+    {
+      "name": "Table (striped)",
+      "cluster": 29,
+      "source": "Table (striped)",
+      "target": "Table (striped)",
+      "key": "tableStriped29",
+      "instances": [
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/saas/sprint-239",
+          "urlHash": "89038f5a0aa0641e5a2e4448f59fa4321bbd8b7d",
+          "uuid": "89038f5a-01-07c557d6636fc1961324aaf292245586a3c75f16",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[2]"
+        },
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/saas/sprint-243",
+          "urlHash": "d0a7834162f524847456163ac46157d7522a518a",
+          "uuid": "d0a78341-01-07c557d6636fc1961324aaf292245586a3c75f16",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[2]"
+        }
+      ]
+    },
+    {
+      "name": "Table",
+      "cluster": 30,
+      "source": "Table",
+      "target": "Table (table30)",
+      "key": "table30",
+      "instances": [
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-217",
+          "urlHash": "66bd3c616aa319101371b47ff5f4db3d8d9a257f",
+          "uuid": "66bd3c61-01-07c557d6636fc1961324aaf292245586a3c75f16",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[2]"
+        },
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-239",
+          "urlHash": "b900dde358c13b3247e9388b8089ac1b7f52b810",
+          "uuid": "b900dde3-01-07c557d6636fc1961324aaf292245586a3c75f16",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[2]"
+        }
+      ]
+    },
+    {
+      "name": "Accordion",
+      "cluster": 31,
+      "source": "Accordion",
+      "target": "Accordion (accordion31)",
+      "key": "accordion31",
+      "instances": [
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/saas/sprint-241",
+          "urlHash": "3a16ca577be2bb692c3d124a49af64de8bf2aa4f",
+          "uuid": "3a16ca57-01-07c557d6636fc1961324aaf292245586a3c75f16",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[2]"
+        }
+      ]
+    },
+    {
+      "name": "Table (bordered)",
+      "cluster": 32,
+      "source": "Table (bordered)",
+      "target": "Table (bordered, tableBordered32)",
+      "key": "tableBordered32",
+      "instances": [
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-193",
+          "urlHash": "6d72eaee54f3278c6a7cd7746056f4a239c6a2cd",
+          "uuid": "6d72eaee-01-07c557d6636fc1961324aaf292245586a3c75f16",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[2]"
+        }
+      ]
+    },
+    {
+      "name": "Table",
+      "cluster": 33,
+      "source": "Table",
+      "target": "Table (table33)",
+      "key": "table33",
+      "instances": [
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-273",
+          "urlHash": "175d59426988f44b135941ae06f9320612cca84f",
+          "uuid": "175d5942-01-07c557d6636fc1961324aaf292245586a3c75f16",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[2]"
+        },
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-305",
+          "urlHash": "b394ff64d9774e948ea19a9f5282a8db92f7a7a3",
+          "uuid": "b394ff64-01-07c557d6636fc1961324aaf292245586a3c75f16",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[2]"
+        }
+      ]
+    },
+    {
+      "name": "Table",
+      "cluster": 34,
+      "source": "Table",
+      "target": "Table (table34)",
+      "key": "table34",
+      "instances": [
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-261",
+          "urlHash": "510bb40c37f1b14fd6327ee2960ba936091f37b5",
+          "uuid": "510bb40c-01-07c557d6636fc1961324aaf292245586a3c75f16",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[2]"
+        }
+      ]
+    },
+    {
+      "name": "Table (bordered)",
+      "cluster": 35,
+      "source": "Table (bordered)",
+      "target": "Table (bordered, tableBordered35)",
+      "key": "tableBordered35",
+      "instances": [
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/saas/sprint-232",
+          "urlHash": "59e67383b82ede1aaecefc28cea35473cbf7ef02",
+          "uuid": "59e67383-01-07c557d6636fc1961324aaf292245586a3c75f16",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[2]"
+        }
+      ]
+    },
+    {
+      "name": "Table",
+      "cluster": 36,
+      "source": "Table",
+      "target": "Table (table36)",
+      "key": "table36",
+      "instances": [
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-213",
+          "urlHash": "27efe6106250fc5ec93ccc34a5afee21c064e8a0",
+          "uuid": "27efe610-01-07c557d6636fc1961324aaf292245586a3c75f16",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[2]"
+        },
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-209",
+          "urlHash": "89e5aa2cf02cac94f4cd3d0effb88b6c035312c9",
+          "uuid": "89e5aa2c-01-07c557d6636fc1961324aaf292245586a3c75f16",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[2]"
+        }
+      ]
+    },
+    {
+      "name": "Table (bordered)",
+      "cluster": 37,
+      "source": "Table (bordered)",
+      "target": "Table (bordered, tableBordered37)",
+      "key": "tableBordered37",
+      "instances": [
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/saas/sprint-235",
+          "urlHash": "c1397c496e5598e27ad184cffa1c42f324412bb1",
+          "uuid": "c1397c49-01-07c557d6636fc1961324aaf292245586a3c75f16",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[2]"
+        }
+      ]
+    },
+    {
+      "name": "Table",
+      "cluster": 38,
+      "source": "Table",
+      "target": "Table (table38)",
+      "key": "table38",
+      "instances": [
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-233",
+          "urlHash": "a8a89de1d0084f085e34c5b340823e2caee81cfd",
+          "uuid": "a8a89de1-01-07c557d6636fc1961324aaf292245586a3c75f16",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[2]"
+        }
+      ]
+    },
+    {
+      "name": "Table",
+      "cluster": 39,
+      "source": "Table",
+      "target": "Table (table39)",
+      "key": "table39",
+      "instances": [
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-283",
+          "urlHash": "35de8e5531b5b8f26597c88b78811ec7d6e745a3",
+          "uuid": "35de8e55-01-07c557d6636fc1961324aaf292245586a3c75f16",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[2]"
+        }
+      ]
+    },
+    {
+      "name": "Columns",
+      "cluster": 40,
+      "source": "Columns",
+      "target": "Columns",
+      "key": "columns40",
+      "instances": [
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/saas/sprint-233",
+          "urlHash": "2db4f0b12b2b46fb167d900cdb1183d49201e14b",
+          "uuid": "2db4f0b1-01-07c557d6636fc1961324aaf292245586a3c75f16",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[2]"
+        }
+      ]
+    },
+    {
+      "name": "Accordion",
+      "cluster": 41,
+      "source": "Accordion",
+      "target": "Accordion (accordion41)",
+      "key": "accordion41",
+      "instances": [
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/activegate/sprint-185",
+          "urlHash": "b9229e8c7e25642720e9a753136b26c757104ccd",
+          "uuid": "b9229e8c-01-07c557d6636fc1961324aaf292245586a3c75f16",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[2]"
+        }
+      ]
+    },
+    {
+      "name": "Table",
+      "cluster": 42,
+      "source": "Table",
+      "target": "Table (table42)",
+      "key": "table42",
+      "instances": [
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-171",
+          "urlHash": "2f631da950708ca351bfb292a75227c7ee58ffe0",
+          "uuid": "2f631da9-01-07c557d6636fc1961324aaf292245586a3c75f16",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[2]"
+        }
+      ]
+    },
+    {
+      "name": "Table (bordered)",
+      "cluster": 43,
+      "source": "Table (bordered)",
+      "target": "Table (bordered, tableBordered43)",
+      "key": "tableBordered43",
+      "instances": [
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-187",
+          "urlHash": "9fffc80ae528f3abad9690aa432deb7e91dba3e1",
+          "uuid": "9fffc80a-01-07c557d6636fc1961324aaf292245586a3c75f16",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[2]"
+        }
+      ]
+    },
+    {
+      "name": "Table",
+      "cluster": 44,
+      "source": "Table",
+      "target": "Table (table44)",
+      "key": "table44",
+      "instances": [
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-223",
+          "urlHash": "bd75061536acafe09f212cfe4144c3852175a20e",
+          "uuid": "bd750615-01-07c557d6636fc1961324aaf292245586a3c75f16",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[2]"
+        }
+      ]
+    },
+    {
+      "name": "Table",
+      "cluster": 45,
+      "source": "Table",
+      "target": "Table (table45)",
+      "key": "table45",
+      "instances": [
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-231",
+          "urlHash": "122b48d84d5e66b612232c22c7a4c3f97eca6e91",
+          "uuid": "122b48d8-01-07c557d6636fc1961324aaf292245586a3c75f16",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[2]"
+        }
+      ]
+    },
+    {
+      "name": "Table",
+      "cluster": 46,
+      "source": "Table",
+      "target": "Table (table46)",
+      "key": "table46",
+      "instances": [
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-263",
+          "urlHash": "445c0a101dfd94dcdf44d6049a124359c6dae85e",
+          "uuid": "445c0a10-01-07c557d6636fc1961324aaf292245586a3c75f16",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[2]"
+        }
+      ]
+    },
+    {
+      "name": "Table (striped & bordered)",
+      "cluster": 47,
+      "source": "Table (striped, bordered)",
+      "target": "Table (striped, bordered, tableStripedBordered47)",
+      "key": "tableStripedBordered47",
+      "instances": [
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-265",
+          "urlHash": "f040401608d5d0fa395ca23921fa764cda0a7063",
+          "uuid": "f0404016-01-07c557d6636fc1961324aaf292245586a3c75f16",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[2]"
+        }
+      ]
+    },
+    {
+      "name": "Table",
+      "cluster": 48,
+      "source": "Table",
+      "target": "Table (table48)",
+      "key": "table48",
+      "instances": [
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-291",
+          "urlHash": "091adc3b6c3e4dfddc47979322bcace1bd192ae8",
+          "uuid": "091adc3b-01-07c557d6636fc1961324aaf292245586a3c75f16",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[2]"
+        }
+      ]
+    },
+    {
+      "name": "Table",
+      "cluster": 49,
+      "source": "Table",
+      "target": "Table (table49)",
+      "key": "table49",
+      "instances": [
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-293",
+          "urlHash": "40f52c4f0ac3d74f862d36379b4f2db0fa029050",
+          "uuid": "40f52c4f-01-07c557d6636fc1961324aaf292245586a3c75f16",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[2]"
+        }
+      ]
+    },
+    {
+      "name": "Table",
+      "cluster": 50,
+      "source": "Table",
+      "target": "Table (table50)",
+      "key": "table50",
+      "instances": [
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-301",
+          "urlHash": "c93448a04d205b789822edf69be013515c6eb394",
+          "uuid": "c93448a0-01-07c557d6636fc1961324aaf292245586a3c75f16",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[2]"
+        }
+      ]
+    },
+    {
+      "name": "Table (bordered)",
+      "cluster": 51,
+      "source": "Table (bordered)",
+      "target": "Table (bordered, tableBordered51)",
+      "key": "tableBordered51",
+      "instances": [
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-309",
+          "urlHash": "34ba0d94df6e30c17f44646ce4f8c89ef000fcbb",
+          "uuid": "34ba0d94-01-07c557d6636fc1961324aaf292245586a3c75f16",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[2]"
+        }
+      ]
+    },
+    {
+      "name": "Table",
+      "cluster": 52,
+      "source": "Table",
+      "target": "Table (table52)",
+      "key": "table52",
+      "instances": [
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-311",
+          "urlHash": "759d8dbbef9d9ec9efe539a726eb1ec597b5acfc",
+          "uuid": "759d8dbb-01-07c557d6636fc1961324aaf292245586a3c75f16",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[2]"
+        }
+      ]
+    },
+    {
+      "name": "Table (bordered)",
+      "cluster": 53,
+      "source": "Table (bordered)",
+      "target": "Table (bordered, tableBordered53)",
+      "key": "tableBordered53",
+      "instances": [
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-313",
+          "urlHash": "17e7e1b235a2d7d784d2450df4f82a9bd6b6900e",
+          "uuid": "17e7e1b2-01-07c557d6636fc1961324aaf292245586a3c75f16",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[2]"
+        }
+      ]
+    },
+    {
+      "name": "Table",
+      "cluster": 54,
+      "source": "Table",
+      "target": "Table (table54)",
+      "key": "table54",
+      "instances": [
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-315",
+          "urlHash": "b8e941c65a776115f12cace0072f06b5f89ac090",
+          "uuid": "b8e941c6-01-07c557d6636fc1961324aaf292245586a3c75f16",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[2]"
+        }
+      ]
+    },
+    {
+      "name": "Table (bordered)",
+      "cluster": 55,
+      "source": "Table (bordered)",
+      "target": "Table (bordered, tableBordered55)",
+      "key": "tableBordered55",
+      "instances": [
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/saas/sprint-231",
+          "urlHash": "b5d184289cc41a2d3cab369af84d9909add8577c",
+          "uuid": "b5d18428-01-07c557d6636fc1961324aaf292245586a3c75f16",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[2]"
+        }
+      ]
+    },
+    {
+      "name": "Accordion",
+      "cluster": 56,
+      "source": "Accordion",
+      "target": "Accordion (accordion56)",
+      "key": "accordion56",
+      "instances": [
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/saas/sprint-240",
+          "urlHash": "d25496e32017ffe0fb0360755cf4442bcd278c46",
+          "uuid": "d25496e3-01-07c557d6636fc1961324aaf292245586a3c75f16",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[2]"
+        }
+      ]
+    },
+    {
+      "name": "Table (bordered)",
+      "cluster": 57,
+      "source": "Table (bordered)",
+      "target": "Table (bordered, tableBordered57)",
+      "key": "tableBordered57",
+      "instances": [
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/saas/sprint-242",
+          "urlHash": "1cb162ced136abba58a44ecce303fb4b02d175f6",
+          "uuid": "1cb162ce-01-07c557d6636fc1961324aaf292245586a3c75f16",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[2]"
+        }
+      ]
+    },
+    {
+      "name": "unknown",
+      "cluster": 58,
+      "instances": [
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/saas/sprint-249",
+          "urlHash": "5fcbb1bbcc267945f9d114b778eb444f5f353518",
+          "uuid": "5fcbb1bb-01-07c557d6636fc1961324aaf292245586a3c75f16",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[2]"
+        }
+      ]
+    },
+    {
+      "name": "unknown",
+      "cluster": 59,
+      "instances": [
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/saas/sprint-256",
+          "urlHash": "b979136829a910897519e167bc0968d19762d42b",
+          "uuid": "b9791368-01-07c557d6636fc1961324aaf292245586a3c75f16",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[2]"
+        }
+      ]
+    },
+    {
+      "name": "Table (bordered)",
+      "cluster": 60,
+      "source": "Table (bordered)",
+      "target": "Table (bordered, tableBordered60)",
+      "key": "tableBordered60",
+      "instances": [
+        {
+          "url": "https://docs.dynatrace.com/docs/whats-new/saas/sprint-258",
+          "urlHash": "e57956bcc845f77f4eed475c8c6fa9ef0cbcc72e",
+          "uuid": "e57956bc-01-07c557d6636fc1961324aaf292245586a3c75f16",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[2]"
+        }
+      ]
+    }
+  ],
+  "outliers": [
+    {
+      "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-281",
+      "urlHash": "01ee323a59d9b71002833d3a231077d78028ea16",
+      "uuid": "01ee323a-00-0de96cf3f29d839c079021e506b0c0e6a296edb6",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/nav[1]/div[1]/div[1]"
+    },
+    {
+      "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-317",
+      "urlHash": "0698d3b69e925447c3dcd39bc29fa76c054604a0",
+      "uuid": "0698d3b6-00-0de96cf3f29d839c079021e506b0c0e6a296edb6",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/nav[1]/div[1]/div[1]"
+    },
+    {
+      "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-173",
+      "urlHash": "07bee30337fa4240584e73b5fde07bd0b41753ff",
+      "uuid": "07bee303-00-0de96cf3f29d839c079021e506b0c0e6a296edb6",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/nav[1]/div[1]/div[1]"
+    },
+    {
+      "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-291",
+      "urlHash": "091adc3b6c3e4dfddc47979322bcace1bd192ae8",
+      "uuid": "091adc3b-00-0de96cf3f29d839c079021e506b0c0e6a296edb6",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/nav[1]/div[1]/div[1]"
+    },
+    {
+      "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-253",
+      "urlHash": "09909d72a5652cc55078d366cb733edae8fced74",
+      "uuid": "09909d72-00-0de96cf3f29d839c079021e506b0c0e6a296edb6",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/nav[1]/div[1]/div[1]"
+    },
+    {
+      "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-275",
+      "urlHash": "0b2d88f10327b169587243b315d8eaa84204344c",
+      "uuid": "0b2d88f1-00-0de96cf3f29d839c079021e506b0c0e6a296edb6",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/nav[1]/div[1]/div[1]"
+    },
+    {
+      "url": "https://docs.dynatrace.com/docs/whats-new/saas/sprint-252",
+      "urlHash": "0bc0bc0bc7f57ee3b2dbec160a83a2ac1238de00",
+      "uuid": "0bc0bc0b-00-0de96cf3f29d839c079021e506b0c0e6a296edb6",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/nav[1]/div[1]/div[1]"
+    },
+    {
+      "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-231",
+      "urlHash": "122b48d84d5e66b612232c22c7a4c3f97eca6e91",
+      "uuid": "122b48d8-00-0de96cf3f29d839c079021e506b0c0e6a296edb6",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/nav[1]/div[1]/div[1]"
+    },
+    {
+      "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-289",
+      "urlHash": "15e2574511122a66fe3dff38264a7bc989b002a0",
+      "uuid": "15e25745-00-0de96cf3f29d839c079021e506b0c0e6a296edb6",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/nav[1]/div[1]/div[1]"
+    },
+    {
+      "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-251",
+      "urlHash": "1614376f93afb1d4f7030d15e9e508e5bac17095",
+      "uuid": "1614376f-00-0de96cf3f29d839c079021e506b0c0e6a296edb6",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/nav[1]/div[1]/div[1]"
+    },
+    {
+      "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-273",
+      "urlHash": "175d59426988f44b135941ae06f9320612cca84f",
+      "uuid": "175d5942-00-0de96cf3f29d839c079021e506b0c0e6a296edb6",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/nav[1]/div[1]/div[1]"
+    },
+    {
+      "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-313",
+      "urlHash": "17e7e1b235a2d7d784d2450df4f82a9bd6b6900e",
+      "uuid": "17e7e1b2-00-0de96cf3f29d839c079021e506b0c0e6a296edb6",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/nav[1]/div[1]/div[1]"
+    },
+    {
+      "url": "https://docs.dynatrace.com/docs/whats-new/saas/sprint-255",
+      "urlHash": "184fe4f90c4d1d9eaf664b06333a872d8224984e",
+      "uuid": "184fe4f9-00-0de96cf3f29d839c079021e506b0c0e6a296edb6",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/nav[1]/div[1]/div[1]"
+    },
+    {
+      "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-287",
+      "urlHash": "1925a67a28637a6159bcc8e80505bd7af9e3d115",
+      "uuid": "1925a67a-00-0de96cf3f29d839c079021e506b0c0e6a296edb6",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/nav[1]/div[1]/div[1]"
+    },
+    {
+      "url": "https://docs.dynatrace.com/docs/whats-new/saas/sprint-242",
+      "urlHash": "1cb162ced136abba58a44ecce303fb4b02d175f6",
+      "uuid": "1cb162ce-00-0de96cf3f29d839c079021e506b0c0e6a296edb6",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/nav[1]/div[1]/div[1]"
+    },
+    {
+      "url": "https://docs.dynatrace.com/docs/whats-new/saas/sprint-254",
+      "urlHash": "253f66c05d6f2fce285c8cd367f0d0262cb52e20",
+      "uuid": "253f66c0-00-0de96cf3f29d839c079021e506b0c0e6a296edb6",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/nav[1]/div[1]/div[1]"
+    },
+    {
+      "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-213",
+      "urlHash": "27efe6106250fc5ec93ccc34a5afee21c064e8a0",
+      "uuid": "27efe610-00-0de96cf3f29d839c079021e506b0c0e6a296edb6",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/nav[1]/div[1]/div[1]"
+    },
+    {
+      "url": "https://docs.dynatrace.com/docs/whats-new/saas/sprint-260",
+      "urlHash": "28a88173b12a70d8b8082801a696ce8c98557e2c",
+      "uuid": "28a88173-00-0de96cf3f29d839c079021e506b0c0e6a296edb6",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/nav[1]/div[1]/div[1]"
+    },
+    {
+      "url": "https://docs.dynatrace.com/docs/whats-new/saas/sprint-233",
+      "urlHash": "2db4f0b12b2b46fb167d900cdb1183d49201e14b",
+      "uuid": "2db4f0b1-00-0de96cf3f29d839c079021e506b0c0e6a296edb6",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/nav[1]/div[1]/div[1]"
+    },
+    {
+      "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-171",
+      "urlHash": "2f631da950708ca351bfb292a75227c7ee58ffe0",
+      "uuid": "2f631da9-00-0de96cf3f29d839c079021e506b0c0e6a296edb6",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/nav[1]/div[1]/div[1]"
+    },
+    {
+      "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-309",
+      "urlHash": "34ba0d94df6e30c17f44646ce4f8c89ef000fcbb",
+      "uuid": "34ba0d94-00-0de96cf3f29d839c079021e506b0c0e6a296edb6",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/nav[1]/div[1]/div[1]"
+    },
+    {
+      "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-283",
+      "urlHash": "35de8e5531b5b8f26597c88b78811ec7d6e745a3",
+      "uuid": "35de8e55-00-0de96cf3f29d839c079021e506b0c0e6a296edb6",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/nav[1]/div[1]/div[1]"
+    },
+    {
+      "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-297",
+      "urlHash": "3750a6d86102796dde5b310b59e3d122c4bd67a1",
+      "uuid": "3750a6d8-00-0de96cf3f29d839c079021e506b0c0e6a296edb6",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/nav[1]/div[1]/div[1]"
+    },
+    {
+      "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-221",
+      "urlHash": "376bf1634d4aaf35c10324350b6bb8937a067fee",
+      "uuid": "376bf163-00-0de96cf3f29d839c079021e506b0c0e6a296edb6",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/nav[1]/div[1]/div[1]"
+    },
+    {
+      "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-303",
+      "urlHash": "3848d6cc4a7180cca177699f54848b1ee8006f7a",
+      "uuid": "3848d6cc-00-0de96cf3f29d839c079021e506b0c0e6a296edb6",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/nav[1]/div[1]/div[1]"
+    },
+    {
+      "url": "https://docs.dynatrace.com/docs/whats-new/saas/sprint-241",
+      "urlHash": "3a16ca577be2bb692c3d124a49af64de8bf2aa4f",
+      "uuid": "3a16ca57-00-0de96cf3f29d839c079021e506b0c0e6a296edb6",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/nav[1]/div[1]/div[1]"
+    },
+    {
+      "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-175",
+      "urlHash": "3a8f86a19461f0cc8b7d51e209d9249737edfc83",
+      "uuid": "3a8f86a1-00-0de96cf3f29d839c079021e506b0c0e6a296edb6",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/nav[1]/div[1]/div[1]"
+    },
+    {
+      "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-279",
+      "urlHash": "3cf7797ae7903facd571095616280a5fbdcde2c3",
+      "uuid": "3cf7797a-00-0de96cf3f29d839c079021e506b0c0e6a296edb6",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/nav[1]/div[1]/div[1]"
+    },
+    {
+      "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-293",
+      "urlHash": "40f52c4f0ac3d74f862d36379b4f2db0fa029050",
+      "uuid": "40f52c4f-00-0de96cf3f29d839c079021e506b0c0e6a296edb6",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/nav[1]/div[1]/div[1]"
+    },
+    {
+      "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-189",
+      "urlHash": "4154f88298cd510d2934b309b263888abce76951",
+      "uuid": "4154f882-00-0de96cf3f29d839c079021e506b0c0e6a296edb6",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/nav[1]/div[1]/div[1]"
+    },
+    {
+      "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-263",
+      "urlHash": "445c0a101dfd94dcdf44d6049a124359c6dae85e",
+      "uuid": "445c0a10-00-0de96cf3f29d839c079021e506b0c0e6a296edb6",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/nav[1]/div[1]/div[1]"
+    },
+    {
+      "url": "https://docs.dynatrace.com/docs/whats-new/saas/sprint-234",
+      "urlHash": "472abb309c93f16e0d98121e7a22da67468a7855",
+      "uuid": "472abb30-00-0de96cf3f29d839c079021e506b0c0e6a296edb6",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/nav[1]/div[1]/div[1]"
+    },
+    {
+      "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-195",
+      "urlHash": "4be5de99205087a6d45dace496aa72c2354ac8ee",
+      "uuid": "4be5de99-00-0de96cf3f29d839c079021e506b0c0e6a296edb6",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/nav[1]/div[1]/div[1]"
+    },
+    {
+      "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-197",
+      "urlHash": "4bfd76fb221b3b5dd3ffbddc16de1b1432ca0528",
+      "uuid": "4bfd76fb-00-0de96cf3f29d839c079021e506b0c0e6a296edb6",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/nav[1]/div[1]/div[1]"
+    },
+    {
+      "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-257",
+      "urlHash": "502e389deb4d867402efc183fc93d6b53ab165ba",
+      "uuid": "502e389d-00-0de96cf3f29d839c079021e506b0c0e6a296edb6",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/nav[1]/div[1]/div[1]"
+    },
+    {
+      "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-261",
+      "urlHash": "510bb40c37f1b14fd6327ee2960ba936091f37b5",
+      "uuid": "510bb40c-00-0de96cf3f29d839c079021e506b0c0e6a296edb6",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/nav[1]/div[1]/div[1]"
+    },
+    {
+      "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-183",
+      "urlHash": "544bce40cabf519a6124a3d54352df2c3dc9f3c9",
+      "uuid": "544bce40-00-0de96cf3f29d839c079021e506b0c0e6a296edb6",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/nav[1]/div[1]/div[1]"
+    },
+    {
+      "url": "https://docs.dynatrace.com/docs/whats-new/saas/sprint-257",
+      "urlHash": "55a40f82325225e3114b855c4e3690a9de167da8",
+      "uuid": "55a40f82-00-0de96cf3f29d839c079021e506b0c0e6a296edb6",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/nav[1]/div[1]/div[1]"
+    },
+    {
+      "url": "https://docs.dynatrace.com/docs/whats-new/saas/sprint-232",
+      "urlHash": "59e67383b82ede1aaecefc28cea35473cbf7ef02",
+      "uuid": "59e67383-00-0de96cf3f29d839c079021e506b0c0e6a296edb6",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/nav[1]/div[1]/div[1]"
+    },
+    {
+      "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-177",
+      "urlHash": "5e1710b5955a4c208657b9344beb0f4df78ea8a3",
+      "uuid": "5e1710b5-00-0de96cf3f29d839c079021e506b0c0e6a296edb6",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/nav[1]/div[1]/div[1]"
+    },
+    {
+      "url": "https://docs.dynatrace.com/docs/whats-new/activegate/sprint-187",
+      "urlHash": "5e76d610f04a48bd79c2182fe5c988ea0aa36b33",
+      "uuid": "5e76d610-00-0de96cf3f29d839c079021e506b0c0e6a296edb6",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/nav[1]/div[1]/div[1]"
+    },
+    {
+      "url": "https://docs.dynatrace.com/docs/whats-new/saas/sprint-249",
+      "urlHash": "5fcbb1bbcc267945f9d114b778eb444f5f353518",
+      "uuid": "5fcbb1bb-00-0de96cf3f29d839c079021e506b0c0e6a296edb6",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/nav[1]/div[1]/div[1]"
+    },
+    {
+      "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-201",
+      "urlHash": "62d01aebae4b8523dc212f9ba739b9fe3660fa91",
+      "uuid": "62d01aeb-00-0de96cf3f29d839c079021e506b0c0e6a296edb6",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/nav[1]/div[1]/div[1]"
+    },
+    {
+      "url": "https://docs.dynatrace.com/docs/whats-new/oneagent",
+      "urlHash": "660da7fade23d9eae73cce6fb6d9e68f94775fe9",
+      "uuid": "660da7fa-00-0de96cf3f29d839c079021e506b0c0e6a296edb6",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/nav[1]/div[1]/div[1]"
+    },
+    {
+      "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-217",
+      "urlHash": "66bd3c616aa319101371b47ff5f4db3d8d9a257f",
+      "uuid": "66bd3c61-00-0de96cf3f29d839c079021e506b0c0e6a296edb6",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/nav[1]/div[1]/div[1]"
+    },
+    {
+      "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-193",
+      "urlHash": "6d72eaee54f3278c6a7cd7746056f4a239c6a2cd",
+      "uuid": "6d72eaee-00-0de96cf3f29d839c079021e506b0c0e6a296edb6",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/nav[1]/div[1]/div[1]"
+    },
+    {
+      "url": "https://docs.dynatrace.com/docs/whats-new/saas/sprint-253",
+      "urlHash": "6d943d61a98b0dbb869f52a242142d4e735f315b",
+      "uuid": "6d943d61-00-0de96cf3f29d839c079021e506b0c0e6a296edb6",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/nav[1]/div[1]/div[1]"
+    },
+    {
+      "url": "https://docs.dynatrace.com/docs/whats-new/saas/sprint-244",
+      "urlHash": "6f0dca16e09ce9436a68461f76b9f0f0fe44f6fa",
+      "uuid": "6f0dca16-00-0de96cf3f29d839c079021e506b0c0e6a296edb6",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/nav[1]/div[1]/div[1]"
+    },
+    {
+      "url": "https://docs.dynatrace.com/docs/whats-new/saas/sprint-251",
+      "urlHash": "6fe18af3d717e6c5064572e338a759014967de92",
+      "uuid": "6fe18af3-00-0de96cf3f29d839c079021e506b0c0e6a296edb6",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/nav[1]/div[1]/div[1]"
+    },
+    {
+      "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-205",
+      "urlHash": "70b6e5921260523abfcaf9375ff73a49cf729ea7",
+      "uuid": "70b6e592-00-0de96cf3f29d839c079021e506b0c0e6a296edb6",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/nav[1]/div[1]/div[1]"
+    },
+    {
+      "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-311",
+      "urlHash": "759d8dbbef9d9ec9efe539a726eb1ec597b5acfc",
+      "uuid": "759d8dbb-00-0de96cf3f29d839c079021e506b0c0e6a296edb6",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/nav[1]/div[1]/div[1]"
+    },
+    {
+      "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-179",
+      "urlHash": "833501a748c813561bf60227a69f2a02ab0a8563",
+      "uuid": "833501a7-00-0de96cf3f29d839c079021e506b0c0e6a296edb6",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/nav[1]/div[1]/div[1]"
+    },
+    {
+      "url": "https://docs.dynatrace.com/docs/whats-new/saas/sprint-239",
+      "urlHash": "89038f5a0aa0641e5a2e4448f59fa4321bbd8b7d",
+      "uuid": "89038f5a-00-0de96cf3f29d839c079021e506b0c0e6a296edb6",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/nav[1]/div[1]/div[1]"
+    },
+    {
+      "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-209",
+      "urlHash": "89e5aa2cf02cac94f4cd3d0effb88b6c035312c9",
+      "uuid": "89e5aa2c-00-0de96cf3f29d839c079021e506b0c0e6a296edb6",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/nav[1]/div[1]/div[1]"
+    },
+    {
+      "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-295",
+      "urlHash": "8f226ba7e5d96b036d1194344ebb5315ae15d7ca",
+      "uuid": "8f226ba7-00-0de96cf3f29d839c079021e506b0c0e6a296edb6",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/nav[1]/div[1]/div[1]"
+    },
+    {
+      "url": "https://docs.dynatrace.com/docs/whats-new/saas/sprint-248",
+      "urlHash": "91effad00fb1cd6883fd6cf0e06a1838b679f5db",
+      "uuid": "91effad0-00-0de96cf3f29d839c079021e506b0c0e6a296edb6",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/nav[1]/div[1]/div[1]"
+    },
+    {
+      "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-225",
+      "urlHash": "9343e2ae0cb2bf4cb317162d397796ddeeb8b63d",
+      "uuid": "9343e2ae-00-0de96cf3f29d839c079021e506b0c0e6a296edb6",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/nav[1]/div[1]/div[1]"
+    },
+    {
+      "url": "https://docs.dynatrace.com/docs/whats-new/activegate/sprint-183",
+      "urlHash": "93e47c1a51180e6069dc3f58a99118f408676ec0",
+      "uuid": "93e47c1a-00-0de96cf3f29d839c079021e506b0c0e6a296edb6",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/nav[1]/div[1]/div[1]"
+    },
+    {
+      "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-215",
+      "urlHash": "951fd12b8e9d4be6f908c7acbc59573377f2075c",
+      "uuid": "951fd12b-00-0de96cf3f29d839c079021e506b0c0e6a296edb6",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/nav[1]/div[1]/div[1]"
+    },
+    {
+      "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-269",
+      "urlHash": "9695947b8dfe69b92b78528dfafee79b701ba359",
+      "uuid": "9695947b-00-0de96cf3f29d839c079021e506b0c0e6a296edb6",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/nav[1]/div[1]/div[1]"
+    },
+    {
+      "url": "https://docs.dynatrace.com/docs/whats-new/saas/sprint-245",
+      "urlHash": "96d6926b02d1b2d833cc959bc3725a5b5b177e7d",
+      "uuid": "96d6926b-00-0de96cf3f29d839c079021e506b0c0e6a296edb6",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/nav[1]/div[1]/div[1]"
+    },
+    {
+      "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-199",
+      "urlHash": "9dfe12e80f43983cae598879aa85e142368d412b",
+      "uuid": "9dfe12e8-00-0de96cf3f29d839c079021e506b0c0e6a296edb6",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/nav[1]/div[1]/div[1]"
+    },
+    {
+      "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-227",
+      "urlHash": "9f0628bb56b60a609ba5bf4bd37f39d39eb6dd8f",
+      "uuid": "9f0628bb-00-0de96cf3f29d839c079021e506b0c0e6a296edb6",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/nav[1]/div[1]/div[1]"
+    },
+    {
+      "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-187",
+      "urlHash": "9fffc80ae528f3abad9690aa432deb7e91dba3e1",
+      "uuid": "9fffc80a-00-0de96cf3f29d839c079021e506b0c0e6a296edb6",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/nav[1]/div[1]/div[1]"
+    },
+    {
+      "url": "https://docs.dynatrace.com/docs/whats-new/saas/sprint-246",
+      "urlHash": "a0d83ac2f186c363c4e87ca27483573704104857",
+      "uuid": "a0d83ac2-00-0de96cf3f29d839c079021e506b0c0e6a296edb6",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/nav[1]/div[1]/div[1]"
+    },
+    {
+      "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-233",
+      "urlHash": "a8a89de1d0084f085e34c5b340823e2caee81cfd",
+      "uuid": "a8a89de1-00-0de96cf3f29d839c079021e506b0c0e6a296edb6",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/nav[1]/div[1]/div[1]"
+    },
+    {
+      "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-235",
+      "urlHash": "aa0f825e93ded8b69734b8de5ae1fe4ec2474182",
+      "uuid": "aa0f825e-00-0de96cf3f29d839c079021e506b0c0e6a296edb6",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/nav[1]/div[1]/div[1]"
+    },
+    {
+      "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-299",
+      "urlHash": "ad24331d06d25ce8084b6a5f2eb9624486781aaa",
+      "uuid": "ad24331d-00-0de96cf3f29d839c079021e506b0c0e6a296edb6",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/nav[1]/div[1]/div[1]"
+    },
+    {
+      "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-305",
+      "urlHash": "b394ff64d9774e948ea19a9f5282a8db92f7a7a3",
+      "uuid": "b394ff64-00-0de96cf3f29d839c079021e506b0c0e6a296edb6",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/nav[1]/div[1]/div[1]"
+    },
+    {
+      "url": "https://docs.dynatrace.com/docs/whats-new/saas/sprint-231",
+      "urlHash": "b5d184289cc41a2d3cab369af84d9909add8577c",
+      "uuid": "b5d18428-00-0de96cf3f29d839c079021e506b0c0e6a296edb6",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/nav[1]/div[1]/div[1]"
+    },
+    {
+      "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-307",
+      "urlHash": "b7b04f18c0f8d0c68f7c2c2fc5922c5b68a61634",
+      "uuid": "b7b04f18-00-0de96cf3f29d839c079021e506b0c0e6a296edb6",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/nav[1]/div[1]/div[1]"
+    },
+    {
+      "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-315",
+      "urlHash": "b8e941c65a776115f12cace0072f06b5f89ac090",
+      "uuid": "b8e941c6-00-0de96cf3f29d839c079021e506b0c0e6a296edb6",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/nav[1]/div[1]/div[1]"
+    },
+    {
+      "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-239",
+      "urlHash": "b900dde358c13b3247e9388b8089ac1b7f52b810",
+      "uuid": "b900dde3-00-0de96cf3f29d839c079021e506b0c0e6a296edb6",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/nav[1]/div[1]/div[1]"
+    },
+    {
+      "url": "https://docs.dynatrace.com/docs/whats-new/activegate/sprint-185",
+      "urlHash": "b9229e8c7e25642720e9a753136b26c757104ccd",
+      "uuid": "b9229e8c-00-0de96cf3f29d839c079021e506b0c0e6a296edb6",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/nav[1]/div[1]/div[1]"
+    },
+    {
+      "url": "https://docs.dynatrace.com/docs/whats-new/saas/sprint-250",
+      "urlHash": "b96e9c618923d4ae9049fab37a984c21305e35dd",
+      "uuid": "b96e9c61-00-0de96cf3f29d839c079021e506b0c0e6a296edb6",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/nav[1]/div[1]/div[1]"
+    },
+    {
+      "url": "https://docs.dynatrace.com/docs/whats-new/saas/sprint-256",
+      "urlHash": "b979136829a910897519e167bc0968d19762d42b",
+      "uuid": "b9791368-00-0de96cf3f29d839c079021e506b0c0e6a296edb6",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/nav[1]/div[1]/div[1]"
+    },
+    {
+      "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-223",
+      "urlHash": "bd75061536acafe09f212cfe4144c3852175a20e",
+      "uuid": "bd750615-00-0de96cf3f29d839c079021e506b0c0e6a296edb6",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/nav[1]/div[1]/div[1]"
+    },
+    {
+      "url": "https://docs.dynatrace.com/docs/whats-new/saas/sprint-235",
+      "urlHash": "c1397c496e5598e27ad184cffa1c42f324412bb1",
+      "uuid": "c1397c49-00-0de96cf3f29d839c079021e506b0c0e6a296edb6",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/nav[1]/div[1]/div[1]"
+    },
+    {
+      "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-191",
+      "urlHash": "c7b3b590e383b1640ec923ea859000106e959628",
+      "uuid": "c7b3b590-00-0de96cf3f29d839c079021e506b0c0e6a296edb6",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/nav[1]/div[1]/div[1]"
+    },
+    {
+      "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-285",
+      "urlHash": "c899a0178ae5a439d6c6f4729017e54dc2bdc089",
+      "uuid": "c899a017-00-0de96cf3f29d839c079021e506b0c0e6a296edb6",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/nav[1]/div[1]/div[1]"
+    },
+    {
+      "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-169",
+      "urlHash": "c8ead1c6bf06c37f5720e44f49d52462687b7393",
+      "uuid": "c8ead1c6-00-0de96cf3f29d839c079021e506b0c0e6a296edb6",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/nav[1]/div[1]/div[1]"
+    },
+    {
+      "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-301",
+      "urlHash": "c93448a04d205b789822edf69be013515c6eb394",
+      "uuid": "c93448a0-00-0de96cf3f29d839c079021e506b0c0e6a296edb6",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/nav[1]/div[1]/div[1]"
+    },
+    {
+      "url": "https://docs.dynatrace.com/docs/whats-new/saas/sprint-259",
+      "urlHash": "d01f41ab6f614705e3a6502459a976a61e04b3b0",
+      "uuid": "d01f41ab-00-0de96cf3f29d839c079021e506b0c0e6a296edb6",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/nav[1]/div[1]/div[1]"
+    },
+    {
+      "url": "https://docs.dynatrace.com/docs/whats-new/saas/sprint-243",
+      "urlHash": "d0a7834162f524847456163ac46157d7522a518a",
+      "uuid": "d0a78341-00-0de96cf3f29d839c079021e506b0c0e6a296edb6",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/nav[1]/div[1]/div[1]"
+    },
+    {
+      "url": "https://docs.dynatrace.com/docs/whats-new/saas/sprint-240",
+      "urlHash": "d25496e32017ffe0fb0360755cf4442bcd278c46",
+      "uuid": "d25496e3-00-0de96cf3f29d839c079021e506b0c0e6a296edb6",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/nav[1]/div[1]/div[1]"
+    },
+    {
+      "url": "https://docs.dynatrace.com/docs/whats-new/saas/sprint-247",
+      "urlHash": "d391830e464bb18d0cf42bae367947b2733fc0e1",
+      "uuid": "d391830e-00-0de96cf3f29d839c079021e506b0c0e6a296edb6",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/nav[1]/div[1]/div[1]"
+    },
+    {
+      "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-249",
+      "urlHash": "d5a2a55da306ca50cfd761dbf26b469f40a18996",
+      "uuid": "d5a2a55d-00-0de96cf3f29d839c079021e506b0c0e6a296edb6",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/nav[1]/div[1]/div[1]"
+    },
+    {
+      "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-243",
+      "urlHash": "dfd65a6626c5fe7d85d7b49c7f58e75d39a4a3af",
+      "uuid": "dfd65a66-00-0de96cf3f29d839c079021e506b0c0e6a296edb6",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/nav[1]/div[1]/div[1]"
+    },
+    {
+      "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-229",
+      "urlHash": "e09fe7e20ffd2509fb5a02bcefaa4e62bb934f38",
+      "uuid": "e09fe7e2-00-0de96cf3f29d839c079021e506b0c0e6a296edb6",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/nav[1]/div[1]/div[1]"
+    },
+    {
+      "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-237",
+      "urlHash": "e3129f87392a4815be4d1e5de4e88971dcdebbb5",
+      "uuid": "e3129f87-00-0de96cf3f29d839c079021e506b0c0e6a296edb6",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/nav[1]/div[1]/div[1]"
+    },
+    {
+      "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-277",
+      "urlHash": "e383e2c5c23dfd16594ebaffcf4553cbcdab7dbd",
+      "uuid": "e383e2c5-00-0de96cf3f29d839c079021e506b0c0e6a296edb6",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/nav[1]/div[1]/div[1]"
+    },
+    {
+      "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-255",
+      "urlHash": "e567e39f008c71dd4842741d2dab3b5b752a45f5",
+      "uuid": "e567e39f-00-0de96cf3f29d839c079021e506b0c0e6a296edb6",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/nav[1]/div[1]/div[1]"
+    },
+    {
+      "url": "https://docs.dynatrace.com/docs/whats-new/saas/sprint-258",
+      "urlHash": "e57956bcc845f77f4eed475c8c6fa9ef0cbcc72e",
+      "uuid": "e57956bc-00-0de96cf3f29d839c079021e506b0c0e6a296edb6",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/nav[1]/div[1]/div[1]"
+    },
+    {
+      "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-267",
+      "urlHash": "eb07f560b99c8b67b13f8df32617df431e1e514e",
+      "uuid": "eb07f560-00-0de96cf3f29d839c079021e506b0c0e6a296edb6",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/nav[1]/div[1]/div[1]"
+    },
+    {
+      "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-211",
+      "urlHash": "ed26476818dc24d55f16520a983e4af3f54006c5",
+      "uuid": "ed264768-00-0de96cf3f29d839c079021e506b0c0e6a296edb6",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/nav[1]/div[1]/div[1]"
+    },
+    {
+      "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-265",
+      "urlHash": "f040401608d5d0fa395ca23921fa764cda0a7063",
+      "uuid": "f0404016-00-0de96cf3f29d839c079021e506b0c0e6a296edb6",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/nav[1]/div[1]/div[1]"
+    },
+    {
+      "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-181",
+      "urlHash": "f2763d9df17457faee38bccf67201d18ffb77a87",
+      "uuid": "f2763d9d-00-0de96cf3f29d839c079021e506b0c0e6a296edb6",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/nav[1]/div[1]/div[1]"
+    },
+    {
+      "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-185",
+      "urlHash": "f5f7d023a2bfcf8e13c86ee0db2dc2ea9cd7e6f7",
+      "uuid": "f5f7d023-00-0de96cf3f29d839c079021e506b0c0e6a296edb6",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/nav[1]/div[1]/div[1]"
+    },
+    {
+      "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-203",
+      "urlHash": "f604ba803ee94092e0d9a47e48c6481d2abedcb3",
+      "uuid": "f604ba80-00-0de96cf3f29d839c079021e506b0c0e6a296edb6",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/nav[1]/div[1]/div[1]"
+    },
+    {
+      "url": "https://docs.dynatrace.com/docs/whats-new/oneagent/sprint-207",
+      "urlHash": "fa192110cba44d672e3cbb2cc070e4f2cff2a45a",
+      "uuid": "fa192110-00-0de96cf3f29d839c079021e506b0c0e6a296edb6",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/nav[1]/div[1]/div[1]"
+    }
+  ],
+  "sections": []
+}
