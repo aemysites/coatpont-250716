@@ -1,6 +1,6 @@
 footer {
   font-size: var(--body-font-size-xs);
-  background: rgb(255, 255, 255) none no-repeat scroll 50% 50% / cover padding-box border-box;
+  background: rgb(255 255 255) none no-repeat scroll 50% 50% / cover padding-box border-box;
 }
 
 footer .footer>div {
